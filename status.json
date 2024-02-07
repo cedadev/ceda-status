@@ -1,14 +1,14 @@
 [
   {
-    "status": "degraded",
-    "affectedServices": "Data download web service (data.ceda.ac.uk)",
-    "summary": "Intermittent CEDA data download issues",
-    "date": "2024-01-17T16:00",
+    "status": "down",
+    "affectedServices": "CEDA data catalogue",
+    "summary": "The CEDA data catalogue will be temporarily down at 4pm today",
+    "date": "2024-02-07T13:00",
     "updates": [
       {
-        "date": "2024-01-17T16:00",
-        "details": "Identified cause and working to resolve as quick as possible.",
-        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-01-17-intermittent-data-download-issues/"
+        "date": "2024-02-07T16:00",
+        "details": "rolling out update at 4pm on Wednesday 7th",
+        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-02-07-ceda-data-catalogue-update/"
       }
     ]
   },
