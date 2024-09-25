@@ -93,23 +93,15 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "tape services",
-    "summary": "Scheduled maintenance (I)",
-    "date": "2024-09-18T09:00",
-    "updates": [
-      {
-        "date": "2024-09-16T14:00",
-        "details": "Break in service for scheduled maintenance, affects ET, JDMA, StorageD and NLA services."
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "tape services",
-    "summary": "Scheduled maintenance (II)",
+    "summary": "Scheduled maintenance",
     "date": "2024-09-23T09:00",
     "updates": [
+      {
+        "date": "2024-09-23T14:00",
+        "details": "Services resumed"
+      },
       {
         "date": "2024-09-16T14:00",
         "details": "Break in service for scheduled maintenance, affects ET, JDMA, StorageD and NLA services."
