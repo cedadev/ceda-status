@@ -26,6 +26,10 @@
     "date": "2024-10-08T07:00",
     "updates": [
       {
+        "date": "2024-09-25T16:00",
+        "details": "Confirmed for 8-10 October. Main visible effect will be reduced capacity in (existing) LOTUS cluster as power equipment for each rack of nodes are taken out of service for testing. Nodes in new cluster (not yet in production anyway) will be unavailable. Other services should not be affected."
+      },
+      {
         "date": "2024-06-27T14:00",
         "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
       }
