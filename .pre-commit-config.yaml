@@ -1,0 +1,14 @@
+fail_fast: true
+repos:
+  - repo: https://github.com/python-poetry/poetry
+    rev: '1.8.3'
+    hooks:
+      - id: poetry-check
+      - id: poetry-lock
+  - repo: local
+    hooks:
+      - id: validate
+        name: validate
+        entry: poetry run python ceda_status_validator/validate.py
+        language: system
+        types: [ json ]

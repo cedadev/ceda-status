@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ceda-status-validator"
+version = "0.1.0"
+description = ""
+authors = ["danny-lloyd <danny.lloyd@stfc.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.9.2"
+pre-commit = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
