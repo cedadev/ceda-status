@@ -30,7 +30,7 @@ jobs:
           poetry install
       - name: Check schema matches model
         run: |
-          poetry run python testing_ceda_status/generate_schema.py
+          poetry run python ceda_status_validator/generate_schema.py
           diff generated_schema.json statuspage.schema.json
       - name: Run the validator
         run: |
