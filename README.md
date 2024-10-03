@@ -9,6 +9,21 @@ It provides the content for:
 - the CEDA status page at https://www.ceda.ac.uk/status
 - the "Latest Incidents" list displayed in the Message Of The Day (MOTD) login screen on JASMIN `login` & `sci` hosts.
 
+## Setup
+
+To make sure your JSON file is validated when editing, please install the Poetry package in this repository and the corresponding pre-commit hook:
+
+```
+poetry install
+poetry run pre-commit install
+```
+
+Now, the next time you commit any JSON, the pre-commit hook will run. If the change passes the validator then it will commit normally. If not:
+- In VS Code, a popup will appear. Press "Show Command Output" to see where the validator failed.
+- In your terminal, `git commit` will show the output of the pre-commit hooks.
+
+If you edit the repository directly on the GitHub website, please look out for a green tick next to your commit message or check the Actions tab for the CI status.
+
 ## Editing
 
 The JSON content is stored in `status.json` and is fed by the "raw" view at the URL
@@ -24,6 +39,7 @@ Procedure:
 - **Option 1**: edit `status.json` manually (but you must follow the schema rules)
 - **Option 2**: use the JSON-Editor tool to edit the content with the help of a graphical form & validation against the schema
   - In the JSON-Editor, go to the **Schema** tab and upload or copy/paste the contents of the file `statuspage.schema.json`.
+  - Navigate to the **Form** tab, and press "Generate Form" at the top of the page
   - Go to the **Output** tab and copy/paste the content of the current `main` version of `status.json`. Overwrite any content (e.g. the brackets `[]` which may be there by default)
   - Navigate to the "Form" tab
   - Use the form to edit the status content and add new items as needed
