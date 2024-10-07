@@ -53,22 +53,6 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "PFS storage volumes /gws/pw/j07/*, /work/scratch-pw*, /work/xfc/*",
-    "summary": "Slow performance due to failed disk",
-    "date": "2024-07-24T14:20",
-    "updates": [
-      {
-        "date": "2024-07-24T14:20",
-        "details": "Replacement partially completed, awaiting replacement of 1 server."
-      },
-      {
-        "date": "2024-07-24T14:20",
-        "details": "Draining of failed disk underway, disk replacement to follow. Likely to be causing intermittent slow performance in these volumes."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "software: IDL v8.9",
     "summary": "version 8.9 now available",
     "date": "2024-09-06T16:30",
