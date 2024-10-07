@@ -69,26 +69,6 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "GWS Mounts: GWS-access service",
-    "summary": "GWS mounts in gws-access service are hanging.",
-    "date": "2024-08-19T13:52",
-    "updates": [
-      {
-        "date": "2024-08-21T14:45",
-        "details": "Problem is persisting: please report any issues to assist with debugging."
-      },
-      {
-        "date": "2024-08-19T13:52",
-        "details": "Some mounts in the notebook service and GWS access service are stuck. This is causing the GWS access service to be unresponsive, and the notebook service to hang in some cases where a user tries to access a GWS mount."
-      },
-      {
-        "date": "2024-08-19T15:48",
-        "details": "Mounts have now been unstuck and the notebook service and gws-access are operating normally."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "software: IDL v8.9",
     "summary": "version 8.9 now available",
     "date": "2024-09-06T16:30",
