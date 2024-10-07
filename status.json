@@ -42,8 +42,12 @@
     "date": "2024-10-15T07:00",
     "updates": [
       {
-        "date": "2024-10-15T07:00",
-        "details": "Advance warning of regular quarterly scheduled maintenance day."
+        "date": "2024-10-07T07:00",
+        "details": "Reminder of upcoming maintenance affecting all services. Tape services will be unavailable from Monday 14th October 16:00 to Tuesday 15th October 13:00."
+      },
+      {
+        "date": "2024-30-09T07:00",
+        "details": "Reminder of regular quarterly scheduled maintenance day."
       }
     ]
   },
@@ -97,18 +101,14 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance",
-    "date": "2024-09-23T09:00",
+    "date": "2024-10-23T16:00",
     "updates": [
       {
-        "date": "2024-09-23T14:00",
-        "details": "Services resumed"
-      },
-      {
-        "date": "2024-09-16T14:00",
-        "details": "Break in service for scheduled maintenance, affects ET, JDMA, StorageD and NLA services."
+        "date": "2024-10-07T09:30",
+        "details": "Advance notice of scheduled maintenance. Services will be unavailable until 13:00 on Thursday 24th October 2024."
       }
     ]
   }
