@@ -1,6 +1,7 @@
 {
   "$defs": {
     "Incident": {
+      "description": "An incident contains details and a list of updates associated with it",
       "properties": {
         "status": {
           "$ref": "#/$defs/Status"
@@ -37,6 +38,7 @@
       "type": "object"
     },
     "Status": {
+      "description": "A set of pre-defined statuses for an incident",
       "enum": [
         "down",
         "resolved",
@@ -47,6 +49,7 @@
       "type": "string"
     },
     "Update": {
+      "description": "An update contains further details and an optional URL for more info",
       "properties": {
         "date": {
           "title": "Date",
@@ -59,6 +62,9 @@
         "url": {
           "anyOf": [
             {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
               "type": "string"
             },
             {
@@ -77,6 +83,7 @@
       "type": "object"
     }
   },
+  "description": "The root of the status page object, containing a list of incidents",
   "items": {
     "$ref": "#/$defs/Incident"
   },
