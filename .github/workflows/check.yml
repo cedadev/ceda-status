@@ -1,0 +1,90 @@
+name: Check Python quality
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for Python in the "main" branch or if you change the workflows!
+  push:
+    branches: [ "main" ]
+    paths:
+      - ceda_status_validator/**
+      - .github/workflows/**
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - ceda_status_validator/**
+      - .github/workflows/**
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # test:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       # python-version: [ "3.9", "3.10", "3.11", "3.12" ]
+  #       # no point checking the rest as Poetry env specifies 3.12
+  #       python-version: [ "3.12" ]
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Install Poetry
+  #       run: |
+  #         pipx install poetry
+  #     - uses: actions/setup-python@v5
+  #       with:
+  #         python-version: ${{ matrix.python-version }}
+  #         cache: 'poetry'
+  #     - name: Clear coverage
+  #       run: |
+  #         poetry install --with test
+  #         poetry run python -m coverage erase
+  #     - name: Run tests
+  #       run: |
+  #         poetry run python -m coverage erase
+  #         poetry run python -m coverage run -m unittest discover
+  #     - name: Check coverage
+  #       run: |
+  #         poetry run python -m coverage report
+
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Poetry
+        run: |
+          pipx install poetry
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: 'poetry'
+      - name: Install Dependencies
+        run: |
+          poetry env use 3.12
+      - name: Check Poetry
+        run: |
+          poetry check --lock
+      - name: Run black
+        run: |
+          poetry install --only black
+          poetry run black ./ --verbose --check
+      - name: Run bandit
+        run: |
+          poetry install --only bandit
+          poetry run bandit -c pyproject.toml -r .
+      - name: Run isort
+        run: |
+          poetry install --only isort
+          poetry run isort . --check
+      - name: Run ruff
+        run: |
+          poetry install --only ruff
+          poetry run ruff check
+      - name: Run audit
+        run: |
+          pipx inject poetry poetry-audit-plugin
+          poetry audit $(poetry run python -c "import tomllib; f = open('pyproject.toml','rb') ; data =  tomllib.load(f); f.close(); ignore_codes = data['tool']['quality']['audit']['ignore-code']; print('--ignore-code=' + ','.join(ignore_codes)) if ignore_codes else print('')")
+      - name: Run mypy
+        run: |
+          poetry install --with mypy
+          poetry run mypy .
