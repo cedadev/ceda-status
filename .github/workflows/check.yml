@@ -6,12 +6,12 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - testing_ceda_status/**
+      - ceda_status_validator/**
       - .github/workflows/**
   pull_request:
     branches: [ "main" ]
     paths:
-      - testing_ceda_status/**
+      - ceda_status_validator/**
       - .github/workflows/**
 
   # Allows you to run this workflow manually from the Actions tab
