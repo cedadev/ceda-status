@@ -26,6 +26,10 @@
     "date": "2024-10-08T07:00",
     "updates": [
       {
+        "date": "2024-10-08T17:00",
+        "details": "Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access, should now be accessible again. Other services remain at risk for the remainder of this scheduled maintenance until the end of Thursday 10th October."
+      },
+      {
         "date": "2024-10-08T14:30",
         "details": "Failure of a switch during this work is currently affecting some Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access."
       },
