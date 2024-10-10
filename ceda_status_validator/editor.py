@@ -75,7 +75,7 @@ def add_entry(
 
     # Write the file back.
     with open("status.json", "w", encoding="utf-8") as thefile:
-        thefile.write(status_file_model.model_dump_json(indent=2))
+        thefile.write(status_file_model.model_dump_json(indent=2, exclude_none=True))
 
 
 if __name__ == "__main__":
