@@ -40,7 +40,9 @@ def cli() -> None:
 @click.option(
     "--start-date",
     prompt=True,
-    type=click.DateTime(),
+    type=click.DateTime(
+        formats=["%d/%m/%Y %H:%M", "%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"]
+    ),
     default=dt.datetime.now(),
     help="Time this incident will be shown to have started, and time of the first update.",
 )
