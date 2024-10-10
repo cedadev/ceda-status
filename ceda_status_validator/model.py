@@ -29,7 +29,7 @@ class Update(BaseModel):
     details: str
     url: Optional[HttpUrl] = None
 
-    @pydantic.field_serializer('date')
+    @pydantic.field_serializer("date")
     def serialize_date(self, date, _info):
         return date.strftime(INPUT_DATE_FORMAT)
 
@@ -43,7 +43,7 @@ class Incident(BaseModel):
     date: Annotated[str, AfterValidator(check_date_format)]
     updates: list[Update] = Field(min_length=1)
 
-    @pydantic.field_serializer('date')
+    @pydantic.field_serializer("date")
     def serialize_date(self, date, _info):
         return date.strftime(INPUT_DATE_FORMAT)
 
