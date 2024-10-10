@@ -2,6 +2,7 @@ import datetime as dt
 from enum import Enum
 from typing import Annotated, Any, Optional
 
+import pydantic
 from pydantic import AfterValidator, BaseModel, Field, HttpUrl, RootModel
 
 INPUT_DATE_FORMAT = "%Y-%m-%dT%H:%M"
@@ -28,6 +29,10 @@ class Update(BaseModel):
     details: str
     url: Optional[HttpUrl] = None
 
+    @pydantic.field_serializer('date')
+    def serialize_date(self, date, _info):
+        return date.strftime(INPUT_DATE_FORMAT)
+
 
 class Incident(BaseModel):
     """An incident contains details and a list of updates associated with it"""
@@ -37,6 +42,10 @@ class Incident(BaseModel):
     summary: str
     date: Annotated[str, AfterValidator(check_date_format)]
     updates: list[Update] = Field(min_length=1)
+
+    @pydantic.field_serializer('date')
+    def serialize_date(self, date, _info):
+        return date.strftime(INPUT_DATE_FORMAT)
 
 
 class StatusPage(RootModel[Any]):
