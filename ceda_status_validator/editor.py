@@ -56,14 +56,14 @@ def add_entry(
     """Update status.json with an extra incident."""
     # Create a new incident from CLI data.
     update = model.Update(
-        date=str(start_date.strftime(model.INPUT_DATE_FORMAT)),
+        date=start_date,
         details=details,
     )
     incident = model.Incident(
         status=model.Status[status].value,
         affectedServices=affected_services,
         summary=summary,
-        date=str(start_date.strftime(model.INPUT_DATE_FORMAT)),
+        date=start_date,
         updates=[update],
     )
 
