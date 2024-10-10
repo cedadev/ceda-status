@@ -34,4 +34,4 @@ jobs:
           diff generated_schema.json statuspage.schema.json
       - name: Run the validator
         run: |
-          poetry run python ceda_status_validator/validate.py
+          poetry run python -m ceda_status_validator.validate
