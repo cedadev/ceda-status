@@ -2,7 +2,6 @@ import datetime as dt
 import json
 
 import click
-import pydantic.tools
 
 from . import model
 
@@ -69,9 +68,7 @@ def add_entry(
     # Read in existing file and parse it.
     with open("status.json", "r", encoding="utf-8") as thefile:
         status_file_contents = json.load(thefile)
-    status_file_model = pydantic.tools.parse_obj_as(
-        model.StatusPage, status_file_contents
-    )
+    status_file_model = model.StatusPage.validate(status_file_contents)
 
     # Add in the new incident.
     status_file_model.root.append(incident)
