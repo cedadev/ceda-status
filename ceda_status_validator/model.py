@@ -4,7 +4,7 @@ from enum import Enum
 from typing import Annotated, Any, Optional
 
 import pydantic
-from pydantic import AfterValidator, BaseModel, Field, HttpUrl, RootModel
+from pydantic import BaseModel, Field, HttpUrl, RootModel
 
 INPUT_DATE_FORMAT = "%Y-%m-%dT%H:%M"
 

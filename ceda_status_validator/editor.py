@@ -2,7 +2,6 @@ import datetime as dt
 import json
 
 import click
-import pydantic.json
 import pydantic.tools
 
 from . import model
