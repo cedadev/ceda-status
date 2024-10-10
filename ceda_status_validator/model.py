@@ -30,8 +30,10 @@ class Update(BaseModel):
     url: Optional[HttpUrl] = None
 
     @pydantic.field_serializer("date")
-    def serialize_date(self, date, _info):
-        return date.strftime(INPUT_DATE_FORMAT)
+    def serialize_date(
+        self, date: dt.datetime, _info: pydantic.FieldSerializationInfo
+    ) -> str:
+        return str(date.strftime(INPUT_DATE_FORMAT))
 
 
 class Incident(BaseModel):
@@ -44,8 +46,10 @@ class Incident(BaseModel):
     updates: list[Update] = Field(min_length=1)
 
     @pydantic.field_serializer("date")
-    def serialize_date(self, date, _info):
-        return date.strftime(INPUT_DATE_FORMAT)
+    def serialize_date(
+        self, date: dt.datetime, _info: pydantic.FieldSerializationInfo
+    ) -> str:
+        return str(date.strftime(INPUT_DATE_FORMAT))
 
 
 class StatusPage(RootModel[Any]):

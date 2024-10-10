@@ -9,7 +9,7 @@ from . import model
 
 
 @click.group()
-def cli():
+def cli() -> None:
     """Script to help manage entries on the status page."""
 
 
@@ -17,7 +17,7 @@ def cli():
 @click.option(
     "--status",
     prompt=True,
-    type=click.Choice(model.Status.__members__),
+    type=click.Choice(list(model.Status.__members__.keys())),
     default=model.Status.DOWN._name_,
     help="Current status of this service to be shown to users.",
 )
@@ -52,7 +52,7 @@ def add_entry(
     start_date: dt.datetime,
     details: str,
     summary: str,
-):
+) -> None:
     """Update status.json with an extra incident."""
     # Create a new incident from CLI data.
     update = model.Update(
