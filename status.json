@@ -26,6 +26,14 @@
     "date": "2024-10-08T07:00",
     "updates": [
       {
+        "date": "2024-10-08T17:00",
+        "details": "Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access, should now be accessible again. Other services remain at risk for the remainder of this scheduled maintenance until the end of Thursday 10th October."
+      },
+      {
+        "date": "2024-10-08T14:30",
+        "details": "Failure of a switch during this work is currently affecting some Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access."
+      },
+      {
         "date": "2024-09-25T16:00",
         "details": "Confirmed for 8-10 October. Main visible effect will be reduced capacity in (existing) LOTUS cluster as power equipment for each rack of nodes are taken out of service for testing. Nodes in new cluster (not yet in production anyway) will be unavailable. Other services should not be affected."
       },
@@ -42,44 +50,12 @@
     "date": "2024-10-15T07:00",
     "updates": [
       {
-        "date": "2024-10-15T07:00",
-        "details": "Advance warning of regular quarterly scheduled maintenance day."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "PFS storage volumes /gws/pw/j07/*, /work/scratch-pw*, /work/xfc/*",
-    "summary": "Slow performance due to failed disk",
-    "date": "2024-07-24T14:20",
-    "updates": [
-      {
-        "date": "2024-07-24T14:20",
-        "details": "Replacement partially completed, awaiting replacement of 1 server."
+        "date": "2024-10-07T07:00",
+        "details": "Reminder of upcoming maintenance affecting all services. Tape services will be unavailable from Monday 14th October 16:00 to Tuesday 15th October 13:00."
       },
       {
-        "date": "2024-07-24T14:20",
-        "details": "Draining of failed disk underway, disk replacement to follow. Likely to be causing intermittent slow performance in these volumes."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "GWS Mounts: GWS-access service",
-    "summary": "GWS mounts in gws-access service are hanging.",
-    "date": "2024-08-19T13:52",
-    "updates": [
-      {
-        "date": "2024-08-21T14:45",
-        "details": "Problem is persisting: please report any issues to assist with debugging."
-      },
-      {
-        "date": "2024-08-19T13:52",
-        "details": "Some mounts in the notebook service and GWS access service are stuck. This is causing the GWS access service to be unresponsive, and the notebook service to hang in some cases where a user tries to access a GWS mount."
-      },
-      {
-        "date": "2024-08-19T15:48",
-        "details": "Mounts have now been unstuck and the notebook service and gws-access are operating normally."
+        "date": "2024-09-27T07:00",
+        "details": "Reminder of regular quarterly scheduled maintenance day."
       }
     ]
   },
@@ -97,18 +73,14 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance",
-    "date": "2024-09-23T09:00",
+    "date": "2024-10-23T16:00",
     "updates": [
       {
-        "date": "2024-09-23T14:00",
-        "details": "Services resumed"
-      },
-      {
-        "date": "2024-09-16T14:00",
-        "details": "Break in service for scheduled maintenance, affects ET, JDMA, StorageD and NLA services."
+        "date": "2024-10-07T09:30",
+        "details": "Advance notice of scheduled maintenance. Services will be unavailable until 13:00 on Thursday 24th October 2024."
       }
     ]
   }
