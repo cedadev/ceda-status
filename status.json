@@ -20,35 +20,15 @@
     ]
   },
   {
-    "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Electrical testing of fixed equipment",
-    "date": "2024-10-08T07:00",
-    "updates": [
-      {
-        "date": "2024-10-08T17:00",
-        "details": "Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access, should now be accessible again. Other services remain at risk for the remainder of this scheduled maintenance until the end of Thursday 10th October."
-      },
-      {
-        "date": "2024-10-08T14:30",
-        "details": "Failure of a switch during this work is currently affecting some Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access."
-      },
-      {
-        "date": "2024-09-25T16:00",
-        "details": "Confirmed for 8-10 October. Main visible effect will be reduced capacity in (existing) LOTUS cluster as power equipment for each rack of nodes are taken out of service for testing. Nodes in new cluster (not yet in production anyway) will be unavailable. Other services should not be affected."
-      },
-      {
-        "date": "2024-06-27T14:00",
-        "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "all",
     "summary": "Quarterly scheduled maintenance day",
     "date": "2024-10-15T07:00",
     "updates": [
+      {
+        "date": "2024-10-15T16:00",
+        "details": "LOTUS reservation now lifted, jobs resumed."
+      },
       {
         "date": "2024-10-07T07:00",
         "details": "Reminder of upcoming maintenance affecting all services. Tape services will be unavailable from Monday 14th October 16:00 to Tuesday 15th October 13:00."
