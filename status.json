@@ -1,46 +1,6 @@
 [
   {
     "status": "degraded",
-    "affectedServices": "SOF storage",
-    "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
-    "date": "2024-06-14T08:15",
-    "updates": [
-      {
-        "date": "2024-06-24T09:25",
-        "details": "Registry issue now resolved after some host reboots. Quota issue persists, see previous update."
-      },
-      {
-        "date": "2024-06-24T09:00",
-        "details": "Storage registry issue affecting SOF access from some hosts, team investigating. Quota issue persists, see previous update."
-      },
-      {
-        "date": "2024-06-14T08:15",
-        "details": "Some GWS volumes permitting writes beyond true quota and becoming full. Check mon.jasmin.ac.uk for true quota (df may report wrong value). Issue being investigated with storage vendor."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Quarterly scheduled maintenance day",
-    "date": "2024-10-15T07:00",
-    "updates": [
-      {
-        "date": "2024-10-15T16:00",
-        "details": "LOTUS reservation now lifted, jobs resumed."
-      },
-      {
-        "date": "2024-10-07T07:00",
-        "details": "Reminder of upcoming maintenance affecting all services. Tape services will be unavailable from Monday 14th October 16:00 to Tuesday 15th October 13:00."
-      },
-      {
-        "date": "2024-09-27T07:00",
-        "details": "Reminder of regular quarterly scheduled maintenance day."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "software: IDL v8.9",
     "summary": "version 8.9 now available",
     "date": "2024-09-06T16:30",
