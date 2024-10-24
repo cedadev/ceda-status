@@ -14,6 +14,32 @@
   },
   {
     "status": "down",
+    "affectedServices": "cron.jasmin, xfer3.jasmin",
+    "summary": "Retirement of old servers",
+    "date": "2024-11-21T16:00",
+    "updates": [
+      {
+        "date": "2024-10-24T11:00",
+        "details": "Cron server cron.jasmin (aka cron1.ceda) and transfer server xfer3.jasmin will be retired on Thursday 21 November. Please move the new equivalent servers.",
+        "url": "http://www.ceda.ac.uk/news/updates/2024/2024-10-24-changes-to-jasmin-cron-transfer-and-nx-services/#1-changes-to-cron-and-transfer-services"
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "nx-login[123]",
+    "summary": "Retirement of old servers",
+    "date": "2024-10-31T16:00",
+    "updates": [
+      {
+        "date": "2024-10-24T11:00",
+        "details": "Old NX servers nx-login[123] will be retired on Thursday 31 October. Update connection profiles to connect to new servers.",
+        "url": "http://www.ceda.ac.uk/news/updates/2024/2024-10-24-changes-to-jasmin-cron-transfer-and-nx-services/#2-changes-to-nomachine-nx-service-nx-login-servers"
+      }
+    ]
+  },
+  {
+    "status": "down",
     "affectedServices": "tape services",
     "summary": "Scheduled maintenance",
     "date": "2024-10-23T16:00",
