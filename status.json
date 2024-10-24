@@ -45,6 +45,10 @@
     "date": "2024-10-23T16:00",
     "updates": [
       {
+        "date": "2024-10-24T17:00",
+        "details": "Services not yet restarted, awaiting update..."
+      },
+      {
         "date": "2024-10-24T12:20",
         "details": "Work progressing slower than anticipated, services unlikely to resume before 14:30."
       },
