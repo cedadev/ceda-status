@@ -61,5 +61,17 @@
         "details": "Advance notice of scheduled maintenance. Services will be unavailable until 13:00 on Thursday 24th October 2024."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "home directories, smf volumes, scratch-nopw2",
+    "summary": "Reboot of network switches may cause interruption",
+    "date": "2024-10-29T10:30",
+    "updates": [
+      {
+        "date": "2024-10-28T11:00",
+        "details": "Reboot of one or more switches serving SSD storage used for JASMIN home directories. Possibility of widespread interruption for brief period."
+      }
+    ]
   }
 ]
