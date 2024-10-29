@@ -39,34 +39,10 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "tape services",
-    "summary": "Scheduled maintenance",
-    "date": "2024-10-23T16:00",
-    "updates": [
-      {
-        "date": "2024-10-25T08:55",
-        "details": "Services now resumed"
-      },
-      {
-        "date": "2024-10-24T17:00",
-        "details": "Services not yet restarted, awaiting update..."
-      },
-      {
-        "date": "2024-10-24T12:20",
-        "details": "Work progressing slower than anticipated, services unlikely to resume before 14:30."
-      },
-      {
-        "date": "2024-10-07T09:30",
-        "details": "Advance notice of scheduled maintenance. Services will be unavailable until 13:00 on Thursday 24th October 2024."
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "home directories, smf volumes, scratch-nopw2",
-    "summary": "Reboot of network switches may cause interruption",
-    "date": "2024-10-29T10:30",
+    "summary": "Reboot of network switches at ~10:30 may cause interruption",
+    "date": "2024-10-29T10:00",
     "updates": [
       {
         "date": "2024-10-28T11:00",
