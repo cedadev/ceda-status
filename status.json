@@ -53,5 +53,17 @@
         "details": "Reboot of one or more switches serving SSD storage used for JASMIN home directories. Possibility of widespread interruption for brief period."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "all",
+    "summary": "JASMIN scheduled quarterly maintenance day",
+    "date": "2025-01-21T07:30",
+    "updates": [
+      {
+        "date": "2024-10-30T09:30",
+        "details": "Advance notice of regular scheduled maintenance day. Please plan your work to minimise disruption."
+      }
+    ]
   }
 ]
