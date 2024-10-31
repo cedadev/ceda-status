@@ -39,22 +39,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "home directories, smf volumes, scratch-nopw2",
-    "summary": "Reboot of network switches at ~10:30 may cause interruption",
-    "date": "2024-10-29T10:00",
-    "updates": [
-      {
-        "date": "2024-10-29T11:00",
-        "details": "Work now completed."
-      },
-      {
-        "date": "2024-10-28T11:00",
-        "details": "Reboot of one or more switches serving SSD storage used for JASMIN home directories. Possibility of widespread interruption for brief period."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "all",
     "summary": "JASMIN scheduled quarterly maintenance day: Tues 21 Jan 2025",
