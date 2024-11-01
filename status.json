@@ -51,11 +51,15 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "scratch volume /work/scratch-pw3",
     "summary": "Degraded performance detected, volume reconstruction scheduled for 19:00 this evening Thurs 31 Oct ",
     "date": "2024-10-31T13:30",
     "updates": [
+      {
+        "date": "2024-11-01T08:30",
+        "details": "Reconstruction completed successfully, resuming normal operation."
+      },
       {
         "date": "2024-10-31T13:30",
         "details": "Volume will be taken offline for reconstruction at 19:00. Some files currently inaccessible. Please use alternative scratch volumes meanwhile."
