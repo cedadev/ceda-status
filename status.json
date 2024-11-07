@@ -65,5 +65,17 @@
         "details": "Volume will be taken offline for reconstruction at 19:00. Some files currently inaccessible. Please use alternative scratch volumes meanwhile."
       }
     ]
+  },
+  {
+    "status": "resolved",
+    "affectedServices": "scratch volume /work/scratch-pw2",
+    "summary": "Degraded performance earlier, now resolved.",
+    "date": "2024-11-07T14:00",
+    "updates": [
+      {
+        "date": "2024-11-07T14:00",
+        "details": "Degraded performance detected earlier causing job timeouts. Normal operation now resumed."
+      }
+    ]
   }
 ]
