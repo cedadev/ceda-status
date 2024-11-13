@@ -14,8 +14,8 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "storage",
-    "summary": "/gws/nopw/*, CEDA Archive",
+    "affectedServices": "/gws/nopw/*, CEDA Archive",
+    "summary": "SOF storage issue",
     "date": "2024-11-13T14:00",
     "updates": [
       {
