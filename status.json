@@ -13,6 +13,18 @@
     ]
   },
   {
+    "status": "degraded",
+    "affectedServices": "storage",
+    "summary": "/gws/nopw/*, CEDA Archive",
+    "date": "2024-11-13T14:00",
+    "updates": [
+      {
+        "date": "2024-11-13T14:00",
+        "details": "Issue identified with SOF storage, system team investigating with storage provider. Widespread disruption as this storage is used in many services."
+      }
+    ]
+  },
+  {
     "status": "down",
     "affectedServices": "cron.jasmin, xfer3.jasmin",
     "summary": "Retirement of old servers",
