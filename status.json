@@ -25,6 +25,10 @@
       {
         "date": "2024-11-14T09:15",
         "details": "Performance still degraded, team continuing to investigate with storage provider."
+      },
+      {
+        "date": "2024-11-14T16:30",
+        "details": "Diagnosis still ongoing with vendor, intervention planned for tomorrow (Friday) morning. Performance still degraded."
       }
     ]
   },
