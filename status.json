@@ -21,6 +21,10 @@
       {
         "date": "2024-11-13T14:00",
         "details": "Issue identified with SOF storage, system team investigating with storage provider. Widespread disruption as this storage is used in many services."
+      },
+      {
+        "date": "2024-11-14T09:15",
+        "details": "Performance still degraded, team continuing to investigate with storage provider."
       }
     ]
   },
