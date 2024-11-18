@@ -77,5 +77,17 @@
         "details": "Advance notice of regular scheduled maintenance day. Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled software maintenance to tape service hosts 26/27 Nov",
+    "date": "2024-11-26T12:00",
+    "updates": [
+      {
+        "date": "2024-11-18T11:30",
+        "details": "Advance notice of scheduled maintenance. Tape services will be unavailable during this period, expected duration 24 hrs."
+      }
+    ]
   }
 ]
