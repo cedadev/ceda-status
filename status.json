@@ -13,8 +13,8 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "/gws/nopw/*, CEDA Archive",
+    "status": "down",
+    "affectedServices": "/gws/nopw/*, CEDA Archive, LOTUS",
     "summary": "SOF storage issue",
     "date": "2024-11-13T14:00",
     "updates": [
@@ -33,6 +33,10 @@
       {
         "date": "2024-11-18T10:00",
         "details": "Storage vendor is working on providing a fix to resolve the issue but please DO NOT USE this storage until further notice."
+      },
+      {
+        "date": "2024-11-18T11:30",
+        "details": "Please DO NOT USE this storage until further notice. We are draining queues to allow storage to stablise. No new jobs will start running, existing jobs will continue running and new jobs can be submitted but will stay pending."
       }
     ]
   },
