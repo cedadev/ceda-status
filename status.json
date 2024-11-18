@@ -13,30 +13,14 @@
     ]
   },
   {
-    "status": "down",
+    "status": "at risk",
     "affectedServices": "/gws/nopw/*, CEDA Archive, LOTUS",
     "summary": "SOF storage issue",
     "date": "2024-11-13T14:00",
     "updates": [
       {
-        "date": "2024-11-13T14:00",
-        "details": "Issue identified with SOF storage, system team investigating with storage provider. Widespread disruption as this storage is used in many services."
-      },
-      {
-        "date": "2024-11-15T14:50",
-        "details": "Performance still degraded. Some inconsistencies in network switch config identified and corrected. Unlikely that root cause will be found and resolved today. We understand how frustrating this is for all of you and really appreciate your patience."
-      },
-      {
-        "date": "2024-11-18T09:00",
-        "details": "Performance still degraded, awaiting further information from technical investigation. System not yet stable: please refrain from use until further notice."
-      },
-      {
-        "date": "2024-11-18T10:00",
-        "details": "Storage vendor is working on providing a fix to resolve the issue but please DO NOT USE this storage until further notice."
-      },
-      {
-        "date": "2024-11-18T11:30",
-        "details": "Please DO NOT USE this storage until further notice. We are draining queues to allow storage to stablise. No new jobs will start running, existing jobs will continue running and new jobs can be submitted but will stay pending."
+        "date": "2024-11-18T13:30",
+        "details": "Storage is now available again but should be considered AT RISK, please report any further issues. Some servers have had to be rebooted due to related issues; jobs are now running on LOTUS again.Apologies for the interruption and thank you for your patience."
       }
     ]
   },
