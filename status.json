@@ -13,7 +13,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "at risk",
     "affectedServices": "/gws/nopw/*, CEDA Archive, LOTUS",
     "summary": "SOF storage issue",
     "date": "2024-11-13T14:00",
@@ -25,6 +25,10 @@
       {
         "date": "2024-11-20T09:45",
         "details": "Issue has resurfaced, further investigations underway."
+      },
+      {
+        "date": "2024-11-20T10:30",
+        "details": "Storage system is usable again after a temporary fix but remains AT RISK while further investigations continue."
       }
     ]
   },
