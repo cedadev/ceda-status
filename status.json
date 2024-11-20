@@ -19,16 +19,20 @@
     "date": "2024-11-13T14:00",
     "updates": [
       {
-        "date": "2024-11-18T13:30",
-        "details": "Storage is now available again but should be considered AT RISK, please report any further issues. Some servers have had to be rebooted due to related issues; jobs are now running on LOTUS again.Apologies for the interruption and thank you for your patience."
-      },
-      {
-        "date": "2024-11-20T09:45",
-        "details": "Issue has resurfaced, further investigations underway."
-      },
-      {
         "date": "2024-11-20T10:30",
         "details": "Storage system is usable again after a temporary fix but remains AT RISK while further investigations continue."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "PFS storage: /work/scratch-pw, /gws/pw/j07/*, /work/xfc/vol*",
+    "summary": "PFS storage issue",
+    "date": "2024-11-20T14:30",
+    "updates": [
+      {
+        "date": "2024-11-20T14:30",
+        "details": "Possible issues reported with some PFS storage volumes, please report with full details if affected."
       }
     ]
   },
@@ -36,25 +40,12 @@
     "status": "down",
     "affectedServices": "cron.jasmin, xfer3.jasmin",
     "summary": "Retirement of old servers",
-    "date": "2024-11-21T16:00",
+    "date": "2024-11-21T07:00",
     "updates": [
       {
         "date": "2024-10-24T11:00",
-        "details": "Cron server cron.jasmin (aka cron1.ceda) and transfer server xfer3.jasmin will be retired on Thursday 21 November. Please move the new equivalent servers.",
+        "details": "Cron server cron.jasmin (aka cron1.ceda) and transfer server xfer3.jasmin will be retired at 16:00 on Thursday 21 November. Please move the new equivalent servers.",
         "url": "http://www.ceda.ac.uk/news/updates/2024/2024-10-24-changes-to-jasmin-cron-transfer-and-nx-services/#1-changes-to-cron-and-transfer-services"
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "nx-login[123]",
-    "summary": "Retirement of old servers",
-    "date": "2024-10-31T16:00",
-    "updates": [
-      {
-        "date": "2024-10-24T11:00",
-        "details": "Old NX servers nx-login[123] will be retired on Thursday 31 October. Update connection profiles to connect to new servers.",
-        "url": "http://www.ceda.ac.uk/news/updates/2024/2024-10-24-changes-to-jasmin-cron-transfer-and-nx-services/#2-changes-to-nomachine-nx-service-nx-login-servers"
       }
     ]
   },
