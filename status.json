@@ -21,6 +21,10 @@
       {
         "date": "2024-11-20T10:30",
         "details": "Storage system is usable again after a temporary fix but remains AT RISK while further investigations continue."
+      },
+      {
+        "date": "2024-11-21T12:30",
+        "details": "Unfortunately, issues still persist (despite earlier email notice), system remains AT RISK while further investigations continue."
       }
     ]
   },
