@@ -55,19 +55,6 @@
   },
   {
     "status": "down",
-    "affectedServices": "nx4/nx-login4",
-    "summary": "Retirement of old NX server",
-    "date": "2024-12-06T07:00",
-    "updates": [
-      {
-        "date": "2024-11-20T17:30",
-        "details": "Advance notice of retirement of nx4 on Fri 6 Dec 2024. Update your SSH key and use updated advice to create new connection profile to new servers nx[123].",
-        "url": "https://help.jasmin.ac.uk/docs/interactive-computing/nx-update-nov24/"
-      }
-    ]
-  },
-  {
-    "status": "down",
     "affectedServices": "all",
     "summary": "JASMIN scheduled quarterly maintenance day: Tues 21 Jan 2025",
     "date": "2025-01-21T07:30",
