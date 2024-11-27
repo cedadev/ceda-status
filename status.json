@@ -78,7 +78,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "down",
     "affectedServices": "all",
     "summary": "Network issue affecting connectivity to JASMIN",
     "date": "2024-11-26T08:30",
