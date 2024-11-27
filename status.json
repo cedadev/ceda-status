@@ -89,5 +89,17 @@
         "details": "Advance notice of scheduled maintenance. Tape services will be unavailable during this period, expected duration 24 hrs."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "all",
+    "summary": "Network issue affecting connectivity to JASMIN",
+    "date": "2024-11-26T08:30",
+    "updates": [
+      {
+        "date": "2024-11-26T08:30",
+        "details": "There is currently a network connectivity issue affecting many services within the STFC network including JASMIN. Awaiting further updates."
+      }
+    ]
   }
 ]
