@@ -42,19 +42,6 @@
   },
   {
     "status": "down",
-    "affectedServices": "cron.jasmin, xfer3.jasmin",
-    "summary": "Retirement of old servers",
-    "date": "2024-11-21T07:00",
-    "updates": [
-      {
-        "date": "2024-10-24T11:00",
-        "details": "Cron server cron.jasmin (aka cron1.ceda) and transfer server xfer3.jasmin will be retired at 16:00 on Thursday 21 November. Please move the new equivalent servers.",
-        "url": "http://www.ceda.ac.uk/news/updates/2024/2024-10-24-changes-to-jasmin-cron-transfer-and-nx-services/#1-changes-to-cron-and-transfer-services"
-      }
-    ]
-  },
-  {
-    "status": "down",
     "affectedServices": "all",
     "summary": "JASMIN scheduled quarterly maintenance day: Tues 21 Jan 2025",
     "date": "2025-01-21T07:30",
@@ -66,7 +53,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "tape services",
     "summary": "Scheduled software maintenance to tape service hosts 26/27 Nov",
     "date": "2024-11-26T12:00",
@@ -74,11 +61,15 @@
       {
         "date": "2024-11-18T11:30",
         "details": "Advance notice of scheduled maintenance. Tape services will be unavailable during this period, expected duration 24 hrs."
+      },
+      {
+        "date": "2024-11-28T16:30",
+        "details": "Normal service resumed."
       }
     ]
   },
   {
-    "status": "down",
+    "status": "at risk",
     "affectedServices": "all",
     "summary": "Network issue affecting connectivity to JASMIN",
     "date": "2024-11-26T08:30",
@@ -90,6 +81,14 @@
       {
         "date": "2024-11-26T08:40",
         "details": "Intervention underway by network team."
+      },
+      {
+        "date": "2024-11-27T09:30",
+        "details": "Connectivity now restored but at risk pending further intervention by site network team (time/date tbc) to restore failover setup."
+      },
+      {
+        "date": "2024-11-27T14:35",
+        "details": "Intervention to restore failover setup now scheduled for Monday 2nd Decmber 07:30, status at risk meanwhile."
       }
     ]
   },
