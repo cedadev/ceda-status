@@ -53,18 +53,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "tape services",
-    "summary": "Scheduled software maintenance to tape service hosts 26/27 Nov",
-    "date": "2024-11-26T12:00",
+    "status": "degraded",
+    "affectedServices": "tape services: ET",
+    "summary": "Possible delays writing to Elastic Tape service",
+    "date": "2024-12-02T17:30",
     "updates": [
       {
-        "date": "2024-11-18T11:30",
-        "details": "Advance notice of scheduled maintenance. Tape services will be unavailable during this period, expected duration 24 hrs."
-      },
-      {
-        "date": "2024-11-28T16:30",
-        "details": "Normal service resumed."
+        "date": "2024-12-02T17:30",
+        "details": "Reports of some ingest tasks getting stuck after being registered successfully. Awaiting confirmation/investigation."
       }
     ]
   },
