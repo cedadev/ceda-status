@@ -53,7 +53,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "tape services: ET",
     "summary": "Possible delays writing to Elastic Tape service",
     "date": "2024-12-02T17:30",
@@ -61,6 +61,10 @@
       {
         "date": "2024-12-02T17:30",
         "details": "Reports of some ingest tasks getting stuck after being registered successfully. Awaiting confirmation/investigation."
+      },
+      {
+        "date": "2024-12-03T08:00",
+        "details": "Normal service resumed."
       }
     ]
   },
