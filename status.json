@@ -53,34 +53,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "tape services: ET",
-    "summary": "Possible delays writing to Elastic Tape service",
-    "date": "2024-12-02T17:30",
-    "updates": [
-      {
-        "date": "2024-12-02T17:30",
-        "details": "Reports of some ingest tasks getting stuck after being registered successfully. Awaiting confirmation/investigation."
-      },
-      {
-        "date": "2024-12-03T08:00",
-        "details": "Normal service resumed."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "all",
-    "summary": "Network issue affecting connectivity to JASMIN",
-    "date": "2024-11-26T08:30",
-    "updates": [
-      {
-        "date": "2024-12-02T09:30",
-        "details": "Intervention by STFC network team was successful: Failover setup now restored, normal operation now resumed."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "CEDA Archive FTP",
     "summary": "CEDA Archive FTP server down for maintenance",
@@ -89,6 +61,19 @@
       {
         "date": "2024-11-27T14:00",
         "details": "The CEDA Archive FTP server is currently down for maintenance. Please check back for further updates."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "sci1,2,4, xfer1, login1,2, nx4",
+    "summary": "Host retirements",
+    "date": "2024-12-06T16:00",
+    "updates": [
+      {
+        "date": "2024-12-05T13:00",
+        "details": "REMINDER: as per announcement, these hosts will be retired on Friday 6 December.",
+        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-11-21-jasmin-host-retirements/"
       }
     ]
   }
