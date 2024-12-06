@@ -66,13 +66,18 @@
   },
   {
     "status": "down",
-    "affectedServices": "sci1,2,4, xfer1, login1,2, nx4",
+    "affectedServices": "sci1,2,4, xfer1, login1,2, nx4, (sci3)",
     "summary": "Host retirements",
     "date": "2024-12-06T16:00",
     "updates": [
       {
         "date": "2024-12-05T13:00",
         "details": "REMINDER: as per announcement, these hosts will be retired on Friday 6 December at 16:00.",
+        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-11-21-jasmin-host-retirements/"
+      },
+      {
+        "date": "2024-12-06T16:00",
+        "details": "Hosts now closed as per announced timetable. Sci3 now subject to restricted access group, see link for details.",
         "url": "https://www.ceda.ac.uk/news/updates/2024/2024-11-21-jasmin-host-retirements/"
       }
     ]
