@@ -1,46 +1,5 @@
 [
   {
-    "status": "degraded",
-    "affectedServices": "software: IDL v8.9",
-    "summary": "version 8.9 now available",
-    "date": "2024-09-06T16:30",
-    "updates": [
-      {
-        "date": "2024-09-06T16:30",
-        "details": "v8.9 now available but without full set of runtime licences. Ignore error message on startup.",
-        "url": "https://help.jasmin.ac.uk/docs/software-on-jasmin/idl/#making-efficient-use-of-idl-development-licences"
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "/gws/nopw/*, CEDA Archive, LOTUS",
-    "summary": "SOF storage issue",
-    "date": "2024-11-13T14:00",
-    "updates": [
-      {
-        "date": "2024-11-20T10:30",
-        "details": "Storage system is usable again after a temporary fix but remains AT RISK while further investigations continue."
-      },
-      {
-        "date": "2024-11-21T12:30",
-        "details": "Unfortunately, issues still persist (despite earlier email notice), system remains AT RISK while further investigations continue."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "PFS storage: /work/scratch-pw, /gws/pw/j07/*, /work/xfc/vol*",
-    "summary": "PFS storage issue",
-    "date": "2024-11-20T14:30",
-    "updates": [
-      {
-        "date": "2024-11-20T14:30",
-        "details": "Possible issues reported with some PFS storage volumes, please report with full details if affected."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "all",
     "summary": "JASMIN scheduled quarterly maintenance day: Tues 21 Jan 2025",
@@ -66,18 +25,13 @@
   },
   {
     "status": "down",
-    "affectedServices": "sci1,2,4, xfer1, login1,2, nx4, (sci3)",
+    "affectedServices": "xfer2, hpxfer2, sci[5,6,8], login[3,4], gridftp1",
     "summary": "Host retirements",
-    "date": "2024-12-06T16:00",
+    "date": "2024-12-13T16:00",
     "updates": [
       {
-        "date": "2024-12-05T13:00",
-        "details": "REMINDER: as per announcement, these hosts will be retired on Friday 6 December at 16:00.",
-        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-11-21-jasmin-host-retirements/"
-      },
-      {
-        "date": "2024-12-06T16:00",
-        "details": "Hosts now closed as per announced timetable. Sci3 now subject to restricted access group, see link for details.",
+        "date": "2024-12-06T16:30",
+        "details": "REMINDER: as per announcement, these hosts will be retired on Friday 13 December at 16:00.",
         "url": "https://www.ceda.ac.uk/news/updates/2024/2024-11-21-jasmin-host-retirements/"
       }
     ]
