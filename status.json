@@ -24,15 +24,15 @@
     ]
   },
   {
-    "status": "down",
-    "affectedServices": "xfer2, hpxfer2, sci[5,6,8], login[3,4], gridftp1",
-    "summary": "Host retirements",
-    "date": "2024-12-13T16:00",
+    "status": "at risk",
+    "affectedServices": "all",
+    "summary": "Services at risk over holiday period.",
+    "date": "2024-12-16T09:00",
     "updates": [
       {
-        "date": "2024-12-11T16:30",
-        "details": "REMINDER: second set of hosts will be retired on Friday 13 December at 16:00.",
-        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-11-21-jasmin-host-retirements/"
+        "date": "2024-12-16T09:00",
+        "details": "CEDA and JASMIN services running at risk over Christmas/New Year period.",
+        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-12-12-support-over-christmas-period/"
       }
     ]
   }
