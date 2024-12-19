@@ -13,6 +13,18 @@
   },
   {
     "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Scheduled maintenance for database and storage array components.",
+    "date": "2025-01-07T12:00",
+    "updates": [
+      {
+        "date": "2024-12-19T14:45",
+        "details": "Advance notice of scheduled maintenance, requiring closure of tape services midday on Tues 7 Jan ahead of work on Wed 8 Jan 2025."
+      }
+    ]
+  },
+  {
+    "status": "down",
     "affectedServices": "CEDA Archive FTP",
     "summary": "CEDA Archive FTP server down for maintenance",
     "date": "2024-11-27T14:00",
