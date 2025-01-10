@@ -34,18 +34,5 @@
         "details": "The CEDA Archive FTP server is currently down for maintenance. Please check back for further updates."
       }
     ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Services at risk over holiday period.",
-    "date": "2024-12-16T09:00",
-    "updates": [
-      {
-        "date": "2024-12-16T09:00",
-        "details": "CEDA and JASMIN services running at risk over Christmas/New Year period.",
-        "url": "https://www.ceda.ac.uk/news/updates/2024/2024-12-12-support-over-christmas-period/"
-      }
-    ]
   }
 ]
