@@ -23,7 +23,7 @@ def cli() -> None:
     "--affected-services",
     prompt=True,
     type=str,
-    help="Free-text list of services which are affected. Eg 'sof storage'. Keep it short!",
+    help="Free-text list of services which are affected. E.g. 'sof storage'. Keep it short!",
 )
 @click.option(
     "--summary",
@@ -41,9 +41,17 @@ def cli() -> None:
     "--start-date",
     prompt=True,
     type=click.DateTime(
-        formats=["%d/%m/%Y %H:%M", "%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"]
+        formats=[
+            "%d/%m/%Y %H:%M",
+            "%Y-%m-%d",
+            "%Y%m%d",
+            "%Y-%m-%dT%H:%M:%S",
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d %H:%M",
+        ]
     ),
-    default=dt.datetime.now(),
+    # Round down to nearest hour
+    default=dt.datetime.now().replace(minute=0, second=0, microsecond=0),
     help="Time this incident will be shown to have started, and time of the first update.",
 )
 def add_entry(
