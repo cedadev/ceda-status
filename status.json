@@ -1,6 +1,6 @@
 [
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "all",
     "summary": "JASMIN scheduled quarterly maintenance day: Tues 21 Jan 2025",
     "date": "2025-01-21T07:30",
@@ -13,6 +13,10 @@
         "date": "2025-01-21T10:30",
         "details": "Maintenance currently in progress as per announcemnent.",
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-15-jasmin-updates-new-cluster-and-maintenance-day/"
+      },
+      {
+        "date": "2025-01-21T16:30",
+        "details": "Maintenance completed, please report any further issues along with full hostname and command to reproduce the issue."
       }
     ]
   },
