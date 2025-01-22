@@ -31,5 +31,17 @@
         "details": "Work NOT expected to affect CEDA or JASMIN services, but FYI."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "scratch, xfc, lotus cluster",
+    "summary": "Scratch and xfc volumes: risk of disruption if disks become full",
+    "date": "2025-01-22T16:00",
+    "updates": [
+      {
+        "date": "2025-01-22T16:00",
+        "details": "Please clean up any non-essential data: be a good JASMIN citizen!"
+      }
+    ]
   }
 ]
