@@ -58,7 +58,7 @@
       {
         "date": "2025-01-28T17:00",
         "details": "Expect jobs to run more slowly on old LOTUS cluster now ahead of retirement 18 Feb. Please use new LOTUS2 cluster.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/"
       }
     ]
   }
