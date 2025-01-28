@@ -22,5 +22,44 @@
         "details": "Please clean up any non-essential data: be a good JASMIN citizen!"
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "sci-ph-02",
+    "summary": "Reboot and change of Slurm cluster",
+    "date": "2025-01-29T06:00",
+    "updates": [
+      {
+        "date": "2025-01-28T17:00",
+        "details": "Server will be rebooted at 06:00 to clear performance issues and to change to submit to new LOTUS2 cluster only.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "sci-ph-01",
+    "summary": "Reboot and change of Slurm cluster",
+    "date": "2025-02-03T06:00",
+    "updates": [
+      {
+        "date": "2025-01-28T17:00",
+        "details": "Server will be rebooted at 06:00 to clear performance issues and to change to submit to new LOTUS2 cluster only.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "LOTUS (old cluster)",
+    "summary": "Hosts now being retired from old cluster",
+    "date": "2025-01-28T17:00",
+    "updates": [
+      {
+        "date": "2025-01-28T17:00",
+        "details": "Expect jobs to run more slowly on old LOTUS cluster now ahead of retirement 18 Feb. Please use new LOTUS2 cluster.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
+      }
+    ]
   }
 ]
