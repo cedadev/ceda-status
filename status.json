@@ -68,7 +68,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "down",
     "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
     "summary": "ET, JDMA and NLA unavailable",
     "date": "2025-01-31T12:00",
