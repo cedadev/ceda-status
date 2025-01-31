@@ -66,5 +66,17 @@
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/"
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
+    "summary": "ET, JDMA and NLA unavailable",
+    "date": "2025-01-31T12:00",
+    "updates": [
+      {
+        "date": "2025-01-31T12:00",
+        "details": "There are currently issues with the tape library hardware and the ET, JDMA and NLA services have been suspended while it is worked on."
+      }
+    ]
   }
 ]
