@@ -25,31 +25,13 @@
   },
   {
     "status": "resolved",
-    "affectedServices": "sci-ph-02",
+    "affectedServices": "sci-ph-0[1,2]",
     "summary": "Reboot and change of Slurm cluster",
-    "date": "2025-01-29T06:00",
+    "date": "2025-01-03T06:00",
     "updates": [
-      {
-        "date": "2025-01-28T17:00",
-        "details": "Server will be rebooted at 06:00 to clear performance issues and to change to submit to new LOTUS2 cluster only.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
-      },
       {
         "date": "2025-01-29T08:30",
-        "details": "Host sci-ph-02 now submits to new LOTUS2 cluster only.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "sci-ph-01",
-    "summary": "Reboot and change of Slurm cluster",
-    "date": "2025-02-03T06:00",
-    "updates": [
-      {
-        "date": "2025-01-28T17:00",
-        "details": "Server will be rebooted at 06:00 to clear performance issues and to change to submit to new LOTUS2 cluster only.",
+        "details": "Hosts sci-ph-0[1,2] now rebooted and submit to new LOTUS2 cluster only.",
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
       }
     ]
