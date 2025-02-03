@@ -50,7 +50,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
     "summary": "ET, JDMA and NLA unavailable",
     "date": "2025-01-31T12:00",
@@ -58,6 +58,10 @@
       {
         "date": "2025-01-31T12:00",
         "details": "There are currently issues with the tape library hardware and the ET, JDMA and NLA services have been suspended while it is worked on."
+      },
+      {
+        "date": "2025-02-03T16:00",
+        "details": "The tape library hardware has been returned to service but is only running at half-capacity. The performance of the ET, JDMA and NLA services are affected."
       }
     ]
   }
