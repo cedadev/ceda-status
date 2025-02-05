@@ -1,18 +1,6 @@
 [
   {
     "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Electrical work on RAL site 31 Jan - 05 Feb: low risk of disruption",
-    "date": "2025-01-31T12:00",
-    "updates": [
-      {
-        "date": "2025-01-21T10:30",
-        "details": "Work NOT expected to affect CEDA or JASMIN services, but FYI."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
     "affectedServices": "scratch, xfc, lotus cluster",
     "summary": "Scratch and xfc volumes: risk of disruption if disks become full",
     "date": "2025-01-22T16:00",
