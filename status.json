@@ -20,19 +20,10 @@
       {
         "date": "2025-01-22T16:00",
         "details": "Please clean up any non-essential data: be a good JASMIN citizen!"
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "sci-ph-0[1,2]",
-    "summary": "Reboot and change of Slurm cluster",
-    "date": "2025-01-03T06:00",
-    "updates": [
+      },
       {
-        "date": "2025-01-29T08:30",
-        "details": "Hosts sci-ph-0[1,2] now rebooted and submit to new LOTUS2 cluster only.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/#reboots-and-changes-to-physical-sci-servers"
+        "date": "2025-02-05T09:00",
+        "details": "/work/xfc/vol5 is now full, no further writes. Please clean up data from all xfc and scratch volumes."
       }
     ]
   },
