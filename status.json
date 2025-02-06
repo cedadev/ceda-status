@@ -41,6 +41,10 @@
       {
         "date": "2025-02-03T16:00",
         "details": "The tape library hardware has been returned to service but is only running at half-capacity. The performance of the ET, JDMA and NLA services are affected."
+      },
+      {
+        "date": "2025-02-06T16:45",
+        "details": "Intervention planned for morning of Monday 10 February, during which tape services should be considered unavailable."
       }
     ]
   }
