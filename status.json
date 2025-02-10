@@ -45,8 +45,10 @@
       {
         "date": "2025-02-06T16:45",
         "details": "Intervention planned for morning of Monday 10 February, during which tape services should be considered unavailable."
-      },
-      {
+      }
+    ]
+  },
+  {
     "status": "down",
     "affectedServices": "CEDA account services",
     "summary": "Update to dataset applications and authorisations service",
@@ -54,7 +56,7 @@
     "updates": [
       {
         "date": "2025-02-11T10:00",
-        "details": "Planned downtime from 10am on Tuesday 11th Feb, users will be unable to request access to datasets, view their current datasets or link their JASMIN account.",
+        "details": "Users will be unable to request access to datasets, view their current datasets or link their JASMIN account.",
         "url": null
       }
     ]
