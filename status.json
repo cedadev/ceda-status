@@ -1,86 +1,68 @@
 [
   {
-    "status": "degraded",
-    "affectedServices": "SOF storage",
-    "summary": "Issue affecting SOF storage used for /gws/nopw/j04/* workspaces & CEDA archive.",
-    "date": "2024-06-14T08:15",
-    "updates": [
-      {
-        "date": "2024-06-24T09:25",
-        "details": "Registry issue now resolved after some host reboots. Quota issue persists, see previous update."
-      },
-      {
-        "date": "2024-06-24T09:00",
-        "details": "Storage registry issue affecting SOF access from some hosts, team investigating. Quota issue persists, see previous update."
-      },
-      {
-        "date": "2024-06-14T08:15",
-        "details": "Some GWS volumes permitting writes beyond true quota and becoming full. Check mon.jasmin.ac.uk for true quota (df may report wrong value). Issue being investigated with storage vendor."
-      }
-    ]
-  },
-  {
     "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Electrical testing of fixed equipment",
-    "date": "2024-10-08T07:00",
+    "affectedServices": "scratch, xfc, lotus cluster",
+    "summary": "Scratch and xfc volumes: risk of disruption if disks become full",
+    "date": "2025-01-22T16:00",
     "updates": [
       {
-        "date": "2024-10-08T17:00",
-        "details": "Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access, should now be accessible again. Other services remain at risk for the remainder of this scheduled maintenance until the end of Thursday 10th October."
+        "date": "2025-01-22T16:00",
+        "details": "Please clean up any non-essential data: be a good JASMIN citizen!"
       },
       {
-        "date": "2024-10-08T14:30",
-        "details": "Failure of a switch during this work is currently affecting some Data Transfer Zone services, including gridftp1, hpxfer1,2, ceda ftp server and HAProxy used for object store access."
-      },
-      {
-        "date": "2024-09-25T16:00",
-        "details": "Confirmed for 8-10 October. Main visible effect will be reduced capacity in (existing) LOTUS cluster as power equipment for each rack of nodes are taken out of service for testing. Nodes in new cluster (not yet in production anyway) will be unavailable. Other services should not be affected."
-      },
-      {
-        "date": "2024-06-27T14:00",
-        "details": "Advance notice of potentially disruptive electrical testing work lasting 2-3 days in October 2024."
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "all",
-    "summary": "Quarterly scheduled maintenance day",
-    "date": "2024-10-15T07:00",
-    "updates": [
-      {
-        "date": "2024-10-07T07:00",
-        "details": "Reminder of upcoming maintenance affecting all services. Tape services will be unavailable from Monday 14th October 16:00 to Tuesday 15th October 13:00."
-      },
-      {
-        "date": "2024-09-27T07:00",
-        "details": "Reminder of regular quarterly scheduled maintenance day."
+        "date": "2025-02-05T09:00",
+        "details": "/work/xfc/vol5 is now full, no further writes. Please clean up data from all xfc and scratch volumes."
       }
     ]
   },
   {
     "status": "degraded",
-    "affectedServices": "software: IDL v8.9",
-    "summary": "version 8.9 now available",
-    "date": "2024-09-06T16:30",
+    "affectedServices": "LOTUS (old cluster)",
+    "summary": "Hosts now being retired from old cluster",
+    "date": "2025-01-28T17:00",
     "updates": [
       {
-        "date": "2024-09-06T16:30",
-        "details": "v8.9 now available but without full set of runtime licences. Ignore error message on startup.",
-        "url": "https://help.jasmin.ac.uk/docs/software-on-jasmin/idl/#making-efficient-use-of-idl-development-licences"
+        "date": "2025-01-28T17:00",
+        "details": "Expect jobs to run more slowly on old LOTUS cluster now ahead of retirement 18 Feb. Please use new LOTUS2 cluster.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/"
       }
     ]
   },
   {
     "status": "down",
-    "affectedServices": "tape services",
-    "summary": "Scheduled maintenance",
-    "date": "2024-10-23T16:00",
+    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
+    "summary": "ET, JDMA and NLA unavailable",
+    "date": "2025-01-31T12:00",
     "updates": [
       {
-        "date": "2024-10-07T09:30",
-        "details": "Advance notice of scheduled maintenance. Services will be unavailable until 13:00 on Thursday 24th October 2024."
+        "date": "2025-01-31T12:00",
+        "details": "There are currently issues with the tape library hardware and the ET, JDMA and NLA services have been suspended while it is worked on."
+      },
+      {
+        "date": "2025-02-03T16:00",
+        "details": "The tape library hardware has been returned to service but is only running at half-capacity. The performance of the ET, JDMA and NLA services are affected."
+      },
+      {
+        "date": "2025-02-06T16:45",
+        "details": "Intervention planned for morning of Monday 10 February, during which tape services should be considered unavailable."
+      }
+    ]
+  },
+  {
+    "status": "resolved",
+    "affectedServices": "CEDA account services",
+    "summary": "Update to dataset applications and authorisations service",
+    "date": "2025-02-11T10:00",
+    "updates": [
+      {
+        "date": "2025-02-11T10:00",
+        "details": "Users will be unable to request access to datasets, view their current datasets or link their JASMIN account.",
+        "url": null
+      },
+      {
+        "date": "2025-02-11T16:30",
+        "details": "upgrade has occurred - issues should now be resolved",
+        "url": null
       }
     ]
   }

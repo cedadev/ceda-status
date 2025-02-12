@@ -60,7 +60,7 @@ Field | Required | Details | Example
 status | yes | Overal current status of the incident | Must be one of `down`, `resolved`, `degraded` or `at risk`.
 affectedServices | yes | **Concise** list of affected services | `LOTUS & /gws/nopw/jo4/*` (free text)
 summary | yes | Concise summary of the incident (but not its status) | `Issue with storage systems`
-date | yes | date/time of **initial report or future planned date** of incident | `2024-03-31 09:00` (locale: en-GB)
+date | yes | date/time of **initial report or future planned date** of incident | `2024-03-31T09:00` (locale: en-GB)
 updates | at least 1 | see below | |
 
 There should be at least 1 `update`, each having the following:
