@@ -56,13 +56,23 @@
     "updates": [
       {
         "date": "2025-02-11T10:00",
-        "details": "Users will be unable to request access to datasets, view their current datasets or link their JASMIN account.",
-        "url": null
+        "details": "Users will be unable to request access to datasets, view their current datasets or link their JASMIN account."
       },
       {
         "date": "2025-02-11T16:30",
-        "details": "upgrade has occurred - issues should now be resolved",
-        "url": null
+        "details": "upgrade has occurred - issues should now be resolved"
+      }
+    ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "Sci Machines",
+    "summary": "Users now limited to 25% of RAM on sci machines",
+    "date": "2025-02-12T14:00",
+    "updates": [
+      {
+        "date": "2025-02-12T14:00",
+        "details": "Due to continuing overloading, we have reduced amount of RAM users can use on a sci machine from 33% to 25%. Please use a physical sci machine or a SLURM interactive job if you need more RAM."
       }
     ]
   }
