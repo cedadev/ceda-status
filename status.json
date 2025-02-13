@@ -41,7 +41,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "cron",
     "summary": "cron-01 downtime for change to new cluster",
     "date": "2025-02-13T08:00",
@@ -49,6 +49,10 @@
       {
         "date": "2025-02-12T16:00",
         "details": "cron-01 will switch over to submit to new cluster LOTUS2 Thursday 13th Feb 08:00, with downtime of 2 hrs 08:00-10:00 to allow users to update scripts."
+      },
+      {
+        "date": "2025-02-13T10:30",
+        "details": "cron-01 now updated to submit to LOTUS2. Update batch job scripts to use new cluster to avoid job rejections."
       }
     ]
   }
