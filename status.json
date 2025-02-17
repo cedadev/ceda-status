@@ -24,5 +24,17 @@
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-02-07-jasmin-further-updates-new-cluster/"
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "LOTUS2 (new cluster)",
+    "summary": "Issue over weekend, limited hosts available for processing",
+    "date": "2025-02-17T09:00",
+    "updates": [
+      {
+        "date": "2025-02-17T09:00",
+        "details": "An issue occurred over the weekend with the new cluster: investigation ongoing. Although it is now possible to submit jobs again, fewer hosts than normal are currently available for processing and remains at risk until further notice."
+      }
+    ]
   }
 ]
