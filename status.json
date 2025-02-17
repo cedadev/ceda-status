@@ -36,10 +36,6 @@
         "details": "An issue occurred over the weekend with the new cluster: investigation ongoing. Although it is now possible to submit jobs again, fewer hosts than normal are currently available for processing and remains at risk until further notice."
       },
       {
-        "date": "2025-02-17T10:15",
-        "details": "Investigation ongoing: intervention due shortly which may suspend job execution temporarily. Expect further disruption until further notice."
-      },
-      {
         "date": "2025-02-17T12:00",
         "details": "Investigation ongoing: partitions accepting jobs but not executing. Shutdown deadlines for old LOTUS will be extended by 48hrs to compensate. Expect disruption until further notice."
       }
