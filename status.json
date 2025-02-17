@@ -13,46 +13,20 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "CEDA account services",
-    "summary": "Update to dataset applications and authorisations service",
-    "date": "2025-02-11T10:00",
+    "status": "degraded",
+    "affectedServices": "LOTUS (old cluster)",
+    "summary": "sci-vm hosts submit to new cluster & standard partitions close Tues 18 Feb",
+    "date": "2025-01-28T17:00",
     "updates": [
       {
-        "date": "2025-02-11T10:00",
-        "details": "Users will be unable to request access to datasets, view their current datasets or link their JASMIN account."
+        "date": "2025-01-28T17:00",
+        "details": "Expect jobs to run more slowly on old LOTUS cluster now ahead of retirement 18 Feb. Please use new LOTUS2 cluster.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/"
       },
       {
-        "date": "2025-02-11T16:30",
-        "details": "upgrade has occurred - issues should now be resolved"
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "Sci Machines",
-    "summary": "Users now limited to 25% of RAM on sci machines",
-    "date": "2025-02-12T14:00",
-    "updates": [
-      {
-        "date": "2025-02-12T14:00",
-        "details": "Due to continuing overloading, we have reduced amount of RAM users can use on a sci machine from 33% to 25%. Please use a physical sci machine or a SLURM interactive job if you need more RAM."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "cron",
-    "summary": "cron-01 downtime for change to new cluster",
-    "date": "2025-02-13T08:00",
-    "updates": [
-      {
-        "date": "2025-02-12T16:00",
-        "details": "cron-01 will switch over to submit to new cluster LOTUS2 Thursday 13th Feb 08:00, with downtime of 2 hrs 08:00-10:00 to allow users to update scripts."
-      },
-      {
-        "date": "2025-02-13T10:30",
-        "details": "cron-01 now updated to submit to LOTUS2. Update batch job scripts to use new cluster to avoid job rejections."
+        "date": "2025-02-17T09:00",
+        "details": "REMINDER: sci-vm hosts submit to new cluster from Tues 18 Feb, standard partitions on old cluster will close.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-02-07-jasmin-further-updates-new-cluster/"
       }
     ]
   }
