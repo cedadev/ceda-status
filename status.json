@@ -16,7 +16,7 @@
     "status": "degraded",
     "affectedServices": "LOTUS (old cluster)",
     "summary": "sci-vm hosts submit to new cluster & standard partitions close Tues 18 Feb",
-    "date": "2025-01-28T17:00",
+    "date": "2025-02-18T08:00",
     "updates": [
       {
         "date": "2025-02-17T09:00",
