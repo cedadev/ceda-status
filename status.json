@@ -44,5 +44,17 @@
         "details": "Paritions/Queues were briefly reopened earlier but issue recurred: standard and debug partitions now closed again, while investigation continues. Highres partition currently unaffected but PLEASE DO NOT transfer non-highres jobs to that partition. Further details expected later today, apologies for inconvenience."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "sci, lotus",
+    "summary": "Use of watch / --iterate causing excess resource usage",
+    "date": "2025-02-18T16:30",
+    "updates": [
+        {
+          "date": "2025-02-18T16:30",
+          "details": "Please refrain from using the 'watch' command, and/or the '--iterate' option with Slurm commands. Doing so can overload the Slurm controller in a multi-user environment. Please find an alternative way to monitor your jobs that does not involve contacting the controller repeatedly. Running 'watch' elsewhere must only be done with care, supervision and for a limited duration, since repeated execution of some commands can be extremely wasteful and cause system instability."
+        }
+      ]
   }
 ]
