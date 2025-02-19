@@ -22,6 +22,10 @@
         "date": "2025-02-17T09:00",
         "details": "REMINDER: sci-vm hosts submit to new cluster from Tues 18 Feb, standard partitions on old cluster will close.",
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-02-07-jasmin-further-updates-new-cluster/"
+      },
+      {
+        "date": "2025-02-18T17:00",
+        "details": "Closure of partitions on old cluster postponed while issue with new cluster is ongoing."
       }
     ]
   },
