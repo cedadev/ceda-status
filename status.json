@@ -32,20 +32,12 @@
   {
     "status": "degraded",
     "affectedServices": "LOTUS2 (new cluster)",
-    "summary": "Issue over weekend, limited hosts available for processing",
+    "summary": "Limited hosts available for processing",
     "date": "2025-02-17T09:00",
     "updates": [
       {
-        "date": "2025-02-17T09:00",
-        "details": "An issue occurred over the weekend with the new cluster: investigation ongoing. Although it is now possible to submit jobs again, fewer hosts than normal are currently available for processing and remains at risk until further notice."
-      },
-      {
-        "date": "2025-02-17T12:00",
-        "details": "Investigation ongoing: partitions accepting jobs but not executing. Shutdown deadlines for old LOTUS will be extended by 48hrs to compensate. Expect disruption until further notice."
-      },
-      {
-        "date": "2025-02-18T10:30",
-        "details": "Paritions/Queues were briefly reopened earlier but issue recurred: standard and debug partitions now closed again, while investigation continues. Highres partition currently unaffected but PLEASE DO NOT transfer non-highres jobs to that partition. Further details expected later today, apologies for inconvenience."
+        "date": "2025-02-19T17:00",
+        "details": "Issues ongoing. Investigation continues with support from scheduler vendor."
       }
     ]
   },
