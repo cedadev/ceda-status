@@ -36,21 +36,9 @@
     "date": "2025-02-17T09:00",
     "updates": [
       {
-        "date": "2025-02-19T17:00",
-        "details": "Issues ongoing. Investigation continues with support from scheduler vendor."
+        "date": "2025-02-24T11:00",
+        "details": "Some nodes still failing under heavy load of many jobs: investigation continues. Changes made to scheduler parameters to reduce number of jobs that can be started on each node: may result in longer wait time before jobs start. To help, please use array jobs instead of many individual jobs. Also DO NOT run 'watch' command with Slurm jobs - detected instances will be killed. Old LOTUS remains open while investigations with new cluster continue. Apologies for any inconvenience."
       }
     ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "sci, lotus",
-    "summary": "Use of watch / --iterate causing excess resource usage",
-    "date": "2025-02-18T16:30",
-    "updates": [
-        {
-          "date": "2025-02-18T16:30",
-          "details": "Please refrain from using the 'watch' command, and/or the '--iterate' option with Slurm commands. Doing so can overload the Slurm controller in a multi-user environment. Please find an alternative way to monitor your jobs that does not involve contacting the controller repeatedly. Running 'watch' elsewhere must only be done with care, supervision and for a limited duration, since repeated execution of some commands can be extremely wasteful and cause system instability."
-        }
-      ]
   }
 ]
