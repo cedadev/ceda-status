@@ -26,6 +26,10 @@
       {
         "date": "2025-02-18T17:00",
         "details": "Closure of partitions on old cluster postponed while issue with new cluster is ongoing."
+      },
+      {
+        "date": "2025-02-26T17:00",
+        "details": "Provisional date for closure of partitions on old cluster now 14 March 2025."
       }
     ]
   },
@@ -38,6 +42,10 @@
       {
         "date": "2025-02-24T11:00",
         "details": "Some nodes still failing under heavy load of many jobs: investigation continues. Changes made to scheduler parameters to reduce number of jobs that can be started on each node: may result in longer wait time before jobs start. To help, please use array jobs instead of many individual jobs. Also DO NOT run 'watch' command with Slurm jobs - detected instances will be killed. Old LOTUS remains open while investigations with new cluster continue. Apologies for any inconvenience."
+      },
+      {
+        "date": "2025-02-26T17:00",
+        "details": "Remedial intervention now planned for Wednesday 4th March 2025, requiring draining of LOTUS2 cluster. Reservation now in place (as of 15:45 today), so users submitting long jobs will see their jobs scheduled to start after the end of the reservation period."
       }
     ]
   }
