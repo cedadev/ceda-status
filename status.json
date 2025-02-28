@@ -39,5 +39,17 @@
         "details": "Remedial intervention now planned for Tuesday 4th March 2025, requiring draining of LOTUS2 cluster. Reservation is now in place to start at 05:00 on that day, so users submitting long jobs now will see their jobs scheduled to start after the end of the reservation period."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Regular scheduled maintenance day",
+    "date": "2025-04-29T00:01",
+    "updates": [
+      {
+        "date": "2025-02-28T13:00",
+        "details": "Advance notice of regular scheduled maintenance day. Please plan your work to minimise disruption."
+      }
+    ]
   }
 ]
