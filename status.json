@@ -25,7 +25,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "at risk",
     "affectedServices": "LOTUS2 (new cluster)",
     "summary": "Limited hosts available for processing",
     "date": "2025-02-17T09:00",
@@ -40,7 +40,7 @@
       },
       {
         "date": "2025-03-04T10:00",
-        "details": "Update of the Slurm RPMs on LOTUS2 has been completed and the reservation released. Jobs are not yet running. We will be monitoring the cluster and scheduler and if all seems well, we will gradually increase the number of jobs that can be started during each scheduler cycle. It is likely that other changes to the configuration will take place in the coming weeks. Thanks for your patience and apologies for the inconvenience."
+        "details": "Update of the Slurm RPMs on LOTUS2 has been completed and the reservation released. Jobs ARE now running. We will be monitoring the cluster and scheduler and if all seems well, we will gradually increase the number of jobs that can be started during each scheduler cycle. It is likely that other changes to the configuration will take place in the coming weeks. Thanks for your patience and apologies for the inconvenience."
       }
     ]
   },
