@@ -37,6 +37,10 @@
       {
         "date": "2025-02-27T08:45",
         "details": "Remedial intervention now planned for Tuesday 4th March 2025, requiring draining of LOTUS2 cluster. Reservation is now in place to start at 05:00 on that day, so users submitting long jobs now will see their jobs scheduled to start after the end of the reservation period."
+      },
+      {
+        "date": "2025-03-04T10:00",
+        "details": "Update of the Slurm RPMs on LOTUS2 has been completed and the reservation released. Jobs are not yet running. We will be monitoring the cluster and scheduler and if all seems well, we will gradually increase the number of jobs that can be started during each scheduler cycle. It is likely that other changes to the configuration will take place in the coming weeks. Thanks for your patience and apologies for the inconvenience."
       }
     ]
   },
