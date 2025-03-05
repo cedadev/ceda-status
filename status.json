@@ -15,12 +15,12 @@
   {
     "status": "degraded",
     "affectedServices": "LOTUS (old cluster)",
-    "summary": "sci-vm hosts submit to new cluster & standard partitions close Tues 18 Feb",
+    "summary": "Postponed: sci-vm hosts submit to new cluster & standard partitions closure",
     "date": "2025-02-18T08:00",
     "updates": [
       {
-        "date": "2025-02-26T17:00",
-        "details": "Provisional date for closure of partitions on old cluster now 14 March 2025."
+        "date": "2025-03-05T16:00",
+        "details": "Provisional date for closure of partitions on old cluster is TBC - watch this space."
       }
     ]
   },
