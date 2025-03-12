@@ -38,7 +38,7 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "PFS storage: /work/*, /gws/pw/j07/*, som internal volumes",
+    "affectedServices": "PFS storage: /work/*, /gws/pw/j07/*, some internal volumes",
     "summary": "Issue with PFS storage system",
     "date": "2025-03-12T14:30",
     "updates": [
