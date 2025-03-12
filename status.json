@@ -25,18 +25,26 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "LOTUS2 (new cluster)",
     "summary": "Limited hosts available for processing",
     "date": "2025-02-17T09:00",
     "updates": [
       {
-        "date": "2025-03-04T16:20",
-        "details": "LOTUS2 is accepting and processing jobs again. No further testing will be carried out today, but will resume tomorrow. Apologies for the inconvenience."
-      },
+        "date": "2025-03-11T09:00",
+        "details": "Cluster now operating normally."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "PFS storage: /work/*, /gws/pw/j07/*, som internal volumes",
+    "summary": "Issue with PFS storage system",
+    "date": "2025-03-13T14:30",
+    "updates": [
       {
-        "date": "2025-03-05T08:15",
-        "details": "Further issue with LOTUS2 overnight, team investigating. Jobs running but system remains at risk."
+        "date": "2025-03-13T14:30",
+        "details": "Currently under investigation with vendor"
       }
     ]
   },
