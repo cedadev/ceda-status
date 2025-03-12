@@ -40,10 +40,10 @@
     "status": "degraded",
     "affectedServices": "PFS storage: /work/*, /gws/pw/j07/*, som internal volumes",
     "summary": "Issue with PFS storage system",
-    "date": "2025-03-13T14:30",
+    "date": "2025-03-12T14:30",
     "updates": [
       {
-        "date": "2025-03-13T14:30",
+        "date": "2025-03-12T14:30",
         "details": "Currently under investigation with vendor"
       }
     ]
