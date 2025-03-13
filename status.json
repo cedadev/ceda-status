@@ -63,5 +63,17 @@
         "details": "Advance notice of regular scheduled maintenance day. Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "xfer-vm-01",
+    "summary": "Issue with DNS entry / resolving hostname",
+    "date": "2025-03-13T13:00",
+    "updates": [
+      {
+        "date": "2025-03-13T13:00",
+        "details": "An issue with the DNS entry for xfer-vm-01 is currently affecting access to this host. Please use one of the alternative hosts xfer-vm-0[2,3] until this is fixed, anticipated tomorrow."
+      }
+    ]
   }
 ]
