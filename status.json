@@ -37,7 +37,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "PFS storage: /work/*, /gws/pw/j07/*, some internal volumes",
     "summary": "Issue with PFS storage system",
     "date": "2025-03-12T14:30",
@@ -45,6 +45,10 @@
       {
         "date": "2025-03-12T14:30",
         "details": "Issue results in errors 'No space left on device', currently under investigation with vendor."
+      },
+      {
+        "date": "2025-03-13T14:50",
+        "details": "Issue now resolved: please report any further instances."
       }
     ]
   },
