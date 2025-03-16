@@ -65,7 +65,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "xfer-vm-01",
     "summary": "Issue with DNS entry / resolving hostname",
     "date": "2025-03-13T13:00",
@@ -73,6 +73,10 @@
       {
         "date": "2025-03-13T13:00",
         "details": "An issue with the DNS entry for xfer-vm-01 is currently affecting access to this host. Please use one of the alternative hosts xfer-vm-0[2,3] until this is fixed, anticipated tomorrow."
+      },
+      {
+        "date": "2025-03-14T11:00",
+        "details": "Issue now resolved."
       }
     ]
   }
