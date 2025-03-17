@@ -15,40 +15,12 @@
   {
     "status": "degraded",
     "affectedServices": "LOTUS (old cluster)",
-    "summary": "Postponed: sci-vm hosts submit to new cluster & standard partitions closure",
+    "summary": "sci-vm hosts to submit to new cluster & standard partitions closure",
     "date": "2025-02-18T08:00",
     "updates": [
       {
-        "date": "2025-03-05T16:00",
-        "details": "Provisional date for closure of partitions on old cluster is TBC - watch this space."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "LOTUS2 (new cluster)",
-    "summary": "Limited hosts available for processing",
-    "date": "2025-02-17T09:00",
-    "updates": [
-      {
-        "date": "2025-03-11T09:00",
-        "details": "Cluster now operating normally."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "PFS storage: /work/*, /gws/pw/j07/*, some internal volumes",
-    "summary": "Issue with PFS storage system",
-    "date": "2025-03-12T14:30",
-    "updates": [
-      {
-        "date": "2025-03-12T14:30",
-        "details": "Issue results in errors 'No space left on device', currently under investigation with vendor."
-      },
-      {
-        "date": "2025-03-13T14:50",
-        "details": "Issue now resolved: please report any further instances."
+        "date": "2025-03-14T17:00",
+        "details": "Date for closure of partitions on old cluster is now 28 March 2025."
       }
     ]
   },
@@ -60,23 +32,7 @@
     "updates": [
       {
         "date": "2025-02-28T13:00",
-        "details": "Advance notice of regular scheduled maintenance day. Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "xfer-vm-01",
-    "summary": "Issue with DNS entry / resolving hostname",
-    "date": "2025-03-13T13:00",
-    "updates": [
-      {
-        "date": "2025-03-13T13:00",
-        "details": "An issue with the DNS entry for xfer-vm-01 is currently affecting access to this host. Please use one of the alternative hosts xfer-vm-0[2,3] until this is fixed, anticipated tomorrow."
-      },
-      {
-        "date": "2025-03-14T11:00",
-        "details": "Issue now resolved."
+        "details": "Advance notice of regular scheduled maintenance day on Tues 29 April 2025. Please plan your work to minimise disruption."
       }
     ]
   }
