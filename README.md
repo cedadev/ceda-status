@@ -26,8 +26,14 @@ If you edit the repository directly on the GitHub website, please look out for a
 
 ## Editing
 
-The JSON content is stored in `status.json` and is fed by the "raw" view at the URL
+There are a few options for editing the status page: you can either edit the JSON manually, with the online Json-Editor, or use the CLI editor (currently just for adding entries).
+
+### Manually
+
+The JSON content is stored in `status.json` and is fed to the [CEDA status page](https://www.ceda.ac.uk/status) using the "raw" view at the URL
 https://raw.githubusercontent.com/cedadev/ceda-status/main/status.json
+
+### Json-Editor
 
 The schema file `statuspage.schema.json` is designed to be used in conjunction with the online [Json-Editor](https://pmk65.github.io/jedemov2/dist/demo.html) tool. Hence it includes some configuration for that tool as well as schema rules to validate a `statuspage` JSON document.
 
@@ -46,8 +52,16 @@ Procedure:
   - Navigate to the "Output" tab: the JSON content should be updated with (valid) changes
   - Copy that JSON content back to your own editor as new content for `statuspage.schema.json`
 - Committing and pushing your changes to `status.json` in the `main` branch on GitHub means that these changes are made live.
-- The CEDA status page at `www.ceda.ac.uk/status` has JQuery code to read the JSON feed from the "raw" URL above.
+- The [CEDA status page](https://www.ceda.ac.uk/status) has JQuery code to read the JSON feed from the "raw" URL above.
 - A user viewing the status page should now see the updated status content in their browser.
+
+### CLI editor
+
+To add an entry, run the following and fill in the information at the prompts. Make sure you follow the content guidance at the end of this README!
+
+```
+poetry run python -m ceda_status_validator.editor add-entry
+```
 
 ## Content guidance
 
