@@ -35,5 +35,17 @@
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 April 2025. Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "JASMIN Cloud",
+    "summary": "Cloud network maintenance work carries risk of short interruption for tenancies in JASMIN VIO Cloud.",
+    "date": "2025-03-27T00:01",
+    "updates": [
+      {
+        "date": "2025-03-26T08:30",
+        "details": "Network maintenance work is happening on Thurs 27 March 2025 to move a VXLAN endpoint for the new STFC Cloud network to a new firewall pair. While this work should not touch the existing JASMIN VIO cloud network, the JASMIN Cloud should be considered at risk for the whole day (with any downtime expected to be short if it occurs)."
+      }
+    ]
   }
 ]
