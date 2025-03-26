@@ -47,5 +47,17 @@
         "details": "Network maintenance work is happening on Thurs 27 March 2025 to move a VXLAN endpoint for the new STFC Cloud network to a new firewall pair. While this work should not touch the existing JASMIN VIO cloud network, the JASMIN Cloud should be considered at risk for the whole day (with any downtime expected to be short if it occurs)."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "ORCHID GPU cluster",
+    "summary": "ORCHID GPU cluster (batch nodes and interactive node) down for maintenance.",
+    "date": "2025-03-31T00:01",
+    "updates": [
+      {
+        "date": "2025-03-27T15:00",
+        "details": "As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on Monday 31st March 2025."
+      }
+    ]
   }
 ]
