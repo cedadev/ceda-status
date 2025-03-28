@@ -59,5 +59,17 @@
         "details": "As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on Monday 31st March 2025."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "Object storage (HPOS)",
+    "summary": "Maintenance work to switch proxy",
+    "date": "2025-04-01T09:00",
+    "updates": [
+      {
+        "date": "2025-03-28T09:45",
+        "details": "Change should be transparent to users: no action needed."
+      }
+    ]
   }
 ]
