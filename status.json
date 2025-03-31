@@ -52,11 +52,11 @@
     "status": "down",
     "affectedServices": "ORCHID GPU cluster",
     "summary": "ORCHID GPU cluster (batch nodes and interactive node) down for maintenance.",
-    "date": "2025-03-31T00:01",
+    "date": "2025-04-02T00:01",
     "updates": [
       {
-        "date": "2025-03-27T15:00",
-        "details": "As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on Monday 31st March 2025."
+        "date": "2025-03-31T14:00",
+        "details": "As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on Wednesday 2nd April 2025."
       }
     ]
   },
