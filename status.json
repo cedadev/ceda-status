@@ -1,14 +1,13 @@
 [
   {
-    "status": "degraded",
+    "status": "down",
     "affectedServices": "LOTUS (old cluster)",
-    "summary": "Hosts now being retired from old cluster",
-    "date": "2025-01-28T17:00",
+    "summary": "Old cluster now retired for general use",
+    "date": "2025-03-28T17:00",
     "updates": [
       {
-        "date": "2025-01-28T17:00",
-        "details": "Expect jobs to run more slowly on old LOTUS cluster, ahead of full retirement. Please use new LOTUS2 cluster.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/"
+        "date": "2025-03-28T17:00",
+        "details": "As per recent announcements, the old cluster is now retired for general use. The new cluster is available for all users."
       }
     ]
   },
@@ -33,18 +32,6 @@
       {
         "date": "2025-02-28T13:00",
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 April 2025. Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "JASMIN Cloud",
-    "summary": "Cloud network maintenance work carries risk of short interruption for tenancies in JASMIN VIO Cloud.",
-    "date": "2025-03-27T00:01",
-    "updates": [
-      {
-        "date": "2025-03-26T08:30",
-        "details": "Network maintenance work is happening on Thurs 27 March 2025 to move a VXLAN endpoint for the new STFC Cloud network to a new firewall pair. While this work should not touch the existing JASMIN VIO cloud network, the JASMIN Cloud should be considered at risk for the whole day (with any downtime expected to be short if it occurs)."
       }
     ]
   },
