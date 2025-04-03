@@ -70,5 +70,17 @@
         "details": "Change should be transparent to users: no action needed."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "PFS storage (/work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*)",
+    "summary": "I/O errors writing to PFS from within Slurm jobs",
+    "date": "2025-04-03T13:00",
+    "updates": [
+      {
+        "date": "2025-04-03T13:00",
+        "details": "Issue reported where I/O errors occur when writing to PFS storage volumes from Slurm jobs. Appears to be memory-related: initial advice is to increase memory allocation for job. Investigation underway with vendor, awaiting further advice."
+      }
+    ]
   }
 ]
