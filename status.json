@@ -1,17 +1,21 @@
 [
     {
-    "status": "resolved",
+    "status": "at risk",
     "affectedServices": "ALL Services",
     "summary": "Total network failure at RAL, all JASMIN and CEDA services down.",
     "date": "2025-04-04T09:00",
     "updates": [
       {
         "date": "2025-04-04T09:00",
-        "details": "A total network failure at RAL means all JASMIN and CEDA services are down."
+        "details": "A total network failure at RAL means all JASMIN and CEDA services are down. Outage started Thu 3rd Apr ~23:00."
       },
       {
         "date": "2025-04-04T09:50",
         "details": "Networking issue has now been resolved, service has resumed."
+      },
+      {
+        "date": "2025-04-04T10:55",
+        "details": "Although networking issue is resolved, service still at risk. LOTUS jobs running/started during the outage are likely to timeout or fail. Please cancel or resubmit these jobs if they fail."
       }
     ]
   },
