@@ -3,7 +3,7 @@
     "status": "down",
     "affectedServices": "ALL Services",
     "summary": "Total network failure at RAL, all JASMIN and CEDA services down.",
-    "date": "2025-04-04T19:00",
+    "date": "2025-04-04T09:00",
     "updates": [
       {
         "date": "2025-04-04T09:00",
