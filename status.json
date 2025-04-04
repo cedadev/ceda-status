@@ -1,4 +1,16 @@
 [
+    {
+    "status": "down",
+    "affectedServices": "ALL Services",
+    "summary": "Total network failure at RAL, all JASMIN and CEDA services down.",
+    "date": "2025-04-04T19:00",
+    "updates": [
+      {
+        "date": "2025-04-04T19:00",
+        "details": "At total network failure at RAL means all JASMIN and CEDA services are down."
+      }
+    ]
+  },
   {
     "status": "down",
     "affectedServices": "LOTUS (old cluster)",
