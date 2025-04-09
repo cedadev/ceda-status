@@ -1,24 +1,4 @@
 [
-    {
-    "status": "at risk",
-    "affectedServices": "ALL Services",
-    "summary": "Total network failure at RAL, all JASMIN and CEDA services down.",
-    "date": "2025-04-04T09:00",
-    "updates": [
-      {
-        "date": "2025-04-04T09:00",
-        "details": "A total network failure at RAL means all JASMIN and CEDA services are down. Outage started Thu 3rd Apr ~23:00."
-      },
-      {
-        "date": "2025-04-04T09:50",
-        "details": "Networking issue has now been resolved, service has resumed."
-      },
-      {
-        "date": "2025-04-04T10:55",
-        "details": "Although networking issue is resolved, service still at risk. LOTUS jobs running/started during the outage are likely to timeout or fail. Please cancel or resubmit these jobs if they fail."
-      }
-    ]
-  },
   {
     "status": "down",
     "affectedServices": "LOTUS (old cluster)",
@@ -27,19 +7,7 @@
     "updates": [
       {
         "date": "2025-03-28T17:00",
-        "details": "As per recent announcements, the old cluster is now retired for general use. The new cluster is available for all users."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "sci-vm-*",
-    "summary": "sci-vm hosts now submit to new cluster",
-    "date": "2025-03-31T09:00",
-    "updates": [
-      {
-        "date": "2025-03-31T09:00",
-        "details": "sci-vm hosts have been switched over so that they now submit only to the new cluster."
+        "details": "As per recent announcements, the old cluster is now retired for general use. The new cluster is available for all users and all sci machines now submit to it."
       }
     ]
   },
@@ -64,18 +32,6 @@
       {
         "date": "2025-04-01T14:00",
         "details": "[POSTPONED] As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on [new date TBC]."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "Object storage (HPOS)",
-    "summary": "Maintenance work to switch proxy",
-    "date": "2025-04-01T09:00",
-    "updates": [
-      {
-        "date": "2025-03-28T09:45",
-        "details": "Change should be transparent to users: no action needed."
       }
     ]
   },
