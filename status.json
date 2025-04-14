@@ -46,5 +46,17 @@
         "details": "Issue reported where I/O errors occur when writing to PFS storage volumes from Slurm jobs. Appears to be memory-related: initial advice is to increase memory allocation for job. Investigation underway with vendor, awaiting further advice."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "SSD storage: HOME, /gws/smf/*, /work/scratch-nopw2",
+    "summary": "Scheduled maintenance of SSD storage for software upgrade",
+    "date": "2025-04-22T12:00",
+    "updates": [
+      {
+        "date": "2025-04-14T15:00",
+        "details": "Advance notice: SSD storage at-risk on afternoon of Tuesday 22nd April 2025. Disruption possible though unlikely, but would have wide-reaching impact, affecting user home directories, /work/scratch-nopw2 and GWS 'SMF' volumes with paths /gws/smf/*."
+      }
+    ]
   }
 ]
