@@ -16,7 +16,7 @@ def cli() -> None:
     "--status",
     prompt=True,
     type=click.Choice(list(model.Status.__members__.keys())),
-    default=model.Status.DOWN._name_,
+    default=model.Status.DOWN.name,
     help="Current status of this service to be shown to users.",
 )
 @click.option(
@@ -78,7 +78,7 @@ def add_entry(
     # Read in existing file and parse it.
     with open("status.json", "r", encoding="utf-8") as thefile:
         status_file_contents = json.load(thefile)
-    status_file_model = model.StatusPage.validate(status_file_contents)
+    status_file_model = model.StatusPage.model_validate(status_file_contents)
 
     # Add in the new incident.
     status_file_model.root.append(incident)
