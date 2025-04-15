@@ -58,5 +58,17 @@
         "details": "Advance notice: SSD storage at-risk on afternoon of Tuesday 22nd April 2025. Disruption possible though unlikely, but would have wide-reaching impact, affecting user home directories, /work/scratch-nopw2 and GWS 'SMF' volumes with paths /gws/smf/*."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-15T10:00",
+    "updates": [
+      {
+        "date": "2025-04-15T10:00",
+        "details": "We are aware of a loss of networking at the RAL site where JASMIN is hosted. This is causing problems with external access to JASMIN and CEDA services. The network team has been made aware of the problem, and are working towards a fix."
+      }
+    ]
   }
 ]
