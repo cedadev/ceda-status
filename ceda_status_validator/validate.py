@@ -1,7 +1,8 @@
 import sys
 
-from model import StatusPage
 from pydantic import ValidationError
+
+from .model import StatusPage
 
 with open("status.json", "r") as status_file:
     status_page = status_file.read()

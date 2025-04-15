@@ -15,6 +15,7 @@
           "type": "string"
         },
         "date": {
+          "format": "date-time",
           "title": "Date",
           "type": "string"
         },
@@ -52,6 +53,7 @@
       "description": "An update contains further details and an optional URL for more info",
       "properties": {
         "date": {
+          "format": "date-time",
           "title": "Date",
           "type": "string"
         },

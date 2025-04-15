@@ -1,6 +1,6 @@
 import json
 
-from model import StatusPage
+from .model import StatusPage
 
 schema = StatusPage.model_json_schema()
 
