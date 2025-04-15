@@ -1,78 +1,61 @@
 [
   {
-    "status": "at risk",
-    "affectedServices": "scratch, xfc, lotus cluster",
-    "summary": "Scratch and xfc volumes: risk of disruption if disks become full",
-    "date": "2025-01-22T16:00",
-    "updates": [
-      {
-        "date": "2025-01-22T16:00",
-        "details": "Please clean up any non-essential data: be a good JASMIN citizen!"
-      },
-      {
-        "date": "2025-02-05T09:00",
-        "details": "/work/xfc/vol5 is now full, no further writes. Please clean up data from all xfc and scratch volumes."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
+    "status": "down",
     "affectedServices": "LOTUS (old cluster)",
-    "summary": "Hosts now being retired from old cluster",
-    "date": "2025-01-28T17:00",
+    "summary": "Old cluster now retired for general use",
+    "date": "2025-03-28T17:00",
     "updates": [
       {
-        "date": "2025-01-28T17:00",
-        "details": "Expect jobs to run more slowly on old LOTUS cluster now ahead of retirement 18 Feb. Please use new LOTUS2 cluster.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-01-28-jasmin-updates-new-cluster-scratch-conda-removal/"
+        "date": "2025-03-28T17:00",
+        "details": "As per recent announcements, the old cluster is now retired for general use. The new cluster is available for all users and all sci machines now submit to it."
       }
     ]
   },
   {
     "status": "down",
-    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
-    "summary": "ET, JDMA and NLA unavailable",
-    "date": "2025-01-31T12:00",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Regular scheduled maintenance day",
+    "date": "2025-04-29T00:01",
     "updates": [
       {
-        "date": "2025-01-31T12:00",
-        "details": "There are currently issues with the tape library hardware and the ET, JDMA and NLA services have been suspended while it is worked on."
-      },
-      {
-        "date": "2025-02-03T16:00",
-        "details": "The tape library hardware has been returned to service but is only running at half-capacity. The performance of the ET, JDMA and NLA services are affected."
-      },
-      {
-        "date": "2025-02-06T16:45",
-        "details": "Intervention planned for morning of Monday 10 February, during which tape services should be considered unavailable."
+        "date": "2025-02-28T13:00",
+        "details": "Advance notice of regular scheduled maintenance day on Tues 29 April 2025. Please plan your work to minimise disruption."
       }
     ]
   },
   {
     "status": "resolved",
-    "affectedServices": "CEDA account services",
-    "summary": "Update to dataset applications and authorisations service",
-    "date": "2025-02-11T10:00",
+    "affectedServices": "ORCHID GPU cluster",
+    "summary": "ORCHID GPU cluster (batch nodes and interactive node) down for maintenance.",
+    "date": "2025-04-02T00:01",
     "updates": [
       {
-        "date": "2025-02-11T10:00",
-        "details": "Users will be unable to request access to datasets, view their current datasets or link their JASMIN account."
-      },
+        "date": "2025-04-01T14:00",
+        "details": "[POSTPONED] As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on [new date TBC]."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "PFS storage (/work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*)",
+    "summary": "I/O errors writing to PFS from within Slurm jobs",
+    "date": "2025-04-03T13:00",
+    "updates": [
       {
-        "date": "2025-02-11T16:30",
-        "details": "upgrade has occurred - issues should now be resolved"
+        "date": "2025-04-03T13:00",
+        "details": "Issue reported where I/O errors occur when writing to PFS storage volumes from Slurm jobs. Appears to be memory-related: initial advice is to increase memory allocation for job. Investigation underway with vendor, awaiting further advice."
       }
     ]
   },
   {
     "status": "at risk",
-    "affectedServices": "Sci Machines",
-    "summary": "Users now limited to 25% of RAM on sci machines",
-    "date": "2025-02-12T14:00",
+    "affectedServices": "SSD storage: HOME, /gws/smf/*, /work/scratch-nopw2",
+    "summary": "Scheduled maintenance of SSD storage for software upgrade",
+    "date": "2025-04-22T12:00",
     "updates": [
       {
-        "date": "2025-02-12T14:00",
-        "details": "Due to continuing overloading, we have reduced amount of RAM users can use on a sci machine from 33% to 25%. Please use a physical sci machine or a SLURM interactive job if you need more RAM."
+        "date": "2025-04-14T15:00",
+        "details": "Advance notice: SSD storage at-risk on afternoon of Tuesday 22nd April 2025. Disruption possible though unlikely, but would have wide-reaching impact, affecting user home directories, /work/scratch-nopw2 and GWS 'SMF' volumes with paths /gws/smf/*."
       }
     ]
   }
