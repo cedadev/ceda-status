@@ -70,5 +70,17 @@
         "details": "We are aware of a loss of networking at the RAL site where JASMIN is hosted. This is causing problems with external access to JASMIN and CEDA services. The network team has been made aware of the problem, and are working towards a fix."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "LOTUS2 (new cluster)",
+    "summary": "Issue with Slurm controller",
+    "date": "2025-04-15T19:30",
+    "updates": [
+      {
+        "date": "2025-04-16T09:00",
+        "details": "There was an issue with Slurm controller service 19:30 - 20:30 last night. Users would have experienced Slurm commands hanging, and may not have been able to submit jobs. It is probable that running jobs may have failed/timed out. Possible residual failures/time outs this morning. Slurm controller service has been restarted and jobs are running, Slurm commands running as expected. Further support actions in progress."
+      }
+    ]
   }
 ]
