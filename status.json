@@ -1,4 +1,16 @@
 [
+    {
+    "status": "down",
+    "affectedServices": "Notebook GPU Kernels",
+    "summary": "Unable to launch GPU Notebooks",
+    "date": "2025-04-16T17:00",
+    "updates": [
+      {
+        "date": "2025-04-17T09:00",
+        "details": "Notebook users are unable to start a Notebook Kernel on the GPU Node, the two other kernels remain available."
+      }
+    ]
+  },
   {
     "status": "down",
     "affectedServices": "LOTUS (old cluster)",
