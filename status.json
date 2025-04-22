@@ -11,6 +11,18 @@
       }
     ]
   },
+    {
+    "status": "down",
+    "affectedServices": "External access to S3 / Object Store (s3-ext)",
+    "summary": "Expired certificate for s3-ext service",
+    "date": "2025-04-23T00:00",
+    "updates": [
+      {
+        "date": "2025-04-22T15:30",
+        "details": "The certificate for s3-ext (object store, external access) will expire at midnight, the replacement will not be in place until later in the day. The service will be unavailable to external users until the certificate is in place."
+      }
+    ]
+  },
   {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
