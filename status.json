@@ -7,43 +7,7 @@
     "updates": [
       {
         "date": "2025-04-22T14:15",
-        "details": "All CEDA and JASMIN services are at risk from wetwork interuptions between 2025-04-22 14:00 and 2025-04-24 00:01 due to loss of redundency in network infrastructure at RAL"
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Loss of networking at RAL",
-    "date": "2025-04-23T17:00",
-    "updates": [
-      {
-        "date": "2025-04-22T14:15",
-        "details": "Router upgrades will result in a ~10 minute network interuption"
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Loss of networking at RAL",
-    "date": "2025-04-22T17:00",
-    "updates": [
-      {
-        "date": "2025-04-22T14:15",
-        "details": "Router upgrades will result in a ~10 minute network interuption"
-      }
-    ]
-  },
-    {
-    "status": "down",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Loss of networking at RAL",
-    "date": "2025-04-22T14:00",
-    "updates": [
-      {
-        "date": "2025-04-22T14:15",
-        "details": "Router upgrades will result in a ~10 minute network interuption"
+        "details": "All CEDA and JASMIN services are at risk from network interruption between 2025-04-22 14:00 and 2025-04-24 00:01 due to loss of redundancy in network infrastructure at RAL. There are confirmed 10 minute windows of planned downtime starting at 2025-04-22 14:00, 2025-04-22 17:00, 2025-04-23 07:00 and 2025-04-23 17:00"
       }
     ]
   },
@@ -55,19 +19,7 @@
     "updates": [
       {
         "date": "2025-04-22T10:30",
-        "details": "Router upgrades will result in a ~10 minute network interution between 2025-04-30 07:00 and 2025-04-30 09:00"
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Risk of loss of networking at RAL",
-    "date": "2025-04-23T07:00",
-    "updates": [
-      {
-        "date": "2025-04-22T10:30",
-        "details": "Investigations into recent network issue will result in a risk of a ~10 minute network interution between 2025-04-23 07:00 and 2025-04-23 09:00"
+        "details": "Router upgrades will result in a ~10 minute network interruption between 2025-04-30 07:00 and 2025-04-30 09:00"
       }
     ]
   },
@@ -120,22 +72,6 @@
       {
         "date": "2025-04-14T15:00",
         "details": "Advance notice: SSD storage at-risk on afternoon of Tuesday 22nd April 2025. Disruption possible though unlikely, but would have wide-reaching impact, affecting user home directories, /work/scratch-nopw2 and GWS 'SMF' volumes with paths /gws/smf/*."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Loss of networking at RAL",
-    "date": "2025-04-15T10:00",
-    "updates": [
-      {
-        "date": "2025-04-22T08:30",
-        "details": "We are aware of another interruption to RAL site network over the Easter weekend which will have affected LOTUS jobs and other CEDA and JASMIN services."
-      },
-      {
-        "date": "2025-04-22T14:00",
-        "details": "Further short (~10min) interruptions planned for 14:00 and 17:00 today 22 April, and 17:00 tomorrow 23 April."
       }
     ]
   },
