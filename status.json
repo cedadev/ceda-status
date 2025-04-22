@@ -1,5 +1,53 @@
 [
   {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-22T14:00",
+    "updates": [
+      {
+        "date": "2025-04-22T14:15",
+        "details": "All CEDA and JASMIN services are at risk from wetwork interuptions between 2025-04-22 14:00 and 2025-04-24 00:01 due to loss of redundency in network infrastructure at RAL"
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-23T17:00",
+    "updates": [
+      {
+        "date": "2025-04-22T14:15",
+        "details": "Router upgrades will result in a ~10 minute network interuption"
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-22T17:00",
+    "updates": [
+      {
+        "date": "2025-04-22T14:15",
+        "details": "Router upgrades will result in a ~10 minute network interuption"
+      }
+    ]
+  },
+    {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-22T14:00",
+    "updates": [
+      {
+        "date": "2025-04-22T14:15",
+        "details": "Router upgrades will result in a ~10 minute network interuption"
+      }
+    ]
+  },
+  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
