@@ -80,6 +80,10 @@
       {
         "date": "2025-04-22T08:30",
         "details": "We are aware of another interruption to RAL site network over the Easter weekend which will have affected LOTUS jobs and other CEDA and JASMIN services."
+      },
+      {
+        "date": "2025-04-22T14:00",
+        "details": "Further short (~10min) interruptions planned for 14:00 and 17:00 today 22 April, and 17:00 tomorrow 23 April."
       }
     ]
   },
