@@ -13,18 +13,6 @@
   },
   {
     "status": "down",
-    "affectedServices": "LOTUS (old cluster)",
-    "summary": "Old cluster now retired for general use",
-    "date": "2025-03-28T17:00",
-    "updates": [
-      {
-        "date": "2025-03-28T17:00",
-        "details": "As per recent announcements, the old cluster is now retired for general use. The new cluster is available for all users and all sci machines now submit to it."
-      }
-    ]
-  },
-  {
-    "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Regular scheduled maintenance day",
     "date": "2025-04-29T00:01",
@@ -32,18 +20,6 @@
       {
         "date": "2025-02-28T13:00",
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 April 2025. Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "ORCHID GPU cluster",
-    "summary": "ORCHID GPU cluster (batch nodes and interactive node) down for maintenance.",
-    "date": "2025-04-02T00:01",
-    "updates": [
-      {
-        "date": "2025-04-01T14:00",
-        "details": "[POSTPONED] As part of work to move GPU nodes to Rocky 9 and a different part of the network, batch and interactive GPU nodes will be down for maintenance on [new date TBC]."
       }
     ]
   },
@@ -78,8 +54,8 @@
     "date": "2025-04-15T10:00",
     "updates": [
       {
-        "date": "2025-04-15T10:00",
-        "details": "We are aware of a loss of networking at the RAL site where JASMIN is hosted. This is causing problems with external access to JASMIN and CEDA services. The network team has been made aware of the problem, and are working towards a fix."
+        "date": "2025-04-22T08:30",
+        "details": "We are aware of another interruption to RAL site network over the Easter weekend which will have affected LOTUS jobs and other CEDA and JASMIN services."
       }
     ]
   },
