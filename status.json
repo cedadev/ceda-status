@@ -1,4 +1,28 @@
 [
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-30T07:00",
+    "updates": [
+      {
+        "date": "2025-04-22T10:30",
+        "details": "Router upgrades will result in a ~10 minute network interution between 2025-04-30 07:00 and 2025-04-30 09:00"
+      }
+    ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Risk of loss of networking at RAL",
+    "date": "2025-04-23T07:00",
+    "updates": [
+      {
+        "date": "2025-04-22T10:30",
+        "details": "Investigations into recent network issue will result in a risk of a ~10 minute network interution between 2025-04-23 07:00 and 2025-04-23 09:00"
+      }
+    ]
+  },
     {
     "status": "down",
     "affectedServices": "Notebook GPU Kernels",
