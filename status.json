@@ -15,7 +15,7 @@
       }
     ]
   },
-    {
+  {
     "status": "resolved",
     "affectedServices": "External access to S3 / Object Store (s3-ext)",
     "summary": "Expired certificate for s3-ext service",
@@ -43,22 +43,6 @@
       }
     ]
   },
-    {
-    "status": "resolved",
-    "affectedServices": "Notebook GPU Kernels",
-    "summary": "Unable to launch GPU Notebooks",
-    "date": "2025-04-16T17:00",
-    "updates": [
-      {
-        "date": "2025-04-17T09:00",
-        "details": "Notebook users are unable to start a Notebook Kernel on the GPU Node, the two other kernels remain available."
-      },
-      {
-        "date": "2025-04-22T14:30",
-        "details": "GPU Notebook Kernels are now available."
-      }
-    ]
-  },
   {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
@@ -80,34 +64,6 @@
       {
         "date": "2025-04-03T13:00",
         "details": "Issue reported where I/O errors occur when writing to PFS storage volumes from Slurm jobs. Appears to be memory-related: initial advice is to increase memory allocation for job. Investigation underway with vendor, awaiting further advice."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "SSD storage: HOME, /gws/smf/*, /work/scratch-nopw2",
-    "summary": "Scheduled maintenance of SSD storage for software upgrade",
-    "date": "2025-04-22T12:00",
-    "updates": [
-      {
-        "date": "2025-04-14T15:00",
-        "details": "Advance notice: SSD storage at-risk on afternoon of Tuesday 22nd April 2025. Disruption possible though unlikely, but would have wide-reaching impact, affecting user home directories, /work/scratch-nopw2 and GWS 'SMF' volumes with paths /gws/smf/*."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "LOTUS2 (new cluster)",
-    "summary": "Issue with Slurm controller",
-    "date": "2025-04-15T19:30",
-    "updates": [
-      {
-        "date": "2025-04-16T09:00",
-        "details": "There was an issue with Slurm controller service 19:30 - 20:30 last night. Users would have experienced Slurm commands hanging, and may not have been able to submit jobs. It is probable that running jobs may have failed/timed out. Possible residual failures/time outs this morning. Slurm controller service has been restarted and jobs are running, Slurm commands running as expected. Further support actions in progress."
-      },
-      {
-        "date": "2025-04-22T10:30",
-        "details": "Further problems earlier today (10:30-12:40) mean that some users needed to resubmit their jobs, however a restart of the controller appears to have resolved the issue for now. A further interventiion is planned for our scheduled maintenance day on 29 April."
       }
     ]
   }
