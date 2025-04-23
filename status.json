@@ -1,6 +1,6 @@
 [
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
     "date": "2025-04-22T14:00",
@@ -12,6 +12,10 @@
       {
         "date": "2025-04-22T15:40",
         "details": "Additional confirmed outage at 2025-04-22 16:00 for ~ 10 minutes."
+      },
+      {
+        "date": "2025-04-23T15:30",
+        "details": "At risk period has expired and no further outages are expected."
       }
     ]
   },
