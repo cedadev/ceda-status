@@ -1,41 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Loss of networking at RAL",
-    "date": "2025-04-22T14:00",
-    "updates": [
-      {
-        "date": "2025-04-22T14:15",
-        "details": "All CEDA and JASMIN services are at risk from network interruption between 2025-04-22 14:00 and 2025-04-24 00:01 due to loss of redundancy in network infrastructure at RAL. There are confirmed 10 minute windows of planned downtime starting at 2025-04-22 14:00, 2025-04-22 17:00, 2025-04-23 07:00 and 2025-04-23 17:00"
-      },
-      {
-        "date": "2025-04-22T15:40",
-        "details": "Additional confirmed outage at 2025-04-22 16:00 for ~ 10 minutes."
-      },
-      {
-        "date": "2025-04-23T15:30",
-        "details": "At risk period has expired and no further outages are expected."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "External access to S3 / Object Store (s3-ext)",
-    "summary": "Expired certificate for s3-ext service",
-    "date": "2025-04-23T00:00",
-    "updates": [
-      {
-        "date": "2025-04-22T16:10",
-        "details": "Replacement certificate has been unexpectedly made available and applied. No downtime is expected."
-      },
-      {
-        "date": "2025-04-22T15:30",
-        "details": "The certificate for s3-ext (object store, external access) will expire at midnight, the replacement will not be in place until later in the day. The service will be unavailable to external users until the certificate is in place."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
