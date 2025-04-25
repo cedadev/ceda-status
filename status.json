@@ -60,11 +60,15 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Notebook Service - GPU",
     "summary": "Unplanned maintenance",
     "date": "2025-04-25T08:30",
     "updates": [
+      {
+        "date": "2025-04-25T10:30",
+        "details": "Maintenance has been completed and GPU-enabled notebooks are available to use."
+      },
       {
         "date": "2025-04-25T08:30",
         "details": "GPU pods for the Notebook Service are down for maintenance."
