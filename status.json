@@ -48,7 +48,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "LOTUS2 ORCHID",
     "summary": "Unplanned maintenance",
     "date": "2025-04-25T08:30",
@@ -56,6 +56,10 @@
       {
         "date": "2025-04-25T08:30",
         "details": "LOTUS2 ORCHID is down for maintenance, should be back later today"
+      },
+      {
+        "date": "2025-04-25T16:00",
+        "details": "Maintenance is complete, all nodes are back up."
       }
     ]
   },
