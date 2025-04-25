@@ -1,4 +1,16 @@
 [
+    {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Loss of networking at RAL",
+    "date": "2025-04-28T10:00",
+    "updates": [
+      {
+        "date": "2025-04-25T16:30",
+        "details": "Increased risk of network interruptions between 10:00 and 12:00 on Monday 28th April."
+      }
+    ]
+  },
   {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
