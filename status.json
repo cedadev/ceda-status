@@ -90,5 +90,17 @@
         "details": "GPU pods for the Notebook Service are down for maintenance."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "RAL network",
+    "summary": "Issue with short outages",
+    "date": "2025-04-28T08:30",
+    "updates": [
+      {
+        "date": "2025-04-28T08:30",
+        "details": "The RAL network team is investigating an issue causing short ~15 second outages. Additional troubleshooting is planned between 10:00 and 12:00 noon today Monday 28 April: no interruptions are planned but the work carries that risk."
+      }
+    ]
   }
 ]
