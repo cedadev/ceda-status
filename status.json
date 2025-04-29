@@ -60,38 +60,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "LOTUS2 ORCHID",
-    "summary": "Unplanned maintenance",
-    "date": "2025-04-25T08:30",
-    "updates": [
-      {
-        "date": "2025-04-25T08:30",
-        "details": "LOTUS2 ORCHID is down for maintenance, should be back later today"
-      },
-      {
-        "date": "2025-04-25T16:00",
-        "details": "Maintenance is complete, all nodes are back up."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Notebook Service - GPU",
-    "summary": "Unplanned maintenance",
-    "date": "2025-04-25T08:30",
-    "updates": [
-      {
-        "date": "2025-04-25T10:30",
-        "details": "Maintenance has been completed and GPU-enabled notebooks are available to use."
-      },
-      {
-        "date": "2025-04-25T08:30",
-        "details": "GPU pods for the Notebook Service are down for maintenance."
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "RAL network",
     "summary": "Issue with short outages",
