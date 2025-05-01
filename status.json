@@ -59,5 +59,17 @@
         "details": "LOTUS1 ORCHID & interactive GPU node migration is still in progress, but GPU notebooks are available."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
+    "summary": "ET, JDMA and NLA issues",
+    "date": "2025-05-01T10:00",
+    "updates": [
+      {
+        "date": "2025-05-01T10:00",
+        "details": "There are currently issues with the tape library hardware so the performance of the ET, JDMA and NLA services are affected."
+      }
+    ]
   }
 ]
