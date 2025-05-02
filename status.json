@@ -4,15 +4,11 @@
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
-    "date": "2025-04-30T07:00",
+    "date": "2025-05-07T07:00",
     "updates": [
       {
-        "date": "2025-04-22T10:30",
-        "details": "Router upgrades will result in a ~10 minute network interruption between 2025-04-30 07:00 and 2025-04-30 09:00"
-      },
-      {
-        "date": "2025-04-30T08:45",
-        "details": "The RAL network should be considered at risk until 1600 on Wednesday 30th April"
+        "date": "2025-05-02T08:45",
+        "details": "There will be a brief network interruption between 07:00 and 09:00 on Wednesday 7th May. Automatic failover is expected."
       }
     ]
   },
