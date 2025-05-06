@@ -1,5 +1,4 @@
 [
-
   {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
@@ -65,6 +64,18 @@
       {
         "date": "2025-05-01T10:00",
         "details": "There are currently issues with the tape library hardware so the performance of the ET, JDMA and NLA services are affected."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
+    "summary": "Tape maintenance",
+    "date": "2025-05-07T12:00",
+    "updates": [
+      {
+        "date": "2025-05-06T14:00",
+        "details": "The tape services will not be available due to maintenance from Wed 7th May at 12PM until Thu 8th May."
       }
     ]
   }
