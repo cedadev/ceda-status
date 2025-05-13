@@ -1,17 +1,5 @@
 [
   {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Loss of networking at RAL",
-    "date": "2025-05-07T07:00",
-    "updates": [
-      {
-        "date": "2025-05-02T08:45",
-        "details": "There will be a brief network interruption between 07:00 and 09:00 on Wednesday 7th May. Automatic failover is expected."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "LOTUS2",
     "summary": "Regular scheduled maintenance day",
@@ -56,30 +44,6 @@
       {
         "date": "2025-04-29T15:00",
         "details": "LOTUS1 ORCHID & interactive GPU node migration is still in progress, but GPU notebooks are available."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
-    "summary": "ET, JDMA and NLA issues",
-    "date": "2025-05-01T10:00",
-    "updates": [
-      {
-        "date": "2025-05-01T10:00",
-        "details": "There are currently issues with the tape library hardware so the performance of the ET, JDMA and NLA services are affected."
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "Tape services: Elastic Tape (ET), JDMA, NLA",
-    "summary": "Tape maintenance",
-    "date": "2025-05-07T12:00",
-    "updates": [
-      {
-        "date": "2025-05-06T14:00",
-        "details": "The tape services will not be available due to maintenance from Wed 7th May at 12PM until Thu 8th May."
       }
     ]
   }
