@@ -46,5 +46,17 @@
         "details": "LOTUS1 ORCHID & interactive GPU node migration is still in progress, but GPU notebooks are available."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "CEDA StorageD, Elastic Tape",
+    "summary": "Tape maintenance",
+    "date": "2025-05-19T12:00",
+    "updates": [
+      {
+        "date": "2025-05-19T12:00",
+        "details": "The tape services are not available due to maintenance from 19th May 12PM to 20th May."
+      }
+    ]
   }
 ]
