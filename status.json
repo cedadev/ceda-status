@@ -58,5 +58,17 @@
         "details": "The tape services are not available due to maintenance from 19th May 12PM to 20th May."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "NX login",
+    "summary": "nx1 overloaded",
+    "date": "2025-05-19T16:00",
+    "updates": [
+      {
+        "date": "2025-05-19T16:00",
+        "details": "The nx1 machine is overloaded, please also use nx2, nx3, and nx4 to log in with the NoMachine Client."
+      }
+    ]
   }
 ]
