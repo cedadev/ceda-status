@@ -1,22 +1,6 @@
 [
   {
     "status": "degraded",
-    "affectedServices": "LOTUS2",
-    "summary": "Regular scheduled maintenance day",
-    "date": "2025-04-29T00:01",
-    "updates": [
-      {
-        "date": "2025-02-28T13:00",
-        "details": "Advance notice of regular scheduled maintenance day on Tues 29 April 2025. Please plan your work to minimise disruption."
-      },
-      {
-        "date": "2025-04-29T17:00",
-        "details": "Most maintenance work completed but some updates to LOTUS2 nodes to be completed tomorrow: this will impact job processing until more nodes can be made available. Further update to follow tomorrow."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "PFS storage (/work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*)",
     "summary": "I/O errors writing to PFS from within Slurm jobs",
     "date": "2025-04-03T13:00",
@@ -44,30 +28,6 @@
       {
         "date": "2025-04-29T15:00",
         "details": "LOTUS1 ORCHID & interactive GPU node migration is still in progress, but GPU notebooks are available."
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "CEDA StorageD, Elastic Tape",
-    "summary": "Tape maintenance",
-    "date": "2025-05-19T12:00",
-    "updates": [
-      {
-        "date": "2025-05-19T12:00",
-        "details": "The tape services are not available due to maintenance from 19th May 12PM to 20th May."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "NX login",
-    "summary": "nx1 overloaded",
-    "date": "2025-05-19T16:00",
-    "updates": [
-      {
-        "date": "2025-05-19T16:00",
-        "details": "The nx1 machine is overloaded, please also use nx2, nx3, and nx4 to log in with the NoMachine Client."
       }
     ]
   },
