@@ -70,5 +70,17 @@
         "details": "The nx1 machine is overloaded, please also use nx2, nx3, and nx4 to log in with the NoMachine Client."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "all",
+    "summary": "Bank Holiday",
+    "date": "2025-05-26T08:00",
+    "updates": [
+      {
+        "date": "2025-05-23T14:00",
+        "details": "CEDA and JASMIN Services will be unsupported on Monday 26th May due to the bank holiday. Responses to queries may take longer than usual this week."
+      }
+    ]
   }
 ]
