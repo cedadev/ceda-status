@@ -1,6 +1,6 @@
 [
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "PFS storage (/work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*)",
     "summary": "I/O errors writing to PFS from within Slurm jobs",
     "date": "2025-04-03T13:00",
@@ -12,6 +12,10 @@
       {
         "date": "2025-05-07T14:00",
         "details": "Investigation is still ongoing. Mitigation is to run on the non-PFS storage, e.g. /work/scratch-nopw2 for non-MPI read/write operations."
+      },
+      {
+        "date": "2025-05-29T10:00",
+        "details": "PFS issue is resolved (most of LOTUS has been patched with a fix)."
       }
     ]
   },
