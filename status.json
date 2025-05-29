@@ -18,17 +18,5 @@
         "details": "PFS issue is resolved (most of LOTUS has been patched with a fix)."
       }
     ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Bank Holiday",
-    "date": "2025-05-26T08:00",
-    "updates": [
-      {
-        "date": "2025-05-23T14:00",
-        "details": "CEDA and JASMIN Services will be unsupported on Monday 26th May due to the bank holiday. Responses to queries may take longer than usual this week."
-      }
-    ]
   }
 ]
