@@ -1,25 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "PFS storage (/work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*)",
-    "summary": "I/O errors writing to PFS from within Slurm jobs",
-    "date": "2025-04-03T13:00",
-    "updates": [
-      {
-        "date": "2025-04-03T13:00",
-        "details": "Issue reported where I/O errors occur when writing to PFS storage volumes from Slurm jobs. Appears to be memory-related: initial advice is to increase memory allocation for job. Investigation underway with vendor, awaiting further advice."
-      },
-      {
-        "date": "2025-05-07T14:00",
-        "details": "Investigation is still ongoing. Mitigation is to run on the non-PFS storage, e.g. /work/scratch-nopw2 for non-MPI read/write operations."
-      },
-      {
-        "date": "2025-05-29T10:00",
-        "details": "PFS issue is resolved (most of LOTUS has been patched with a fix)."
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
