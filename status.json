@@ -12,6 +12,10 @@
       {
         "date": "2025-06-02T09:30",
         "details": "Network was down for approximately 30 mins. JASMIN and CEDA services are up but should be considered at risk."
+      },
+      {
+        "date": "2025-06-04T08:55",
+        "details": "Further work is still ongoing by STFC Networks to resolve the current issues. Work to address the root cause is now underway but we are told that this may involve some planned outages and the continued risk of unplanned outages for some days to come. Apologies for any inconvenience meanwhile."
       }
     ]
   }
