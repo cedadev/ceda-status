@@ -18,5 +18,17 @@
         "details": "Further work is still ongoing by STFC Networks to resolve the current issues. Work to address the root cause is now underway but we are told that this may involve some planned outages and the continued risk of unplanned outages for some days to come. Apologies for any inconvenience meanwhile."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "/work/xfc/vol5",
+    "summary": "Disk full",
+    "date": "2025-06-04T13:30",
+    "updates": [
+      {
+        "date": "2025-06-04T13:30",
+        "details": "Users of XFC vol5: please clean up as this disk is now full so no further writes are possible."
+      }
+    ]
   }
 ]
