@@ -6,20 +6,8 @@
     "date": "2025-06-02T09:00",
     "updates": [
       {
-        "date": "2025-06-02T09:00",
-        "details": "There is currently a network connectivity issue affecting many services within the STFC network including JASMIN. Awaiting further updates."
-      },
-      {
-        "date": "2025-06-02T09:30",
-        "details": "Network was down for approximately 30 mins. JASMIN and CEDA services are up but should be considered at risk."
-      },
-      {
-        "date": "2025-06-04T08:55",
-        "details": "Further work is still ongoing by STFC Networks to resolve the current issues. Work to address the root cause is now underway but we are told that this may involve some planned outages and the continued risk of unplanned outages for some days to come. Apologies for any inconvenience meanwhile."
-      },
-      {
         "date": "2025-06-05T08:30",
-        "details": "Specific interventions are planned on the RAL site firewall (affecting traffic into/out of JASMIN) on Friday 6th June between 13:30-14:40 and Wednesday 11th June, between 07:00-09:00. These will put in place a workaround to prolong periods of stability while the root cause (now understood) can be addressed. Further planned outages and the continued risk of unplanned outages will remain for some days/weeks to come. Apologies for any inconvenience meanwhile."
+        "details": "To address recent intermittent breaks in connection, specific interventions are planned on the RAL site firewall (affecting traffic into/out of JASMIN) on Friday 6th June between 13:30-14:40 and Wednesday 11th June, between 07:00-09:00. These will put in place a workaround to prolong periods of stability while the root cause (now understood) can be addressed. Further planned outages and the continued risk of unplanned outages will remain for some days/weeks to come. Apologies for any inconvenience meanwhile."
       }
     ]
   },
