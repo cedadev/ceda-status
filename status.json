@@ -1,6 +1,6 @@
 [
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
     "date": "2025-06-02T09:00",
@@ -8,6 +8,10 @@
       {
         "date": "2025-06-09T11:45",
         "details": "To address recent intermittent breaks in connection, specific interventions are planned on the RAL site firewall (affecting traffic into/out of JASMIN) on Wednesday 11th June, between 07:00-09:00. These will put in place a workaround to prolong periods of stability while the root cause (now understood) can be addressed. Further planned outages and the continued risk of unplanned outages will remain for some days/weeks to come. Apologies for any inconvenience meanwhile."
+      },
+      {
+        "date": "2025-06-11T11:45",
+        "details": "STFC engineers report that the reoccuring network issues in recent weeks are now resolved. Any further networking issues should be reported as new."
       }
     ]
   },
