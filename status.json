@@ -16,18 +16,6 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "/work/xfc/vol5",
-    "summary": "Disk full",
-    "date": "2025-06-04T13:30",
-    "updates": [
-      {
-        "date": "2025-06-04T13:30",
-        "details": "Users of XFC vol5: please clean up as this disk is now full so no further writes are possible."
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "GWS services (/gws/nopw/j04/*)",
     "summary": "Issues with GWS using SOF storage",
