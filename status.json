@@ -30,5 +30,17 @@
         "details": "GWS volumes in /gws/nopw/j04/ should be available again on the sci nodes and the LOTUS2 nodes, but the storage is still at risk until a permanent fix is applied. We are currently unable to respond to queries related to these issues."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Regular scheduled maintenance day",
+    "date": "2025-07-29T00:01",
+    "updates": [
+      {
+        "date": "2025-06-12T10:00",
+        "details": "Advance notice of regular scheduled maintenance day on Tues 29 July 2025. Please plan your work to minimise disruption."
+      }
+    ]
   }
 ]
