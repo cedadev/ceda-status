@@ -1,6 +1,6 @@
 [
   {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
     "date": "2025-06-02T09:00",
@@ -12,6 +12,10 @@
       {
         "date": "2025-06-11T11:45",
         "details": "STFC engineers report that the reoccuring network issues in recent weeks are now resolved. Any further networking issues should be reported as new."
+      },
+      {
+        "date": "2025-06-16T12:45",
+        "details": "We are aware of a loss of network connectivity at the RAL site. The site networking team are aware and working on a fix. This is affecting external access to ALL JASMIN and CEDA services."
       }
     ]
   },
