@@ -24,26 +24,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "GWS services (/gws/nopw/j04/*)",
-    "summary": "Issues with GWS using SOF storage",
-    "date": "2025-06-09T11:00",
-    "updates": [
-      {
-        "date": "2025-06-09T11:00",
-        "details": "We are receiving reports of inaccessible GWS volumes in /gws/nopw/j04/ (storage type SOF) on the sci nodes and some of the LOTUS2 nodes, which we are investigating. (Note: an upgrade to the SOF storage system has been put on hold due to these issues)"
-      },
-      {
-        "date": "2025-06-11T13:30",
-        "details": "GWS volumes in /gws/nopw/j04/ should be available again on the sci nodes and the LOTUS2 nodes, but the storage is still at risk until a permanent fix is applied. We are currently unable to respond to queries related to these issues."
-      },
-      {
-        "date": "2025-06-12T17:00",
-        "details": "The SOF storage is no longer at risk, GWS volumes in /gws/nopw/j04/ should be accessible as normal."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Regular scheduled maintenance day",
