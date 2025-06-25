@@ -1,6 +1,6 @@
 [
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Loss of networking at RAL",
     "date": "2025-06-02T09:00",
@@ -20,6 +20,10 @@
       {
         "date": "2025-06-16T17:00",
         "details": "Network connectivity has been restored, and CEDA and JASMIN services are accessible. However, the root cause remains unknown so all services remain at risk."
+      },
+      {
+        "date": "2025-06-25T14:50",
+        "details": "Network connectivity is currently stable and all CEDA and JASMIN services are accessible."
       }
     ]
   },
