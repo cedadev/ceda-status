@@ -38,5 +38,17 @@
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 July 2025. Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "All CEDA services",
+    "summary": "Problems with CEDA login",
+    "date": "2025-06-27T15:00",
+    "updates": [
+      {
+        "date": "2025-06-27T15:00",
+        "details": "Some users are experiencing problems logging in to their CEDA accounts. In particular, login from data.ceda.ac.uk may not be working for some users. We are investigating the problem and will fix it as soon as possible."
+      }
+    ]
   }
 ]
