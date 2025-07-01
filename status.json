@@ -40,7 +40,7 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "degraded",
     "affectedServices": "All CEDA services",
     "summary": "Problems with CEDA login",
     "date": "2025-06-27T15:00",
@@ -51,7 +51,7 @@
       },
       {
         "date": "2025-07-01T14:30",
-        "details": "The issue with logging into CEDA accounts has now been resolved."
+        "details": "The issue with logging into CEDA accounts has now been resolved, however there are still issues affecting CEDA & JASMIN accounts linking and Archive access approvals."
       }
     ]
   }
