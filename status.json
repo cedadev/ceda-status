@@ -40,7 +40,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "All CEDA services",
     "summary": "Problems with CEDA login",
     "date": "2025-06-27T15:00",
@@ -48,6 +48,10 @@
       {
         "date": "2025-06-27T15:00",
         "details": "Some users are experiencing problems logging in to their CEDA accounts. In particular, login from data.ceda.ac.uk may not be working for some users. We are investigating the problem and will fix it as soon as possible."
+      },
+      {
+        "date": "2025-07-01T14:30",
+        "details": "The issue with logging into CEDA accounts has now been resolved."
       }
     ]
   }
