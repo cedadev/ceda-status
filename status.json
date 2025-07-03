@@ -25,6 +25,18 @@
   },
   {
     "status": "degraded",
+    "affectedServices": "Helpdesk",
+    "summary": "Helpdesk staff very busy with large backlog of queries.",
+    "date": "2025-07-03T16:00",
+    "updates": [
+      {
+        "date": "2025-07-03T16:00",
+        "details": "With many user queries relating to recent issues, helpdesk staff have a large backlog of queries to work through. Please be patient and your query will be answered in due course."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
     "affectedServices": "All CEDA services",
     "summary": "Problems with CEDA login",
     "date": "2025-06-27T15:00",
