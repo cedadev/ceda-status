@@ -22,37 +22,5 @@
         "details": "Issue has been reported and is under investigation with storage vendor."
       }
     ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "Helpdesk",
-    "summary": "Helpdesk staff very busy with large backlog of queries.",
-    "date": "2025-07-03T16:00",
-    "updates": [
-      {
-        "date": "2025-07-03T16:00",
-        "details": "With many user queries relating to recent issues, helpdesk staff have a large backlog of queries to work through. Please be patient and your query will be answered in due course."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "All CEDA services",
-    "summary": "Problems with CEDA login",
-    "date": "2025-06-27T15:00",
-    "updates": [
-      {
-        "date": "2025-06-27T15:00",
-        "details": "Some users are experiencing problems logging in to their CEDA accounts. In particular, login from data.ceda.ac.uk may not be working for some users. We are investigating the problem and will fix it as soon as possible."
-      },
-      {
-        "date": "2025-07-01T14:30",
-        "details": "The issue with logging into CEDA accounts has now been resolved, however there are still issues affecting CEDA & JASMIN accounts linking and Archive access approvals."
-      },
-      {
-        "date": "2025-07-04T11:30",
-        "details": "All issues with CEDA accounts have now been resolved."
-      }
-    ]
   }
 ]
