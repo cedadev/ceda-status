@@ -22,5 +22,17 @@
         "details": "Issue has been reported and is under investigation with storage vendor."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "Tape services",
+    "summary": "Scheduled maintenance to backend tape services. Full stop in service with no ingest or recall.",
+    "date": "2025-07-15T12:00",
+    "updates": [
+      {
+        "date": "2025-07-11T08:00",
+        "details": "Advance notice of scheduled maintenance to tape services Tues 15 - Wed 16 July. These services will be out of action: please plan your work to minimise disruption."
+      }
+    ]
   }
 ]
