@@ -12,7 +12,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Globus data transfer nodes",
     "summary": "Connectivity issue",
     "date": "2025-07-23T08:00",
@@ -20,6 +20,10 @@
       {
         "date": "2025-07-23T10:00",
         "details": "We are investigating an issue with connectivity to the Globus data transfer nodes reported this morning."
+      },
+      {
+        "date": "2025-07-23T11:00",
+        "details": "Issue now resolved, please report any further problems."
       }
     ]
   },
@@ -36,22 +40,6 @@
       {
         "date": "2025-07-14T12:00",
         "details": "Under investigation with storage vendor. Please include the affected server and path in helpdesk tickets."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Tape services",
-    "summary": "Scheduled maintenance to backend tape services. Full stop in service with no ingest or recall.",
-    "date": "2025-07-15T12:00",
-    "updates": [
-      {
-        "date": "2025-07-11T08:00",
-        "details": "Advance notice of scheduled maintenance to tape services Tues 15 - Wed 16 July. These services will be out of action: please plan your work to minimise disruption."
-      },
-      {
-        "date": "2025-07-17T09:00",
-        "details": "Tape services now resumed"
       }
     ]
   }
