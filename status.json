@@ -28,7 +28,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "SOF storage /gws/nopw/j04/* and CEDA Archive volumes",
     "summary": "Reports of processes hanging when accessing SOF storage.",
     "date": "2025-07-01T09:00",
@@ -40,6 +40,10 @@
       {
         "date": "2025-07-14T12:00",
         "details": "Under investigation with storage vendor. Please include the affected server and path in helpdesk tickets."
+      },
+      {
+        "date": "2025-07-23T14:30",
+        "details": "System stability now improved and operating normally, please report any further problems."
       }
     ]
   }
