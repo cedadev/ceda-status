@@ -12,6 +12,18 @@
     ]
   },
   {
+    "status": "down",
+    "affectedServices": "Globus data transfer nodes",
+    "summary": "Connectivity issue",
+    "date": "2025-07-23T08:00",
+    "updates": [
+      {
+        "date": "2025-07-23T10:00",
+        "details": "We are investigating an issue with connectivity to the Globus data transfer nodes reported this morning."
+      }
+    ]
+  },
+  {
     "status": "degraded",
     "affectedServices": "SOF storage /gws/nopw/j04/* and CEDA Archive volumes",
     "summary": "Reports of processes hanging when accessing SOF storage.",
