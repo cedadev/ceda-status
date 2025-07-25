@@ -10,41 +10,5 @@
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 July 2025. Please plan your work to minimise disruption."
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Globus data transfer nodes",
-    "summary": "Connectivity issue",
-    "date": "2025-07-23T08:00",
-    "updates": [
-      {
-        "date": "2025-07-23T10:00",
-        "details": "We are investigating an issue with connectivity to the Globus data transfer nodes reported this morning."
-      },
-      {
-        "date": "2025-07-23T11:00",
-        "details": "Issue now resolved, please report any further problems."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "SOF storage /gws/nopw/j04/* and CEDA Archive volumes",
-    "summary": "Reports of processes hanging when accessing SOF storage.",
-    "date": "2025-07-01T09:00",
-    "updates": [
-      {
-        "date": "2025-07-01T09:00",
-        "details": "Issue has been reported and is under investigation with storage vendor."
-      },
-      {
-        "date": "2025-07-14T12:00",
-        "details": "Under investigation with storage vendor. Please include the affected server and path in helpdesk tickets."
-      },
-      {
-        "date": "2025-07-23T14:30",
-        "details": "System stability now improved and operating normally, please report any further problems."
-      }
-    ]
   }
 ]
