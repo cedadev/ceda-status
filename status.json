@@ -10,17 +10,5 @@
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 July 2025. Please plan your work to minimise disruption."
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "login-01",
-    "summary": "Login server not responding",
-    "date": "2025-07-25T14:20",
-    "updates": [
-      {
-        "date": "2025-07-25T15:00",
-        "details": "login-01.jasmin.ac.uk became unresponsive at around 14:20 and had to be rebooted, disrupting any onward connected SSH sessions - apologies for the inconvenience."
-      }
-    ]
   }
 ]
