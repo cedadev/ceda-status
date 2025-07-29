@@ -1,6 +1,6 @@
 [
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Regular scheduled maintenance day",
     "date": "2025-07-29T00:01",
@@ -8,6 +8,10 @@
       {
         "date": "2025-06-12T10:00",
         "details": "Advance notice of regular scheduled maintenance day on Tues 29 July 2025. Please plan your work to minimise disruption."
+      },
+      {
+        "date": "2025-07-29T16:15",
+        "details": "We are aware of several services which have not yet resumed operation after scheduled maintenance today. Investigations are currently ongoing."
       }
     ]
   }
