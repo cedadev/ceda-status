@@ -20,7 +20,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "NoMachine NX service",
     "summary": "Connection issue",
     "date": "2025-07-30T09:30",
@@ -36,6 +36,10 @@
       {
         "date": "2025-07-30T10:45",
         "details": "Server NX4 now available, others being taken down shortly to restore previous configuration."
+      },
+      {
+        "date": "2025-07-30T11:25",
+        "details": "All 4 NX servers now restored to previous configuration and available again."
       }
     ]
   }
