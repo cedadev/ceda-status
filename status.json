@@ -28,6 +28,10 @@
       {
         "date": "2025-07-30T09:30",
         "details": "Reports of black screen on connecting: investigating"
+      },
+      {
+        "date": "2025-07-30T10:30",
+        "details": "Server NX4 currently unavailable while testing configuration change"
       }
     ]
   }
