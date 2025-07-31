@@ -1,21 +1,25 @@
 [
   {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Regular scheduled maintenance day",
-    "date": "2025-07-29T00:01",
+    "summary": "Advance notice of next regular scheduled maintenance day",
+    "date": "2025-11-04T00:01",
     "updates": [
       {
-        "date": "2025-06-12T10:00",
-        "details": "Advance notice of regular scheduled maintenance day on Tues 29 July 2025. Please plan your work to minimise disruption."
-      },
+        "date": "2025-07-31T09:00",
+        "details": "Advance notice of scheduled maintenance day on Tues 11 November 2025. Please plan your work to minimise disruption."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "PFS storage /work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*",
+    "summary": "Slow performance",
+    "date": "2025-07-31T09:00",
+    "updates": [
       {
-        "date": "2025-07-29T16:20",
-        "details": "Some services have not yet completed their scheduled maintenance: remaining issues with some services are expected while this is completed."
-      },
-      {
-        "date": "2025-07-30T09:20",
-        "details": "Most services now operating normally."
+        "date": "2025-07-31T09:00",
+        "details": "Performance issue with PFS storage currently under investigation."
       }
     ]
   },
