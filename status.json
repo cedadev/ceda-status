@@ -24,26 +24,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "NoMachine NX service",
-    "summary": "Connection issue",
-    "date": "2025-07-30T09:30",
+    "status": "down",
+    "affectedServices": "Tape services",
+    "summary": "Advance notice of scheduled maintenance to tape services 19/20 August.",
+    "date": "2025-08-19T14:00",
     "updates": [
       {
-        "date": "2025-07-30T09:30",
-        "details": "Reports of black screen on connecting: investigating"
-      },
-      {
-        "date": "2025-07-30T10:30",
-        "details": "Server NX4 currently unavailable while testing configuration change"
-      },
-      {
-        "date": "2025-07-30T10:45",
-        "details": "Server NX4 now available, others being taken down shortly to restore previous configuration."
-      },
-      {
-        "date": "2025-07-30T11:25",
-        "details": "All 4 NX servers now restored to previous configuration and available again."
+        "date": "2025-08-05T09:20",
+        "details": "Advance notice of scheduled maintenance to tape services on Tues 19 - Web 20 August. Please plan your work to minimise disruption."
       }
     ]
   }
