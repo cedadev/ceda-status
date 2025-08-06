@@ -46,5 +46,17 @@
         "details": "Issue has been reported and a solution is being rolled out, should be resolved by Friday 8th."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "NX server nx4",
+    "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
+    "date": "2025-08-06T12:00",
+    "updates": [
+      {
+        "date": "2025-08-06T12:00",
+        "details": "Server nx4 is being taken down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
+      }
+    ]
   }
 ]
