@@ -34,5 +34,17 @@
         "details": "Advance notice of scheduled maintenance to tape services on Tues 19 - Web 20 August. Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "SOF storage /gws/nopw/j04/* & CEDA Archive",
+    "summary": "Reports of processes hanging when accessing SOF storage.",
+    "date": "2025-08-06T09:00",
+    "updates": [
+      {
+        "date": "2025-08-06T09:00",
+        "details": "Issue has been reported and a solution is being rolled out, should be resolved by Friday 8th."
+      }
+    ]
   }
 ]
