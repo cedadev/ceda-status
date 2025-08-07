@@ -12,7 +12,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "PFS storage /work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*",
     "summary": "Slow performance",
     "date": "2025-07-31T09:00",
@@ -20,6 +20,10 @@
       {
         "date": "2025-07-31T09:00",
         "details": "Performance issue with PFS storage currently under investigation."
+      },
+      {
+        "date": "2025-08-06T15:30",
+        "details": "Issue now resolved."
       }
     ]
   },
@@ -36,7 +40,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "SOF storage /gws/nopw/j04/* & CEDA Archive",
     "summary": "Reports of processes hanging when accessing SOF storage.",
     "date": "2025-08-06T09:00",
@@ -44,6 +48,22 @@
       {
         "date": "2025-08-06T09:00",
         "details": "Issue has been reported and a solution is being rolled out, should be resolved by Friday 8th."
+      },
+      {
+        "date": "2025-08-06T09:00",
+        "details": "Issue now resolved with rollout of new server & client software version. Some services to be rebooted this morning to clear stuck processes."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "sci servers",
+    "summary": "Reboot of sci servers expected this morning Thurs 7 Aug.",
+    "date": "2025-08-07T09:00",
+    "updates": [
+      {
+        "date": "2025-08-07T09:00",
+        "details": "Following a software upgrade on the SOF (QuoByte) storage, sci servers will each need to be rebooted to clear stuck processes. Please look out for console announcements."
       }
     ]
   },
@@ -55,7 +75,7 @@
     "updates": [
       {
         "date": "2025-08-06T12:00",
-        "details": "Server nx4 is being taken down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
+        "details": "Server nx4 is currently down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
       }
     ]
   }
