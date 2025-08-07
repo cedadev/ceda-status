@@ -69,13 +69,13 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "globus transfer service",
+    "affectedServices": "globus transfer servers",
     "summary": "Endpoint busy errors, timeouts",
     "date": "2025-08-07T09:30",
     "updates": [
       {
         "date": "2025-08-07T09:30",
-        "details": "Following a software upgrade on the SOF (QuoByte) storage, the globus transfer nodes also need rebooting this morning to clear stuck processes. This may cause some additional timeoutes but should prevent the endpoint busy errors from happening in future. Normally transfer tasks should get retried automatically but this may result in some taking longer than usual."
+        "details": "Following a software upgrade on the SOF (QuoByte) storage, the globus transfer nodes also need rebooting this morning to clear stuck processes. This may cause some additional timeouts but should prevent the endpoint busy errors from happening in future. Normally transfer tasks should get retried automatically but this may result in some taking longer than usual."
       }
     ]
   },
