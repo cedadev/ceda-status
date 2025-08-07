@@ -68,6 +68,18 @@
     ]
   },
   {
+    "status": "degraded",
+    "affectedServices": "globus transfer service",
+    "summary": "Endpoint busy errors, timeouts",
+    "date": "2025-08-07T09:30",
+    "updates": [
+      {
+        "date": "2025-08-07T09:30",
+        "details": "Following a software upgrade on the SOF (QuoByte) storage, the globus transfer nodes also need rebooting this morning to clear stuck processes. This may cause some additional timeoutes but should prevent the endpoint busy errors from happening in future. Normally transfer tasks should get retried automatically but this may result in some taking longer than usual."
+      }
+    ]
+  },
+  {
     "status": "down",
     "affectedServices": "NX server nx4",
     "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
