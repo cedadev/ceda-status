@@ -98,5 +98,17 @@
         "details": "Server nx4 is currently down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "XFC volume 5",
+    "summary": "/work/xfc/vol5 is full: no further writes until data is cleared out.",
+    "date": "2025-08-07T12:00",
+    "updates": [
+      {
+        "date": "2025-08-07T12:00",
+        "details": "Please clean up any non-essential data on this XFC volume, no further writes are possible until free space is created."
+      }
+    ]
   }
 ]
