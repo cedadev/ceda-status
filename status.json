@@ -40,7 +40,7 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "degraded",
     "affectedServices": "SOF storage /gws/nopw/j04/* & CEDA Archive",
     "summary": "Reports of processes hanging when accessing SOF storage.",
     "date": "2025-08-06T09:00",
@@ -52,6 +52,10 @@
       {
         "date": "2025-08-06T09:00",
         "details": "Issue now resolved with rollout of new server & client software version. Some services to be rebooted this morning to clear stuck processes."
+      },
+      {
+        "date": "2025-08-06T16:30",
+        "details": "Some instances of hanging have again been reported since the s/w update. This has been reported to the s/w vendor and will be investigated."
       }
     ]
   },
