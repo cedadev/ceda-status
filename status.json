@@ -12,22 +12,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "PFS storage /work/scratch-pw*, /work/xfc/*, /gws/pw/j07/*",
-    "summary": "Slow performance",
-    "date": "2025-07-31T09:00",
-    "updates": [
-      {
-        "date": "2025-07-31T09:00",
-        "details": "Performance issue with PFS storage currently under investigation."
-      },
-      {
-        "date": "2025-08-06T15:30",
-        "details": "Issue now resolved."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "Tape services",
     "summary": "Advance notice of scheduled maintenance to tape services 19/20 August.",
@@ -60,38 +44,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "sci servers",
-    "summary": "Reboot of sci servers expected this morning Thurs 7 Aug.",
-    "date": "2025-08-07T09:00",
-    "updates": [
-      {
-        "date": "2025-08-07T09:00",
-        "details": "Following a software upgrade on the SOF (QuoByte) storage, sci servers will each need to be rebooted to clear stuck processes. Please look out for console announcements."
-      },
-      {
-        "date": "2025-08-07T10:40",
-        "details": "Sci servers rebooted and resumed normal service."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "globus transfer servers",
-    "summary": "Endpoint busy errors, timeouts",
-    "date": "2025-08-07T09:30",
-    "updates": [
-      {
-        "date": "2025-08-07T09:30",
-        "details": "Following a software upgrade on the SOF (QuoByte) storage, the globus transfer nodes also need rebooting this morning to clear stuck processes. This may cause some additional timeouts but should prevent the endpoint busy errors from happening in future. Normally transfer tasks should get retried automatically but this may result in some taking longer than usual."
-      },
-      {
-        "date": "2025-08-07T14:00",
-        "details": "Globus transfer nodes now rebooted, any delayed transfer tasks should have caught up within a few hours."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "NX server nx4",
     "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
@@ -100,18 +52,6 @@
       {
         "date": "2025-08-06T12:00",
         "details": "Server nx4 is currently down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "XFC volume 5",
-    "summary": "/work/xfc/vol5 is full: no further writes until data is cleared out.",
-    "date": "2025-08-07T12:00",
-    "updates": [
-      {
-        "date": "2025-08-07T12:00",
-        "details": "Please clean up any non-essential data on this XFC volume, no further writes are possible until free space is created."
       }
     ]
   },
