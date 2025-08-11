@@ -38,7 +38,7 @@
         "details": "Issue now resolved with rollout of new server & client software version. Some services to be rebooted this morning to clear stuck processes."
       },
       {
-        "date": "2025-08-06T16:30",
+        "date": "2025-08-07T16:30",
         "details": "Some instances of hanging have again been reported since the s/w update. This has been reported to the s/w vendor and will be investigated."
       }
     ]
@@ -64,6 +64,18 @@
       {
         "date": "2025-08-07T16:50",
         "details": "CEDA data catalogue service unavailable between 10:00-12:00 Tuesday 12th August for software updates."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "ORCHID",
+    "summary": "Some ORCHID nodes unavailable",
+    "date": "2025-08-11T10:00",
+    "updates": [
+      {
+        "date": "2025-08-11T10:00",
+        "details": "Two ORCHID nodes (gpuhost015 & gpuhost016) are currently unavailable for use. We are working to resolve the issues with them and will return them to service as soon as possible."
       }
     ]
   }
