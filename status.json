@@ -82,5 +82,17 @@
         "details": "All the ORCHID nodes are now back in service."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "Cylc server cylc2",
+    "summary": "Reboot at 09:15 Wed 13 Aug",
+    "date": "2025-08-13T09:15",
+    "updates": [
+      {
+        "date": "2025-08-12T13:50",
+        "details": "Server will be rebooted at 09:15 on Wed 13 Aug to assign more resources to it."
+      }
+    ]
   }
 ]
