@@ -68,7 +68,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "ORCHID",
     "summary": "Some ORCHID nodes unavailable",
     "date": "2025-08-11T10:00",
@@ -76,6 +76,10 @@
       {
         "date": "2025-08-11T10:00",
         "details": "Two ORCHID nodes (gpuhost015 & gpuhost016) are currently unavailable for use. We are working to resolve the issues with them and will return them to service as soon as possible."
+      },
+      {
+        "date": "2025-08-12T09:00",
+        "details": "All the ORCHID nodes are now back in service."
       }
     ]
   }
