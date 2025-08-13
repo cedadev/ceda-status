@@ -24,7 +24,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "SOF storage /gws/nopw/j04/* & CEDA Archive",
     "summary": "Reports of processes hanging when accessing SOF storage.",
     "date": "2025-08-06T09:00",
@@ -40,6 +40,10 @@
       {
         "date": "2025-08-07T16:30",
         "details": "Some instances of hanging have again been reported since the s/w update. This has been reported to the s/w vendor and will be investigated."
+      },
+      {
+        "date": "2025-08-13T15:30",
+        "details": "Solution has been rolled out."
       }
     ]
   },
@@ -64,22 +68,6 @@
       {
         "date": "2025-08-07T16:50",
         "details": "CEDA data catalogue service unavailable between 10:00-12:00 Tuesday 12th August for software updates."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "ORCHID",
-    "summary": "Some ORCHID nodes unavailable",
-    "date": "2025-08-11T10:00",
-    "updates": [
-      {
-        "date": "2025-08-11T10:00",
-        "details": "Two ORCHID nodes (gpuhost015 & gpuhost016) are currently unavailable for use. We are working to resolve the issues with them and will return them to service as soon as possible."
-      },
-      {
-        "date": "2025-08-12T09:00",
-        "details": "All the ORCHID nodes are now back in service."
       }
     ]
   }
