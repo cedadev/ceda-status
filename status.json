@@ -24,30 +24,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "SOF storage /gws/nopw/j04/* & CEDA Archive",
-    "summary": "Reports of processes hanging when accessing SOF storage.",
-    "date": "2025-08-06T09:00",
-    "updates": [
-      {
-        "date": "2025-08-06T09:00",
-        "details": "Issue has been reported and a solution is being rolled out, should be resolved by Friday 8th."
-      },
-      {
-        "date": "2025-08-06T09:00",
-        "details": "Issue now resolved with rollout of new server & client software version. Some services to be rebooted this morning to clear stuck processes."
-      },
-      {
-        "date": "2025-08-07T16:30",
-        "details": "Some instances of hanging have again been reported since the s/w update. This has been reported to the s/w vendor and will be investigated."
-      },
-      {
-        "date": "2025-08-13T15:30",
-        "details": "Solution has been rolled out."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "NX server nx4",
     "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
@@ -60,15 +36,15 @@
     ]
   },
   {
-    "status": "down",
-    "affectedServices": "CEDA catalogue service",
-    "summary": "scheduled maintenance",
-    "date": "2025-08-12T10:00",
+   "status": "degraded",
+    "affectedServices": "PFS storage: /work/scratch-pw*, /work/xfc, /gws/pw/j07/*",
+    "summary": "Reports of degraded performance.",
+    "date": "2025-08-18T12:00",
     "updates": [
       {
-        "date": "2025-08-07T16:50",
-        "details": "CEDA data catalogue service unavailable between 10:00-12:00 Tuesday 12th August for software updates."
+        "date": "2025-08-18T12:00",
+        "details": "Issue reported, under investigation with storage vendor."
       }
-    ]
+    ] 
   }
 ]
