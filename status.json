@@ -50,5 +50,21 @@
         "details": "Issue reported, under investigation with storage vendor."
       }
     ] 
+  },
+  {
+   "status": "degraded",
+    "affectedServices": "NoMachine NX service",
+    "summary": "NX server nx1 connection problems",
+    "date": "2025-08-18T15:00",
+    "updates": [
+      {
+        "date": "2025-08-18T15:00",
+        "details": "NX server nx1.jasmin is being investigated for connection problems and may need to be rebooted. nx2 and nx3 should be available as normal"
+      },
+      {
+        "date": "2025-08-18T16:00",
+        "details": "nx1 and nx2 have had memory increased. nx3 will be rebooted 09:00 Tues 19 Aug to apply memory increase. nx4 remains unavailable for now"
+      }
+    ] 
   }
 ]
