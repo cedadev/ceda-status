@@ -32,6 +32,10 @@
       {
         "date": "2025-08-06T12:00",
         "details": "Server nx4 is currently down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
+      },
+      {
+        "date": "2025-08-18T15:00",
+        "details": "Server nx4 still out of service. nx1.jasmin being investigated for connection problems. nx2 and nx3 should be available as normal."
       }
     ]
   },
