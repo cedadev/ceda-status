@@ -68,7 +68,7 @@
     ] 
   },
   {
-    "status": "at risk",
+    "status": "degraded",
     "affectedServices": "LOTUS",
     "summary": "Some LOTUS jobs delayed or failed",
     "date": "2025-08-19T08:00",
@@ -76,6 +76,10 @@
       {
         "date": "2025-08-19T08:00",
         "details": "Many nodes drained overnight; users' jobs may have failed or be queued up. Cause under investigation."
+      },
+      {
+        "date": "2025-08-19T13:00",
+        "details": "Now confirmed as related to PFS storage performance issue, so expected to continue until resolved, with some jobs expected to fail & require resubmission."
       }
     ]
   }  
