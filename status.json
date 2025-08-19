@@ -66,5 +66,17 @@
         "details": "nx1 and nx2 have had memory increased. nx3 will be rebooted 09:00 Tues 19 Aug to apply memory increase. nx4 remains unavailable for now"
       }
     ] 
-  }
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "LOTUS",
+    "summary": "Some LOTUS jobs delayed or failed",
+    "date": "2025-08-19T08:00",
+    "updates": [
+      {
+        "date": "2025-08-19T08:00",
+        "details": "Many nodes drained overnight; users' jobs may have failed or be queued up. Cause under investigation."
+      }
+    ]
+  }  
 ]
