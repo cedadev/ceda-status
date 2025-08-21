@@ -48,6 +48,10 @@
       {
         "date": "2025-08-18T12:00",
         "details": "Issue reported, under investigation with storage vendor."
+      },
+      {
+        "date": "2025-08-21T10:00",
+        "details": "Intervention planned for 10:15 this morning (Thurs 21 Aug), may result in affected storage being offline for a few minutes."
       }
     ] 
   },
