@@ -12,14 +12,18 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Tape services",
     "summary": "Advance notice of scheduled maintenance to tape services 19/20 August.",
     "date": "2025-08-19T14:00",
     "updates": [
       {
         "date": "2025-08-05T09:20",
-        "details": "Advance notice of scheduled maintenance to tape services on Tues 19 - Web 20 August. Please plan your work to minimise disruption."
+        "details": "Advance notice of scheduled maintenance to tape services on Tues 19 - Wed 20 August. Please plan your work to minimise disruption."
+      },
+      {
+        "date": "2025-08-21T12:00",
+        "details": "Tape services maintenance is complete."
       }
     ]
   },
