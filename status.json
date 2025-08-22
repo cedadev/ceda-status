@@ -90,5 +90,17 @@
         "details": "Now confirmed as related to PFS storage performance issue, so expected to continue until resolved, with some jobs expected to fail & require resubmission."
       }
     ]
-  }  
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Planned network outages at RAL",
+    "date": "2025-08-27T07:00",
+    "updates": [
+      {
+        "date": "2025-08-22T12:00",
+        "details": "Advance notice of two planned network outages at the RAL site: Wed 27 Aug (07:00-08:00) and Wed 03 Sep (07:00-08:00). Please plan your work to minimise disruption."
+      }
+    ]
+  } 
 ]
