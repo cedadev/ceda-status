@@ -59,7 +59,7 @@
       },
       {
         "date": "2025-08-27T09:00",
-        "details": "Many LOTUS hosts down after storage-related problems over the weekend. Remedial work in progress."
+        "details": "Many LOTUS hosts down after storage-related problems over the weekend. Remedial work in progress. Please AVOID polling the Slurm controller with sinfo, squeue etc. for now as this helps reduce load while it is recovering."
       }
     ]
   },
