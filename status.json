@@ -48,7 +48,7 @@
     ] 
   },
   {
-    "status": "degraded",
+    "status": "at risk",
     "affectedServices": "LOTUS",
     "summary": "Some LOTUS jobs delayed or failed",
     "date": "2025-08-19T08:00",
@@ -68,6 +68,10 @@
       {
         "date": "2025-08-27T15:00",
         "details": "Cluster is improving but to help recovery, partitions will be put into down state this evening 19:00, meaning jobs can still be submitted but will not run until a further intervention tomorrow. If possible, please postpone further job submissions until further notice, check here for updates."
+      },
+      {
+        "date": "2025-08-27T18:20",
+        "details": "Cluster is continuing to improve so partitions will NOW now be put in down state overnight: jobs should continue running however some job failures may still be possible."
       }
     ]
   },
