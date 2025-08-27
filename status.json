@@ -44,22 +44,6 @@
     ] 
   },
   {
-   "status": "degraded",
-    "affectedServices": "NoMachine NX service",
-    "summary": "NX server nx1 connection problems",
-    "date": "2025-08-18T15:00",
-    "updates": [
-      {
-        "date": "2025-08-18T15:00",
-        "details": "NX server nx1.jasmin is being investigated for connection problems and may need to be rebooted. nx2 and nx3 should be available as normal"
-      },
-      {
-        "date": "2025-08-18T16:00",
-        "details": "nx1 and nx2 have had memory increased. nx3 will be rebooted 09:00 Tues 19 Aug to apply memory increase. nx4 remains unavailable for now"
-      }
-    ] 
-  },
-  {
     "status": "degraded",
     "affectedServices": "LOTUS",
     "summary": "Some LOTUS jobs delayed or failed",
@@ -72,6 +56,10 @@
       {
         "date": "2025-08-19T13:00",
         "details": "Now confirmed as related to PFS storage performance issue, so expected to continue until resolved, with some jobs expected to fail & require resubmission."
+      },
+      {
+        "date": "2025-08-27T09:00",
+        "details": "Many LOTUS hosts down after storage-related problems over the weekend. Remedial work in progress."
       }
     ]
   },
@@ -86,5 +74,17 @@
         "details": "Advance notice of two planned network outages at the RAL site: Wed 27 Aug (07:00-08:00) and Wed 03 Sep (07:00-08:00). Please plan your work to minimise disruption."
       }
     ]
-  } 
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Globus data transfer service",
+    "summary": "Endpoint busy errors / delayed transfers",
+    "date": "2025-08-27T09:00",
+    "updates": [
+      {
+        "date": "2025-08-27T09:00",
+        "details": "A build-up of stuck processes on transfer nodes necessitates reboots this morning. Delayed transfers should resume automatically."
+      }
+    ]
+  }
 ]
