@@ -64,6 +64,22 @@
       {
         "date": "2025-08-27T09:00",
         "details": "Many LOTUS hosts down after storage-related problems over the weekend. Remedial work in progress. Please AVOID polling the Slurm controller with sinfo, squeue etc. for now as this helps reduce load while it is recovering."
+      },
+      {
+        "date": "2025-08-27T15:00",
+        "details": "Cluster is improving but to help recovery, partitions will be put into down state this evening 19:00, meaning jobs can still be submitted but will not run until a further intervention tomorrow. If possible, please postpone further job submissions until further notice, check here for updates."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "sci servers",
+    "summary": "Reboots required to clear performance issues",
+    "date": "2025-08-27T15:30",
+    "updates": [
+      {
+        "date": "2025-08-27T15:30",
+        "details": "The sci-vm-* servers will be rebooted at 15:30 today to clear current performance issues."
       }
     ]
   },
