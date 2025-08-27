@@ -76,7 +76,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Globus data transfer service",
     "summary": "Endpoint busy errors / delayed transfers",
     "date": "2025-08-27T09:00",
@@ -84,6 +84,10 @@
       {
         "date": "2025-08-27T09:00",
         "details": "A build-up of stuck processes on transfer nodes necessitates reboots this morning. Delayed transfers should resume automatically."
+      },
+      {
+        "date": "2025-08-27T10:00",
+        "details": "Affected nodes now rebooted. Delayed transfers should resume automatically."
       }
     ]
   }
