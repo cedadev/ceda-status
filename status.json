@@ -40,6 +40,10 @@
       {
         "date": "2025-08-21T10:00",
         "details": "Intervention planned for 10:15 this morning (Thurs 21 Aug), may result in affected storage being offline for a few minutes."
+      },
+      {
+        "date": "2025-08-27T10:00",
+        "details": "Further issues over the long weekend: rollout of changes from 21 Aug took time to reach some nodes. Storage cluster is now improving."
       }
     ] 
   },
