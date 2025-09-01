@@ -28,7 +28,7 @@
     ]
   },
   {
-   "status": "degraded",
+    "status": "degraded",
     "affectedServices": "PFS storage: /work/scratch-pw*, /work/xfc, /gws/pw/j07/*",
     "summary": "Reports of degraded performance.",
     "date": "2025-08-18T12:00",
@@ -45,7 +45,7 @@
         "date": "2025-08-27T10:00",
         "details": "Further issues over the long weekend: rollout of changes from 21 Aug took time to reach some nodes. Storage cluster is now improving."
       }
-    ] 
+    ]
   },
   {
     "status": "at risk",
@@ -112,6 +112,18 @@
       {
         "date": "2025-08-27T10:00",
         "details": "Affected nodes now rebooted. Delayed transfers should resume automatically."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Tape services (ET/JDMA/NLDS/NLA)",
+    "summary": "No recalls possible at present, ingests currently unaffected but at risk",
+    "date": "2025-09-01T10:00",
+    "updates": [
+      {
+        "date": "2025-09-01T10:00",
+        "details": "Issue with tape library currently preventing recalls of data from tape. Ingests currently OK but at risk."
       }
     ]
   }
