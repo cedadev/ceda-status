@@ -76,42 +76,14 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "sci servers",
-    "summary": "Reboots required to clear performance issues",
-    "date": "2025-08-27T15:30",
-    "updates": [
-      {
-        "date": "2025-08-27T15:30",
-        "details": "The sci-vm-* servers will be rebooted between 15:30 - 16:00 today to clear current performance issues."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Planned network outages at RAL",
-    "date": "2025-08-27T07:00",
+    "date": "2025-09-03T07:00",
     "updates": [
       {
         "date": "2025-08-22T12:00",
         "details": "Advance notice of two planned network outages at the RAL site: Wed 27 Aug (07:00-08:00) and Wed 03 Sep (07:00-08:00). Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Globus data transfer service",
-    "summary": "Endpoint busy errors / delayed transfers",
-    "date": "2025-08-27T09:00",
-    "updates": [
-      {
-        "date": "2025-08-27T09:00",
-        "details": "A build-up of stuck processes on transfer nodes necessitates reboots this morning. Delayed transfers should resume automatically."
-      },
-      {
-        "date": "2025-08-27T10:00",
-        "details": "Affected nodes now rebooted. Delayed transfers should resume automatically."
       }
     ]
   },
