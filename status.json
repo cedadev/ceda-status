@@ -88,7 +88,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Tape services (ET/JDMA/NLDS/NLA)",
     "summary": "No recalls possible at present, ingests currently unaffected but at risk",
     "date": "2025-09-01T10:00",
@@ -96,6 +96,10 @@
       {
         "date": "2025-09-01T10:00",
         "details": "Issue with tape library currently preventing recalls of data from tape. Ingests currently OK but at risk."
+      },
+      {
+        "date": "2025-09-01T17:30",
+        "details": "Issue now resolved, normal operation resumed."
       }
     ]
   }
