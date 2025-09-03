@@ -76,7 +76,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Planned network outages at RAL",
     "date": "2025-09-03T07:00",
@@ -88,6 +88,10 @@
       {
         "date": "2025-09-03T10:30",
         "details": "Ongoing issue with accessibility of JASMIN cloud, likely related to this morning's network intervention. Investigation ongoing."
+      },
+      {
+        "date": "2025-09-03T15:30",
+        "details": "This issue has now been resolved."
       }
     ]
   },
