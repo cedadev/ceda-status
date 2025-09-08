@@ -50,5 +50,17 @@
         "details": "Advance notice of planned network outage at the RAL site on Wed 10 Sep (05:00-07:00). Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "/work/xfc/vol5",
+    "summary": "Volume is full, please clean up!",
+    "date": "2025-09-08T09:25",
+    "updates": [
+      {
+        "date": "2025-09-08T09:25",
+        "details": "XFC volume /work/xfc/vol5 is currently full with no further writes possible until space is freed up: please delete any non-essential data."
+      }
+    ]
   }
 ]
