@@ -62,5 +62,17 @@
         "details": "XFC volume /work/xfc/vol5 is currently full with no further writes possible until space is freed up: please delete any non-essential data."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Network connectivity issue",
+    "date": "2025-09-09T14:50",
+    "updates": [
+      {
+        "date": "2025-09-09T14:50",
+        "details": "A network issue is currently affecting tape services, which are currently unavailable. Issue is under investigation."
+      }
+    ]
   }
 ]
