@@ -28,18 +28,6 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "CEDA Catalogue Service",
-    "summary": "An update is being rolled out to introduce a new API endpoint for the CEDA data catalogue",
-    "date": "2025-09-09T09:00",
-    "updates": [
-      {
-        "date": "2025-09-05T15:00",
-        "details": "We are introducing a new API endpoint for the CEDA data catalogue. Whilst the data catalogue should be considered 'at risk', we anticipate minimal disruption to users."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Planned network outage at RAL",
