@@ -44,7 +44,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "tape services",
     "summary": "Network connectivity issue",
     "date": "2025-09-09T14:50",
@@ -52,6 +52,10 @@
       {
         "date": "2025-09-09T14:50",
         "details": "A network issue is currently affecting tape services, which are currently unavailable. Issue is under investigation."
+      },
+      {
+        "date": "2025-09-16T14:50",
+        "details": "Tape library has developed another issue overnight with no data being recalled. Issue being investigated."
       }
     ]
   }
