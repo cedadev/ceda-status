@@ -62,5 +62,17 @@
         "details": "This issue has now been resolved."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "NLDS",
+    "summary": "NLDS unavailable",
+    "date": "2025-09-17T16:00",
+    "updates": [
+      {
+        "date": "2025-09-17T16:00",
+        "details": "The NLDS is currently unavailable due to operational problems."
+      }
+    ]
   }
 ]
