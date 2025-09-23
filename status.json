@@ -28,22 +28,6 @@
     ]
   },
   {
-    "status": "at risk",
-    "affectedServices": "/work/xfc/vol5",
-    "summary": "Volume is full, please clean up!",
-    "date": "2025-09-08T09:25",
-    "updates": [
-      {
-        "date": "2025-09-08T09:25",
-        "details": "XFC volume /work/xfc/vol5 is currently full with no further writes possible until space is freed up: please delete any non-essential data."
-      },
-      {
-        "date": "2025-09-15T17:50",
-        "details": "XFC volume /work/xfc/vol5 is still 97% full: please continue cleaning up to avoid losing write access."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "NLDS",
     "summary": "NLDS unavailable",
@@ -52,6 +36,18 @@
       {
         "date": "2025-09-17T16:00",
         "details": "The NLDS is currently unavailable due to operational problems."
+      }
+    ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "Several CEDA and JASMIN web services",
+    "summary": "Interruptions due to network issues",
+    "date": "2025-09-23T13:00",
+    "updates": [
+      {
+        "date": "2025-09-23T13:00",
+        "details": "Network issues within the hosting infrastructure used for some CEDA and JASMIN web services is currently causing intermittent connectivity issues. Investigation ongoing."
       }
     ]
   }
