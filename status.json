@@ -60,7 +60,7 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Several CEDA and JASMIN web services",
     "summary": "Interruptions due to network issues",
     "date": "2025-09-23T13:00",
@@ -68,6 +68,10 @@
       {
         "date": "2025-09-23T13:00",
         "details": "Network issues within the hosting infrastructure used for some CEDA and JASMIN web services is currently causing intermittent connectivity issues. Investigation ongoing."
+      },
+      {
+        "date": "2025-10-01T11:30",
+        "details": "Situation resolved, please report any further issues as normal"
       }
     ]
   }
