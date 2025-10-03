@@ -12,22 +12,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Essential maintenance to install recommended software updates and reboot hosts.",
-    "date": "2025-09-29T00:01",
-    "updates": [
-      {
-        "date": "2025-09-25T09:00",
-        "details": "Reboots of servers planned for Tuesday morning 30 September. Some reboots may also happen Monday 29 September, but all remaining hosts will be rebooted Tues 30th: please plan your work to avoid disruption."
-      },
-      {
-        "date": "2025-09-30T17:00",
-        "details": "Updates completed, services should be back to normal (unless mentioned elsewhere on this board). Please report any issues to the helpdesk."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "NX server nx4",
     "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
@@ -60,18 +44,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Several CEDA and JASMIN web services",
-    "summary": "Interruptions due to network issues",
-    "date": "2025-09-23T13:00",
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN Services",
+    "summary": "RAL Site network at risk ",
+    "date": "2025-010-27T07:00",
     "updates": [
       {
-        "date": "2025-09-23T13:00",
-        "details": "Network issues within the hosting infrastructure used for some CEDA and JASMIN web services is currently causing intermittent connectivity issues. Investigation ongoing."
-      },
-      {
-        "date": "2025-10-01T11:30",
-        "details": "Situation resolved, please report any further issues as normal"
+        "date": "2025-10-03T10:00",
+        "details": "The RAL Site's primary internet connection will be down for between 15 minutes and 2 hours at 07:00 on Tuesday 27th October. The connection should rolover to the secondary link and no disruption expected."
       }
     ]
   }
