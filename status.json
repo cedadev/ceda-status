@@ -45,13 +45,25 @@
   },
   {
     "status": "at risk",
+    "affectedServices": "Elastic Tape (ET) and JDMA services",
+    "summary": "Currently running at risk due to a server disk failure",
+    "date": "2025-10-03T12:00",
+    "updates": [
+      {
+        "date": "2025-09-17T16:00",
+        "details": "Running at risk, service may imminently need to stop ingests (writing) to minimise further risk to service. Further updates to follow."
+      }
+    ]
+  },
+  {
+    "status": "at risk",
     "affectedServices": "All CEDA and JASMIN Services",
     "summary": "RAL Site network at risk ",
     "date": "2025-10-27T07:00",
     "updates": [
       {
         "date": "2025-10-03T10:00",
-        "details": "The RAL Site's primary internet connection will be down for between 15 minutes and 2 hours at 07:00 on Tuesday 27th October. The connection should rolover to the secondary link and no disruption expected."
+        "details": "The RAL Site's primary internet connection will be down for between 15 minutes and 2 hours at 07:00 on Tuesday 27th October. The connection should roll over to the secondary link and no disruption expected."
       }
     ]
   }
