@@ -46,12 +46,12 @@
   {
     "status": "down",
     "affectedServices": "Elastic Tape (ET) and JDMA services",
-    "summary": "Currently running at risk due to a server disk failure",
+    "summary": "Currently unavailable due to a server disk failure",
     "date": "2025-10-03T12:00",
     "updates": [
       {
         "date": "2025-10-03T12:00",
-        "details": "Running at risk, service may imminently need to stop ingests (writing) to minimise further risk to service. Further updates to follow."
+        "details": "Service may imminently need to stop ingests (writing) to minimise further risk to service. Further updates to follow."
       },
       {
         "date": "2025-10-03T14:30",
