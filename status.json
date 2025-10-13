@@ -79,5 +79,17 @@
         "details": "The RAL Site's primary internet connection will be down for between 15 minutes and 2 hours at 07:00 on Tuesday 28th October. The connection should roll over to the secondary link and no disruption is expected."
       }
     ]
+  },
+    {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN Services",
+    "summary": "RAL Site network at risk ",
+    "date": "2025-10-18T09:00",
+    "updates": [
+      {
+        "date": "2025-10-13T11:00",
+        "details": "RAL Site's secondary internet connection to undergo maintenance between 09:00-18:00 Saturday 18th & 09:00-18:00 BST Sunday 19th October. No disruption expected but all services remain at risk."
+      }
+    ]
   }
 ]
