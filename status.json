@@ -91,5 +91,17 @@
         "details": "RAL Site's secondary internet connection to undergo maintenance between 09:00-18:00 Saturday 18th & 09:00-18:00 BST Sunday 19th October. No disruption expected but all services remain at risk."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "CEDA Data Catalogue",
+    "summary": "Scheduled update to the CEDA Data Catalogue, disruption should be minimal",
+    "date": "2025-10-14T10:30",
+    "updates": [
+      {
+        "date": "2025-10-13T14:00",
+        "details": "The CEDA Data Catalogue service will be at updated around 1030 on Tuesday 14th October to provide a options to get either a BibTeX or CIS formatted citation file for dataset and collections alongside some minor additions to the catalogue API functionality."
+      }
+    ]
   }
 ]
