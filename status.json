@@ -28,7 +28,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "NLDS",
     "summary": "NLDS unavailable",
     "date": "2025-09-17T16:00",
@@ -40,6 +40,10 @@
       {
         "date": "2025-09-23T13:00",
         "details": "Service still unavailable, investigation ongoing."
+      },
+      {
+        "date": "2025-10-13T17:00",
+        "details": "NLDS now available again. Users can expect an email with further instructions."
       }
     ]
   },
