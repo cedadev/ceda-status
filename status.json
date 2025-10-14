@@ -1,4 +1,16 @@
 [
+    {
+    "status": "at risk",
+    "affectedServices": "Jupyter Notebook Service",
+    "summary": "Notebook service at risk do to essential environment update",
+    "date": "2025-10-17T10:30",
+    "updates": [
+      {
+        "date": "2025-10-14T15:45",
+        "details": "The Jupyter Notebook service for Jasmin (notebooks.jasmin.ac.uk) will be at risk from 10:30 until 11:30 on Friday 17th October 2025. Active users may be signed out of the service during this time."
+      }
+    ]
+  },
   {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
