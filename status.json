@@ -48,7 +48,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Elastic Tape (ET) and JDMA services",
     "summary": "Currently unavailable due to a server disk failure",
     "date": "2025-10-03T12:00",
@@ -60,8 +60,11 @@
       {
         "date": "2025-10-03T14:30",
         "details": "Service will be unavailable from 15:00 today Fri 3 Oct until further notice, apologies for any inconvenience."
+      },
+      {
+        "date": "2025-10-14T15:00",
+        "details": "JDMA and Elastic Tape services are now back up and running"
       }
-
     ]
   },
   {
@@ -97,14 +100,18 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "CEDA Data Catalogue",
     "summary": "Scheduled update to the CEDA Data Catalogue, disruption should be minimal",
     "date": "2025-10-14T10:30",
     "updates": [
       {
         "date": "2025-10-13T14:00",
-        "details": "The CEDA Data Catalogue service will be at updated around 1030 on Tuesday 14th October to provide a options to get either a BibTeX or CIS formatted citation file for dataset and collections alongside some minor additions to the catalogue API functionality."
+        "details": "The CEDA Data Catalogue service will be at updated around 10:30 on Tuesday 14th October to provide a options to get either a BibTeX or CIS formatted citation file for dataset and collections alongside some minor additions to the catalogue API functionality."
+      },
+      {
+        "date": "2025-10-13T17:00",
+        "details": "Update has been rolled out and service is resumed"
       }
     ]
   }
