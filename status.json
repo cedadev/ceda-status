@@ -113,7 +113,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "sci-vm-01",
     "summary": "sci-vm-01 rebooting",
     "date": "2025-10-16T10:00",
@@ -121,6 +121,10 @@
       {
         "date": "2025-10-16T10:00",
         "details": "sci-vm-01 is rebooting at 10:00 due to an issue with its storage. Please use an alternate sci machine during this time. Apologies for any inconvenience caused."
+      },
+      {
+        "date": "2025-10-16T11:00",
+        "details": "sci-vm-01 is up and available for use again"
       }
     ]
   }
