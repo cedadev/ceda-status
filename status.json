@@ -55,7 +55,8 @@
       },
       {
         "date": "2025-10-13T17:00",
-        "details": "NLDS now available again. Users can expect an email with further instructions."
+        "details": "NLDS now available again. Users can expect an email or see the NLDS client docs with further instructions.",
+        "url": "https://cedadev.github.io/nlds-client/installation.html#upgrading-to-v1-0-12"
       }
     ]
   },
@@ -102,7 +103,7 @@
     {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN Services",
-    "summary": "RAL Site network at risk ",
+    "summary": "RAL Site network at risk",
     "date": "2025-10-18T09:00",
     "updates": [
       {
@@ -112,18 +113,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "CEDA Data Catalogue",
-    "summary": "Scheduled update to the CEDA Data Catalogue, disruption should be minimal",
-    "date": "2025-10-14T10:30",
+    "status": "down",
+    "affectedServices": "sci-vm-01",
+    "summary": "sci-vm-01 rebooting",
+    "date": "2025-10-16T10:00",
     "updates": [
       {
-        "date": "2025-10-13T14:00",
-        "details": "The CEDA Data Catalogue service will be at updated around 10:30 on Tuesday 14th October to provide a options to get either a BibTeX or CIS formatted citation file for dataset and collections alongside some minor additions to the catalogue API functionality."
-      },
-      {
-        "date": "2025-10-13T17:00",
-        "details": "Update has been rolled out and service is resumed"
+        "date": "2025-10-16T10:00",
+        "details": "sci-vm-01 is rebooting at 10:00 due to an issue with its storage. Please use an alternate sci machine during this time. Apologies for any inconvenience caused."
       }
     ]
   }
