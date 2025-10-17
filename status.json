@@ -1,13 +1,17 @@
 [
     {
-    "status": "at risk",
-    "affectedServices": "Jupyter Notebook Service",
+    "status": "resolved",
+    "affectedServices": "JASMIN Notebook Service",
     "summary": "Notebook service at risk do to essential environment update",
     "date": "2025-10-17T10:30",
     "updates": [
       {
         "date": "2025-10-14T15:45",
-        "details": "The Jupyter Notebook service for Jasmin (notebooks.jasmin.ac.uk) will be at risk from 10:30 until 11:30 on Friday 17th October 2025. Active users may be signed out of the service during this time."
+        "details": "The JASMIN Notebook service (notebooks.jasmin.ac.uk) will be at risk from 10:30 until 11:30 on Friday 17th October 2025. Active users may be signed out of the service during this time."
+      },
+      {
+        "date": "2025-10-17T10:45",
+        "details": "The JASMIN Notebook service has been updated and is no longer at risk."
       }
     ]
   },
@@ -109,22 +113,6 @@
       {
         "date": "2025-10-13T11:00",
         "details": "RAL Site's secondary internet connection to undergo maintenance between 09:00-18:00 Saturday 18th & 09:00-18:00 BST Sunday 19th October. No disruption expected but all services remain at risk."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "sci-vm-01",
-    "summary": "sci-vm-01 rebooting",
-    "date": "2025-10-16T10:00",
-    "updates": [
-      {
-        "date": "2025-10-16T10:00",
-        "details": "sci-vm-01 is rebooting at 10:00 due to an issue with its storage. Please use an alternate sci machine during this time. Apologies for any inconvenience caused."
-      },
-      {
-        "date": "2025-10-16T11:00",
-        "details": "sci-vm-01 is up and available for use again"
       }
     ]
   }
