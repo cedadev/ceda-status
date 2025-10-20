@@ -129,11 +129,15 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "Helpdesk",
     "summary": "Third party helpdesk service down",
     "date": "2025-10-20T08:10",
     "updates": [
+      {
+        "date": "2025-10-20T11:00",
+        "details": "Helpscout appears functional again and AWS is reporting significant improvement in their service provision."
+      },
       {
         "date": "2025-10-20T09:00",
         "details": "AWS US-East-1 (Virginia) is suffering multiple issues which is effecting many services on the internet, including helpscout, the third party system which provides our helpdesk."
