@@ -127,5 +127,17 @@
         "details": "There will be no physical access to the building housing the JASMIN and CEDA services hardware on Friday 14th November 2025. No disruption is expected but in the event of physical equipment failure repairs will not be possible on the day."
       }
     ]
-  }
+  },
+  {
+    "status": "down",
+    "affectedServices": "Helpdesk",
+    "summary": "Third party helpdesk service down",
+    "date": "2025-11-20T08:10",
+    "updates": [
+      {
+        "date": "2025-10-20T09:00",
+        "details": "AWS US-East-1 (Virginia) is suffering multiple issues which is effecting many services on the internet, including helpscout, the third party system which provides our helpdesk."
+      }
+    ]
+  }  
 ]
