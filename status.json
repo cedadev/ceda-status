@@ -28,59 +28,14 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "NX server nx4",
     "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
     "date": "2025-08-06T12:00",
     "updates": [
       {
-        "date": "2025-08-06T12:00",
-        "details": "Server nx4 is currently down to test a new configuration. Other NX servers nx1 - nx3 available as normal."
-      },
-      {
-        "date": "2025-08-18T15:00",
-        "details": "Server nx4 still out of service. nx1.jasmin being investigated for connection problems. nx2 and nx3 should be available as normal."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "NLDS",
-    "summary": "NLDS unavailable",
-    "date": "2025-09-17T16:00",
-    "updates": [
-      {
-        "date": "2025-09-17T16:00",
-        "details": "The NLDS is currently unavailable due to operational problems."
-      },
-      {
-        "date": "2025-09-23T13:00",
-        "details": "Service still unavailable, investigation ongoing."
-      },
-      {
-        "date": "2025-10-13T17:00",
-        "details": "NLDS now available again. Users can expect an email or see the NLDS client docs with further instructions.",
-        "url": "https://cedadev.github.io/nlds-client/installation.html#upgrading-to-v1-0-12"
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Elastic Tape (ET) and JDMA services",
-    "summary": "Currently unavailable due to a server disk failure",
-    "date": "2025-10-03T12:00",
-    "updates": [
-      {
-        "date": "2025-10-03T12:00",
-        "details": "Service may imminently need to stop ingests (writing) to minimise further risk to service. Further updates to follow."
-      },
-      {
-        "date": "2025-10-03T14:30",
-        "details": "Service will be unavailable from 15:00 today Fri 3 Oct until further notice, apologies for any inconvenience."
-      },
-      {
-        "date": "2025-10-14T15:00",
-        "details": "JDMA and Elastic Tape services are now back up and running"
+        "date": "2025-10-20T11:00",
+        "details": "Server nx4 has been updated and is now operating normally, with at least the 'agent' method now working from most clients. The key method is known to be problematic for some user setups so please try both before reporting a problem."
       }
     ]
   },
@@ -101,18 +56,6 @@
       {
         "date": "2025-10-03T10:00",
         "details": "The RAL Site's primary internet connection will be down for between 15 minutes and 2 hours at 07:00 on Tuesday 28th October. The connection should roll over to the secondary link and no disruption is expected."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN Services",
-    "summary": "RAL Site network at risk",
-    "date": "2025-10-18T09:00",
-    "updates": [
-      {
-        "date": "2025-10-13T11:00",
-        "details": "RAL Site's secondary internet connection to undergo maintenance between 09:00-18:00 Saturday 18th & 09:00-18:00 BST Sunday 19th October. No disruption expected but all services remain at risk."
       }
     ]
   },
