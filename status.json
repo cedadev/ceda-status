@@ -72,11 +72,15 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Helpdesk",
     "summary": "Third party helpdesk service down",
     "date": "2025-10-20T08:10",
     "updates": [
+      {
+        "date": "2025-10-20T23:05",
+        "details": "AWS is reporting full recovery and all dependent services are expected to operate normally."
+      },
       {
         "date": "2025-10-20T11:00",
         "details": "Helpscout appears functional again and AWS is reporting significant improvement in their service provision."
