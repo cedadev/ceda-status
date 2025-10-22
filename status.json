@@ -1,17 +1,13 @@
 [
     {
-    "status": "resolved",
+    "status": "degraded",
     "affectedServices": "JASMIN Notebook Service",
-    "summary": "Notebook service at risk do to essential environment update",
-    "date": "2025-10-17T10:30",
+    "summary": "Notebook service certificate issue",
+    "date": "2025-10-22T11:30",
     "updates": [
       {
-        "date": "2025-10-14T15:45",
-        "details": "The JASMIN Notebook service (notebooks.jasmin.ac.uk) will be at risk from 10:30 until 11:30 on Friday 17th October 2025. Active users may be signed out of the service during this time."
-      },
-      {
-        "date": "2025-10-17T10:45",
-        "details": "The JASMIN Notebook service has been updated and is no longer at risk."
+        "date": "2025-10-22T11:30",
+        "details": "The JASMIN Notebook service currently has an issue with its certificate. Please do not use the service while we fix this. Apologies for the inconvenience."
       }
     ]
   },
@@ -83,11 +79,11 @@
       },
       {
         "date": "2025-10-20T11:00",
-        "details": "Helpscout appears functional again and AWS is reporting significant improvement in their service provision."
+        "details": "Help Scout appears functional again and AWS is reporting significant improvement in their service provision."
       },
       {
         "date": "2025-10-20T09:00",
-        "details": "AWS US-East-1 (Virginia) is suffering multiple issues which is effecting many services on the internet, including helpscout, the third party system which provides our helpdesk."
+        "details": "AWS US-East-1 (Virginia) is suffering multiple issues which is effecting many services on the internet, including Help Scout, the third party system which provides our helpdesk."
       }
     ]
   }  
