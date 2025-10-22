@@ -1,6 +1,6 @@
 [
     {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "JASMIN Notebook Service",
     "summary": "Notebook service certificate issue",
     "date": "2025-10-22T11:30",
@@ -8,6 +8,10 @@
       {
         "date": "2025-10-22T11:30",
         "details": "The JASMIN Notebook service currently has an issue with its certificate. Please do not use the service while we fix this. Apologies for the inconvenience."
+      },
+      {
+        "date": "2025-10-22T13:30",
+        "details": "The certificate issue has been fixed and the notebook service is ready to use again."
       }
     ]
   },
