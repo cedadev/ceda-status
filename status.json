@@ -1,5 +1,5 @@
 [
-    {
+  {
     "status": "resolved",
     "affectedServices": "JASMIN Notebook Service",
     "summary": "Notebook service certificate issue",
@@ -90,5 +90,17 @@
         "details": "AWS US-East-1 (Virginia) is suffering multiple issues which is effecting many services on the internet, including Help Scout, the third party system which provides our helpdesk."
       }
     ]
-  }  
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "ORCHID",
+    "summary": "Full quota of GPU hosts unavailable",
+    "date": "2025-10-22T14:00",
+    "updates": [
+      {
+        "date": "2025-10-22T14:00",
+        "details": "Due to maintenance, the full quota of GPU hosts will not be available over the next few days. Apologies for the inconvenience."
+      }
+    ]
+  }
 ]
