@@ -92,7 +92,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "ORCHID",
     "summary": "Full quota of GPU hosts unavailable",
     "date": "2025-10-22T14:00",
@@ -100,6 +100,10 @@
       {
         "date": "2025-10-22T14:00",
         "details": "Due to maintenance, the full quota of GPU hosts will not be available over the next few days. Apologies for the inconvenience."
+      },
+      {
+        "date": "2025-10-24T10:00",
+        "details": "All ORCHID GPU hosts are now available for use."
       }
     ]
   }
