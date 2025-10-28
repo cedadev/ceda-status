@@ -1,21 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "JASMIN Notebook Service",
-    "summary": "Notebook service certificate issue",
-    "date": "2025-10-22T11:30",
-    "updates": [
-      {
-        "date": "2025-10-22T11:30",
-        "details": "The JASMIN Notebook service currently has an issue with its certificate. Please do not use the service while we fix this. Apologies for the inconvenience."
-      },
-      {
-        "date": "2025-10-22T13:30",
-        "details": "The certificate issue has been fixed and the notebook service is ready to use again."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
@@ -24,18 +8,6 @@
       {
         "date": "2025-07-31T09:00",
         "details": "Advance notice of scheduled maintenance day on Tues 4th November 2025. Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "NX server nx4",
-    "summary": "Server nx4.jasmin.ac.uk down to test new configuration.",
-    "date": "2025-08-06T12:00",
-    "updates": [
-      {
-        "date": "2025-10-20T11:00",
-        "details": "Server nx4 has been updated and is now operating normally, with at least the 'agent' method now working from most clients. The key method is known to be problematic for some user setups so please try both before reporting a problem."
       }
     ]
   },
@@ -72,38 +44,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Helpdesk",
-    "summary": "Third party helpdesk service down",
-    "date": "2025-10-20T08:10",
+    "status": "degraded",
+    "affectedServices": "XFC (transfer cache)",
+    "summary": "Volume /work/xfc/vol7 is full, no further writes possible, please clean up!",
+    "date": "2025-10-28T13:00",
     "updates": [
       {
-        "date": "2025-10-20T23:05",
-        "details": "AWS is reporting full recovery and all dependent services are expected to operate normally."
-      },
-      {
-        "date": "2025-10-20T11:00",
-        "details": "Help Scout appears functional again and AWS is reporting significant improvement in their service provision."
-      },
-      {
-        "date": "2025-10-20T09:00",
-        "details": "AWS US-East-1 (Virginia) is suffering multiple issues which is effecting many services on the internet, including Help Scout, the third party system which provides our helpdesk."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "ORCHID",
-    "summary": "Full quota of GPU hosts unavailable",
-    "date": "2025-10-22T14:00",
-    "updates": [
-      {
-        "date": "2025-10-22T14:00",
-        "details": "Due to maintenance, the full quota of GPU hosts will not be available over the next few days. Apologies for the inconvenience."
-      },
-      {
-        "date": "2025-10-24T10:00",
-        "details": "All ORCHID GPU hosts are now available for use."
+        "date": "2025-10-28T13:00",
+        "details": "Volume is full so requires users to clean up non-essential data before writes can resume."
       }
     ]
   }
