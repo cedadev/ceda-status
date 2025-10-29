@@ -44,7 +44,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "XFC (transfer cache)",
     "summary": "Volume /work/xfc/vol7 is full, no further writes possible, please clean up!",
     "date": "2025-10-28T13:00",
@@ -52,6 +52,10 @@
       {
         "date": "2025-10-28T13:00",
         "details": "Volume is full so requires users to clean up non-essential data before writes can resume."
+      },
+      {
+        "date": "2025-10-29T13:00",
+        "details": "Usage now reduced so disk volume now operating normally."
       }
     ]
   }
