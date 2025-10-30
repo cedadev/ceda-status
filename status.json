@@ -14,26 +14,6 @@
   {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN Services",
-    "summary": "RAL Site network at risk ",
-    "date": "2025-10-29T18:00",
-    "updates": [
-      {
-        "date": "2025-10-13T11:00",
-        "details": "NOTE: Second reschedule to 18:00 Wednesday 29th October. No disruption is expected but all services remain at risk for approximately 3 hours between 18:00 and 21:00."
-      },
-      {
-        "date": "2025-10-10T09:45",
-        "details": "NOTE: Rescheduled to 18:00 Thursday 30th October. No disruption is expected but all services remain at risk for approximately 3 hours between 18:00 and 21:00."
-      },
-      {
-        "date": "2025-10-03T10:00",
-        "details": "The RAL Site's primary internet connection will be down for between 15 minutes and 2 hours at 07:00 on Tuesday 28th October. The connection should roll over to the secondary link and no disruption is expected."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN Services",
     "summary": "No physical access to data centre building",
     "date": "2025-11-14T08:00",
     "updates": [
@@ -44,18 +24,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "XFC (transfer cache)",
-    "summary": "Volume /work/xfc/vol7 is full, no further writes possible, please clean up!",
-    "date": "2025-10-28T13:00",
+    "status": "degraded",
+    "affectedServices": "Tape services",
+    "summary": "Tape mount issues with tape library.",
+    "date": "2025-10-30T12:15",
     "updates": [
       {
-        "date": "2025-10-28T13:00",
-        "details": "Volume is full so requires users to clean up non-essential data before writes can resume."
-      },
-      {
-        "date": "2025-10-29T13:00",
-        "details": "Usage now reduced so disk volume now operating normally."
+        "date": "2025-10-30T12:15",
+        "details": "Tape mount issues causing delays to recalls. Ingest currently able to continue but this may change. Investigation ongoing."
       }
     ]
   }
