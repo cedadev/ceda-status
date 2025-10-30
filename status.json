@@ -35,7 +35,7 @@
       },
       {
         "date": "2025-10-30T17:00",
-        "details": "Ongoing issues mean that ingest and recalls are going to be stopped shortly. PLEASE DO NOT USE ET/JDMA until further notice here. Ingest to NLDS (using only the object store cache) should be unaffected, though recalls for data only on tape will not be possible."
+        "details": "Ongoing issues mean that ingest and recalls are going to be stopped shortly. PLEASE DO NOT USE ET/JDMA until further notice here. Ingest to NLDS (using only the object store cache) should be unaffected."
       }
     ]
   }
