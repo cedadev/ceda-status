@@ -24,7 +24,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "down",
     "affectedServices": "Tape services",
     "summary": "Tape mount issues with tape library.",
     "date": "2025-10-30T12:15",
@@ -32,6 +32,10 @@
       {
         "date": "2025-10-30T12:15",
         "details": "Tape mount issues causing delays to recalls. Ingest currently able to continue but this may change. Investigation ongoing."
+      },
+      {
+        "date": "2025-10-30T17:00",
+        "details": "Ongoing issues mean that ingest and recalls are going to be stopped shortly. PLEASE DO NOT USE until further notice here."
       }
     ]
   }
