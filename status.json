@@ -38,7 +38,7 @@
         "details": "Ongoing issues mean that ingest and recalls are going to be stopped shortly. PLEASE DO NOT USE ET/JDMA until further notice here. Ingest to NLDS (using only the object store cache) should be unaffected."
       },
       {
-        "date": "2025-11-08T12:00",
+        "date": "2025-11-03T12:00",
         "details": "Tape services still down. Awaiting further information from tape services team. NLDS should continue to be unaffected."
       }
     ]
