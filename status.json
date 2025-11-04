@@ -1,6 +1,6 @@
 [
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2025-11-04T00:01",
