@@ -8,6 +8,10 @@
       {
         "date": "2025-07-31T09:00",
         "details": "Advance notice of scheduled maintenance day on Tues 4th November 2025. Please plan your work to minimise disruption."
+      },
+      {
+        "date": "2025-11-04T15:00",
+        "details": "Scheduled maintenance now completed, services operating normally. Reservations on LOTUS & ORCHID now lifted, jobs resumed running. Please report any further issues."
       }
     ]
   },
@@ -40,6 +44,10 @@
       {
         "date": "2025-11-03T12:00",
         "details": "Tape services still down. Awaiting further information from tape services team. NLDS should continue to be unaffected."
+      },
+      {
+        "date": "2025-11-04T15:00",
+        "details": "Tape services remain unavailable. Awaiting further information from tape services team. NLDS should continue to be unaffected."
       }
     ]
   }
