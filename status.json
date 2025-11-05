@@ -42,5 +42,17 @@
         "details": "More positive updates from engineer today, further news to follow tomorrow following testing."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Advance notice of next regular scheduled maintenance day",
+    "date": "2026-01-27T00:01",
+    "updates": [
+      {
+        "date": "2025-11-05T17:00",
+        "details": "Advance notice of scheduled maintenance day on Tues 27th January 2026. Please plan your work to minimise disruption."
+      }
+    ]
   }
 ]
