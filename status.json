@@ -1,21 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Advance notice of next regular scheduled maintenance day",
-    "date": "2025-11-04T00:01",
-    "updates": [
-      {
-        "date": "2025-07-31T09:00",
-        "details": "Advance notice of scheduled maintenance day on Tues 4th November 2025. Please plan your work to minimise disruption."
-      },
-      {
-        "date": "2025-11-04T15:00",
-        "details": "Scheduled maintenance now completed, services operating normally. Reservations on LOTUS & ORCHID now lifted, jobs now running again. Please report any further issues."
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN Services",
     "summary": "No physical access to data centre building",
