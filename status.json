@@ -34,20 +34,8 @@
     "date": "2025-10-30T12:15",
     "updates": [
       {
-        "date": "2025-10-30T12:15",
-        "details": "Tape mount issues causing delays to recalls. Ingest currently able to continue but this may change. Investigation ongoing."
-      },
-      {
-        "date": "2025-10-30T17:00",
-        "details": "Ongoing issues mean that ingest and recalls are going to be stopped shortly. PLEASE DO NOT USE ET/JDMA until further notice here. Ingest to NLDS (using only the object store cache) should be unaffected."
-      },
-      {
-        "date": "2025-11-03T12:00",
-        "details": "Tape services still down. Awaiting further information from tape services team. NLDS should continue to be unaffected."
-      },
-      {
-        "date": "2025-11-04T15:00",
-        "details": "Tape services remain unavailable. Awaiting further information from tape services team. NLDS should continue to be unaffected."
+        "date": "2025-11-05T15:00",
+        "details": "Tape services remain unavailable. Initial engineer assessment of tape robot warns of an extended outage. NLDS should continue to be unaffected."
       }
     ]
   }
