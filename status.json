@@ -44,7 +44,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "ORCHID",
     "summary": "Interactive GPU jobs not available",
     "date": "2025-11-06T12:00",
@@ -52,6 +52,10 @@
       {
         "date": "2025-11-06T12:00",
         "details": "We are investigating an issue with interactive jobs on ORCHID not being able to access the GPUs. Please use the interactive node gpuhost001 in the meantime. Jobs submitted with sbatch are unaffected."
+      },
+      {
+        "date": "2025-11-06T14:00",
+        "details": "This issue has now been resolved."
       }
     ]
   }
