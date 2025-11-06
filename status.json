@@ -24,6 +24,10 @@
       {
         "date": "2025-11-05T17:00",
         "details": "More positive updates from engineer today, further news to follow tomorrow following testing."
+      },
+      {
+        "date": "2025-11-06T11:00",
+        "details": "Tape library had more issues overnight, currently under investigation with engineer. Tape services remain unavailable, NLDS unaffected."
       }
     ]
   },
