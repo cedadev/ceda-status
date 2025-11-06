@@ -42,5 +42,17 @@
         "details": "Advance notice of scheduled maintenance day on Tues 27th January 2026. Please plan your work to minimise disruption."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "ORCHID",
+    "summary": "Interactive GPU jobs not available",
+    "date": "2025-11-06T12:00",
+    "updates": [
+      {
+        "date": "2025-11-06T12:00",
+        "details": "We are investigating an issue with interactive jobs on ORCHID not being able to access the GPUs. Please use the interactive node gpuhost001 in the meantime. Jobs submitted with sbatch are unaffected."
+      }
+    ]
   }
 ]
