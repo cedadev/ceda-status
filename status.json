@@ -18,16 +18,8 @@
     "date": "2025-10-30T12:15",
     "updates": [
       {
-        "date": "2025-11-05T15:00",
-        "details": "Tape services remain unavailable. Initial engineer assessment of tape robot warns of an extended outage. NLDS should continue to be unaffected."
-      },
-      {
-        "date": "2025-11-05T17:00",
-        "details": "More positive updates from engineer today, further news to follow tomorrow following testing."
-      },
-      {
-        "date": "2025-11-06T11:00",
-        "details": "Tape library had more issues overnight, currently under investigation with engineer. Tape services remain unavailable, NLDS unaffected."
+        "date": "2025-11-10T09:00",
+        "details": "Tape library fault now identified and resolved, hoping to resume user access shortly."
       }
     ]
   },
