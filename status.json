@@ -12,22 +12,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Tape services",
-    "summary": "Tape mount issues with tape library.",
-    "date": "2025-10-30T12:15",
-    "updates": [
-      {
-        "date": "2025-11-10T09:00",
-        "details": "Tape library fault now identified and resolved, hoping to resume user access shortly."
-      },
-      {
-        "date": "2025-11-10T16:00",
-        "details": "Services now resumed, please report any further issues."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
