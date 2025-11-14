@@ -24,7 +24,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "LOTUS, ORCHID",
     "summary": "Jobs not being scheduled on LOTUS",
     "date": "2025-11-14T09:00",
@@ -32,6 +32,10 @@
       {
         "date": "2025-11-14T09:00",
         "details": "Batch jobs are currently not getting scheduled to run on LOTUS. We are investigating the issue."
+      },
+      {
+        "date": "2025-11-14T11:30",
+        "details": "The issue has been resolved, jobs are now being allocated again on LOTUS."
       }
     ]
   }
