@@ -1,6 +1,6 @@
 [
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN Services",
     "summary": "No physical access to data centre building",
     "date": "2025-11-14T08:00",
@@ -8,7 +8,11 @@
       {
         "date": "2025-10-17T12:00",
         "details": "There will be no physical access to the building housing the JASMIN and CEDA services hardware on Friday 14th November 2025. No disruption is expected but in the event of physical equipment failure repairs will not be possible on the day."
-      }
+      },
+      {
+        "date": "2025-10-18T14:25",
+        "details": "Works completed."
+      },
     ]
   },
   {
@@ -41,13 +45,17 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "All CEDA and JASMIN services",
+    "affectedServices": "CEDA Archive",
     "summary": "Technical problem affecting access to disk storage systems.",
     "date": "2025-11-18T12:30",
     "updates": [
       {
         "date": "2025-11-18T12:30",
         "details": "We currently have a technical problem affecting at least the archive disk volumes, possibly other disk systems as well, so ALL disk storage systems are potentially affected. The team is currently investigating as a matter of urgency. So far we believe this is unrelated to Cloudflare issues reported in the media."
+      },
+      {
+        "date": "2025-11-18T14:25",
+        "details": "The cause of the issue has been identified and stopped. Some data in the CEDA archive is currently unavailable. We will provide a detailed update as to which data, and a timeline to restoration, as soon as possible. Please note all other CEDA and JASMIN remain operational."
       }
     ]
   }
