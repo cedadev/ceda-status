@@ -38,5 +38,17 @@
         "details": "The issue has been resolved, jobs are now being allocated again on LOTUS."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Technical problem affecting access to disk storage systems.",
+    "date": "2025-11-18T12:30",
+    "updates": [
+      {
+        "date": "2025-11-18T12:30",
+        "details": "We currently have a technical problem affecting at least the archive disk volumes, possibly other disk systems as well, so ALL disk storage systems are potentially affected. The team is currently investigating as a matter of urgency. So far we believe this is unrelated to Cloudflare issues reported in the media."
+      }
+    ]
   }
 ]
