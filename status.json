@@ -31,5 +31,18 @@
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-19-archive-incident/"
       }
     ]
+  },
+  {
+    "status": "resolved",
+    "affectedServices": "None",
+    "summary": "Test event.",
+    "date": "2025-11-20T14:30",
+    "updates": [
+      {
+        "date": "2025-11-20T14:30",
+        "details": "Test update."
+      }
+    ]
   }
+
 ]
