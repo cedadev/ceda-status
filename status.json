@@ -1,21 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN Services",
-    "summary": "No physical access to data centre building",
-    "date": "2025-11-14T08:00",
-    "updates": [
-      {
-        "date": "2025-10-17T12:00",
-        "details": "There will be no physical access to the building housing the JASMIN and CEDA services hardware on Friday 14th November 2025. No disruption is expected but in the event of physical equipment failure repairs will not be possible on the day."
-      },
-      {
-        "date": "2025-10-18T14:25",
-        "details": "Works completed."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
@@ -24,22 +8,6 @@
       {
         "date": "2025-11-05T17:00",
         "details": "Advance notice of scheduled maintenance day on Tues 27th January 2026. Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "LOTUS, ORCHID",
-    "summary": "Jobs not being scheduled on LOTUS",
-    "date": "2025-11-14T09:00",
-    "updates": [
-      {
-        "date": "2025-11-14T09:00",
-        "details": "Batch jobs are currently not getting scheduled to run on LOTUS. We are investigating the issue."
-      },
-      {
-        "date": "2025-11-14T11:30",
-        "details": "The issue has been resolved, jobs are now being allocated again on LOTUS."
       }
     ]
   },
