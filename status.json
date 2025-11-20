@@ -24,6 +24,11 @@
       {
         "date": "2025-11-18T14:25",
         "details": "The cause of the issue has been identified and stopped. Some data in the CEDA archive is currently unavailable. We will provide a detailed update as to which data, and a timeline to restoration, as soon as possible. Please note all other CEDA and JASMIN remain operational."
+      },
+      {
+        "date": "2025-11-20T11:00",
+        "details": "As part of the migration of data in the CEDA archive, a mistake was made which resulted in some data being deleted from the archive. As a result of this incident, approximately 5 Petabytes of data have been deleted from the archive. We are beginning the process of prioritising data for recovery from backup.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-19-archive-incident/"
       }
     ]
   }
