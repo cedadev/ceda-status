@@ -36,10 +36,10 @@
     "status": "degraded",
     "affectedServices": "Globus data transfer service",
     "summary": "Node reboots in progress to clear stuck processes.",
-    "date": "2026-11-24T14:40",
+    "date": "2025-11-24T14:40",
     "updates": [
       {
-        "date": "2026-11-24T14:40",
+        "date": "2025-11-24T14:40",
         "details": "Following some (now resolved) issues with SOF storage last week, Globus nodes are being rebooted this afternoon to clear stuck processes. Transfer tasks currently waiting should resume in due course."
       }
     ]
