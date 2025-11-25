@@ -34,6 +34,11 @@
         "date": "2025-11-24T14:00",
         "details": "We have given an update on the incident and answered some common asked questions, including how to request which data you’d like to be a priority for recovery.",
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-24-incident-update/"
+      },
+      {
+        "date": "2025-11-25T13:00",
+        "details": "We are now ingesting data into the archive and have restored the Archive's directory structure.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-25-incident-update-ingest/"
       }
     ]
   },
