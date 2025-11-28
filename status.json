@@ -39,6 +39,11 @@
         "date": "2025-11-25T13:00",
         "details": "We are now ingesting data into the archive and have restored the Archive's directory structure.",
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-25-incident-update-ingest/"
+      },
+      {
+        "date": "2025-11-28T13:30",
+        "details": "We have published a list of impacted data directories.",
+        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-28-incident-data-list/"
       }
     ]
   },
