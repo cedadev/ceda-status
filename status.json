@@ -46,21 +46,5 @@
         "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-28-incident-data-list/"
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Globus data transfer service",
-    "summary": "Node reboots to clear stuck processes.",
-    "date": "2025-11-24T14:40",
-    "updates": [
-      {
-        "date": "2025-11-24T14:40",
-        "details": "Following some (now resolved) issues with SOF storage last week, Globus nodes are being rebooted this afternoon to clear stuck processes. Transfer tasks currently waiting should resume in due course."
-      },
-      {
-        "date": "2025-11-24T15:20",
-        "details": "Globus transfer nodes now rebooted, transfers now running again."
-      }
-    ]
   }
 ]
