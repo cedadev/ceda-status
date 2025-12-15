@@ -18,60 +18,22 @@
     "date": "2025-11-18T12:30",
     "updates": [
       {
-        "date": "2025-11-18T12:30",
-        "details": "We currently have a technical problem affecting at least the archive disk volumes, possibly other disk systems as well, so ALL disk storage systems are potentially affected. The team is currently investigating as a matter of urgency. So far we believe this is unrelated to Cloudflare issues reported in the media."
-      },
-      {
-        "date": "2025-11-18T14:25",
-        "details": "The cause of the issue has been identified and stopped. Some data in the CEDA archive is currently unavailable. We will provide a detailed update as to which data, and a timeline to restoration, as soon as possible. Please note all other CEDA and JASMIN remain operational."
-      },
-      {
-        "date": "2025-11-20T11:00",
-        "details": "As part of the migration of data in the CEDA archive, a mistake was made which resulted in some data being deleted from the archive. As a result of this incident, approximately 5 Petabytes of data have been deleted from the archive. We are beginning the process of prioritising data for recovery from backup.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-19-archive-incident/"
-      },
-      {
-        "date": "2025-11-24T14:00",
-        "details": "We have given an update on the incident and answered some common asked questions, including how to request which data you’d like to be a priority for recovery.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-24-incident-update/"
-      },
-      {
-        "date": "2025-11-25T13:00",
-        "details": "We are now ingesting data into the archive and have restored the Archive's directory structure.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-25-incident-update-ingest/"
-      },
-      {
-        "date": "2025-11-28T13:30",
-        "details": "We have published a list of impacted data directories.",
-        "url": "https://www.ceda.ac.uk/news/updates/2025/2025-11-28-incident-data-list/"
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "JASMIN Object Store",
-    "summary": "Access issue with object store",
-    "date": "2025-12-01T15:00",
-    "updates": [
-      {
-        "date": "2025-12-01T15:00",
-        "details": "Problems reported with object store access, issue under investigation with vendor support."
-      },
-      {
-        "date": "2025-12-10T14:30",
-        "details": "The object store access issue has been resolved, please email the helpdesk if errors persist."
+        "date": "2025-12-15T12:00",
+        "details": "Updates on the data incident of 18 November, and the recovery activity to restore affected data to the CEDA Archive, can be found by following this link to recent updates:",
+        "url": "https://www.ceda.ac.uk/tags/data-incident-nov25/"
       }
     ]
   },
   {
     "status": "degraded",
-    "affectedServices": "cron server cron-01",
-    "summary": "Reboot required",
-    "date": "2025-12-10T17:45",
+    "affectedServices": "Specific group workspaces - check schedule",
+    "summary": "Workspaces scheduled for migration are unavailable during cutover window.",
+    "date": "2025-12-15T12:00",
     "updates": [
       {
-        "date": "2025-12-10T17:45",
-        "details": "A reboot of this server is required to clear a number of issues. This is scheduled for some time in the next 24 hours, likely 09:00 Thursday 11 December."
+        "date": "2025-12-15T12:00",
+        "details": "Check the schedule to see dates for specific workspaces.",
+        "url": "https://docs.google.com/spreadsheets/d/1peHz7k3AfPAM_Z8pD-myX28S5bXAZMoZ_U3cAOC6ouo/edit?gid=1821731582#gid=1821731582"
       }
     ]
   }
