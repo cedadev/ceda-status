@@ -36,5 +36,17 @@
         "url": "https://docs.google.com/spreadsheets/d/1qiZ6OQb4AXbj3QBm6M3H43obPInCnBw4lN9mdy3TmQg/edit?gid=0#gid=0"
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Unscheduled interruption to services",
+    "date": "2025-12-18T10:20",
+    "updates": [
+      {
+        "date": "2025-12-18T10:20",
+        "details": "Interruption reported to many services. Team investigating."
+      }
+    ]
   }
 ]
