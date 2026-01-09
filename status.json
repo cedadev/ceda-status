@@ -12,6 +12,18 @@
     ]
   },
   {
+    "status": "down",
+    "affectedServices": "Tape services",
+    "summary": "Advance notice of scheduled maintenance",
+    "date": "2026-01-26T12:00",
+    "updates": [
+      {
+        "date": "2026-01-09T12:00",
+        "details": "Overlapping with, but for a longer period than the JASMIN scheduled maintenance day, scheduled maintenance to the tape library will make it unavailable from the afternoon of Monday 26 January until work is completed later that week (date/time TBC)."
+      }
+    ]
+  },
+  {
     "status": "degraded",
     "affectedServices": "CEDA Archive",
     "summary": "Technical problem affecting access to disk storage systems.",
