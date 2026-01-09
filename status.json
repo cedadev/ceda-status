@@ -36,17 +36,5 @@
         "url": "https://docs.google.com/spreadsheets/d/1qiZ6OQb4AXbj3QBm6M3H43obPInCnBw4lN9mdy3TmQg/edit?gid=0#gid=0"
       }
     ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "sci-vm-03",
-    "summary": "Host offline due to emergency unscheduled maintenance.",
-    "date": "2026-01-08T16:40",
-    "updates": [
-      {
-        "date": "2026-01-08T16:40",
-        "details": "Host offline due to maintenance. Please use another sci machine meanwhile."
-      }
-    ]
   }
 ]
