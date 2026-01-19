@@ -105,5 +105,17 @@
         "details": "Multiple short interruptions to some services. Team investigating."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "Tape services",
+    "summary": "Tape hardware error",
+    "date": "2026-01-19T17:00",
+    "updates": [
+      {
+        "date": "2026-01-19T17:00",
+        "details": "All tape services (ET, JDMA, NLA, NLDS) are currently affected by a hardware error. NLDS is available but at risk. We are currently investigating the issue."
+      }
+    ]
   }
 ]
