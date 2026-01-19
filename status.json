@@ -59,6 +59,28 @@
         "date": "2025-12-15T12:00",
         "details": "Check the schedule to see dates for specific workspaces.",
         "url": "https://docs.google.com/spreadsheets/d/1qiZ6OQb4AXbj3QBm6M3H43obPInCnBw4lN9mdy3TmQg/edit?gid=0#gid=0"
+      },
+      {
+    "status": "down",
+    "affectedServices": "CEDA, JASMIN & Data Management Helpdesk",
+    "summary": "Due a licensing issue, we are currently not receiving emails to the following addresses: support@ceda.ac.uk, support@jasmin.ac.uk, and data.management@ceda.ac.uk",
+    "date": "2026-01-19T11:00",
+    "updates": [
+      {
+        "date": "2026-01-19T11:00",
+        "details": "We are currently unable to respond to any existing or future emails or queries at this time, we are currently looking into a solution. Apologies for any inconvenience."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "sci-ph-02 server ",
+    "summary": "Advance notice of reboot",
+    "date": "26-01-20T09:00",
+    "updates": [
+      {
+        "date": "26-01-19T11:00",
+        "details": "Advanced notice that at 9am on Tuesday 20th January 2026, the sci-ph-02 server will be rebooted to clear an issue with its management controller"
       }
     ]
   }
