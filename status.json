@@ -95,7 +95,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Intermittent network issue",
     "date": "2026-01-19T14:10",
@@ -103,6 +103,10 @@
       {
         "date": "2026-01-19T17:20",
         "details": "Multiple short interruptions to some services. Team investigating."
+      },
+      {
+        "date": "2026-01-20T09:00",
+        "details": "Faulty switch believed to be the cause, has been removed. Network operating normally at present."
       }
     ]
   },
