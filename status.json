@@ -64,54 +64,6 @@
   },
   {
     "status": "resolved",
-    "affectedServices": "CEDA, JASMIN & Data Management Helpdesk",
-    "summary": "Helpdesk emails bouncing",
-    "date": "2026-01-19T11:00",
-    "updates": [
-      {
-        "date": "2026-01-19T11:00",
-        "details": "We are currently unable to respond to any existing or future emails or queries at this time, we are currently looking into a solution. For any urgent queries, please send use the beacon (button in the bottom-right corner). The following addresses are affected: support@ceda.ac.uk, support@jasmin.ac.uk, and data.management@ceda.ac.uk. Apologies for any inconvenience."
-      },
-      {
-        "date": "2026-01-19T16:00",
-        "details": "Emails are now reaching the support inbox again. Replies may take longer than normal due to the backlog. Please use the Help beacon if you have any difficulties."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "sci-ph-02 server",
-    "summary": "Advance notice of reboot",
-    "date": "2026-01-20T09:00",
-    "updates": [
-      {
-        "date": "2026-01-19T11:00",
-        "details": "Advanced notice that at 9am on Tuesday 20th January 2026, the sci-ph-02 server will be rebooted to clear an issue with its management controller"
-      },
-      {
-        "date": "2026-01-19T12:00",
-        "details": "The sci-ph-02 server was rebooted earlier than planned to resolve a separate issue."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Intermittent network issue",
-    "date": "2026-01-19T14:10",
-    "updates": [
-      {
-        "date": "2026-01-19T17:20",
-        "details": "Multiple short interruptions to some services. Team investigating."
-      },
-      {
-        "date": "2026-01-20T09:00",
-        "details": "Faulty switch believed to be the cause, has been removed. Network operating normally at present."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
     "affectedServices": "Tape services",
     "summary": "Tape hardware error",
     "date": "2026-01-19T17:00",
