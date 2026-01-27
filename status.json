@@ -61,21 +61,5 @@
         "url": "https://docs.google.com/spreadsheets/d/1qiZ6OQb4AXbj3QBm6M3H43obPInCnBw4lN9mdy3TmQg/edit?gid=0#gid=0"
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Tape services",
-    "summary": "Tape hardware error",
-    "date": "2026-01-19T17:00",
-    "updates": [
-      {
-        "date": "2026-01-19T17:00",
-        "details": "All tape services (ET, JDMA, NLA, NLDS) are currently affected by a hardware error. NLDS is available but at risk. We are currently investigating the issue."
-      },
-      {
-        "date": "2026-01-21T16:20",
-        "details": "Tape services now operating normally."
-      }
-    ]
   }
 ]
