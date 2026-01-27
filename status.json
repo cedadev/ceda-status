@@ -8,6 +8,10 @@
       {
         "date": "2025-11-05T17:00",
         "details": "Advance notice of scheduled maintenance day on Tues 27th January 2026. Please plan your work to minimise disruption."
+      },
+      {
+        "date": "2026-01-27T17:45",
+        "details": "LOTUS maintenance completed, reservations lifted, still missing some CPU nodes and most GPU nodes. External access to Object store (*.s3-ext.jc.rl.ac.uk), login.jasmin.ac.uk and data transfer services (Globus, hpxfer & ftp.ceda) still unavailable. Fixes anticpated by Wed 28 Jan lunchtime."
       }
     ]
   },
