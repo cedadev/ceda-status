@@ -92,5 +92,17 @@
         "url": "https://docs.google.com/spreadsheets/d/1qiZ6OQb4AXbj3QBm6M3H43obPInCnBw4lN9mdy3TmQg/edit?gid=0#gid=0"
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Advance notice of next regular scheduled maintenance day",
+    "date": "2026-04-14T00:01",
+    "updates": [
+      {
+        "date": "2025-01-28T15:00",
+        "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
+      }
+    ]
   }
 ]
