@@ -11,30 +11,14 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-01-27T00:01",
     "updates": [
       {
-        "date": "2025-11-05T17:00",
-        "details": "Advance notice of scheduled maintenance day on Tues 27th January 2026. Please plan your work to minimise disruption."
-      },
-      {
-        "date": "2026-01-27T17:45",
-        "details": "LOTUS maintenance completed, reservations lifted, still missing some CPU nodes and most GPU nodes. External access to Object store (*.s3-ext.jc.rl.ac.uk), login.jasmin.ac.uk and data transfer services (Globus, hpxfer & ftp.ceda) still unavailable. Fixes anticpated by Wed 28 Jan lunchtime."
-      },
-      {
-        "date": "2026-01-28T12:00",
-        "details": "External access to several services still unavailable: single login service, external Object store (*.s3-ext.jc.rl.ac.uk), and data transfer services (Globus, hpxfer & ftp.ceda). Latest estimate is end of today Wed 28 Jan. Note individual login servers 1-4 still available (but see notice re closure in Feb)."
-      },
-      {
-        "date": "2026-01-28T13:15",
-        "details": "External access to services now restored (single login service, and data transfer services (Globus, hpxfer & ftp.ceda). Still checking cause of timeouts on external access to Object store access (*.s3-ext.jc.rl.ac.uk)"
-      },
-      {
-        "date": "2026-01-28T14:50",
-        "details": "External object store access now. Data transfer services incl Globus OK. Login OK. LOTUS still missing some CPU nodes and most ORCHID/GPU nodes for now, updates later."
+        "date": "2026-01-28T18:00",
+        "details": "Maintenance from 27/28 Jan now complete, services operating normally unless mentioned in other incidents."
       }
     ]
   },
