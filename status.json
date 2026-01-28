@@ -31,6 +31,10 @@
       {
         "date": "2026-01-28T13:15",
         "details": "External access to services now restored (single login service, and data transfer services (Globus, hpxfer & ftp.ceda). Still checking cause of timeouts on external access to Object store access (*.s3-ext.jc.rl.ac.uk)"
+      },
+      {
+        "date": "2026-01-28T14:50",
+        "details": "External object store access now working except from some NCAS/Leeds IPs. Data transfer services incl Globus OK. Login OK. LOTUS still missing some CPU nodes and most ORCHID/GPU nodes for now, updates later."
       }
     ]
   },
