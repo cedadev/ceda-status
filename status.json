@@ -94,7 +94,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-04-14T00:01",
