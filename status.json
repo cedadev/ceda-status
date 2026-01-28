@@ -34,7 +34,7 @@
       },
       {
         "date": "2026-01-28T14:50",
-        "details": "External object store access now working except from some NCAS/Leeds IPs. Data transfer services incl Globus OK. Login OK. LOTUS still missing some CPU nodes and most ORCHID/GPU nodes for now, updates later."
+        "details": "External object store access now. Data transfer services incl Globus OK. Login OK. LOTUS still missing some CPU nodes and most ORCHID/GPU nodes for now, updates later."
       }
     ]
   },
