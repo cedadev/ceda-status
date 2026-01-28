@@ -23,6 +23,10 @@
       {
         "date": "2026-01-27T17:45",
         "details": "LOTUS maintenance completed, reservations lifted, still missing some CPU nodes and most GPU nodes. External access to Object store (*.s3-ext.jc.rl.ac.uk), login.jasmin.ac.uk and data transfer services (Globus, hpxfer & ftp.ceda) still unavailable. Fixes anticpated by Wed 28 Jan lunchtime."
+      },
+      {
+        "date": "2026-01-28T12:00",
+        "details": "External access to several services still unavailable: single login service, external Object store (*.s3-ext.jc.rl.ac.uk), and data transfer services (Globus, hpxfer & ftp.ceda). Latest estimate is end of today Wed 28 Jan. Note individual login servers 1-4 still available (but notice re closure in Feb)."
       }
     ]
   },
