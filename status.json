@@ -36,22 +36,14 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Tape services",
     "summary": "Tape scheduled maintenance",
     "date": "2026-01-26T12:00",
     "updates": [
       {
-        "date": "2026-01-09T12:00",
-        "details": "Overlapping with, but for a longer period than the JASMIN scheduled maintenance day, scheduled maintenance to the tape library will make it unavailable from the afternoon of Monday 26 January until work is completed later that week (date/time TBC)."
-      },
-      {
-        "date": "2026-01-27T12:00",
-        "details": "Tape maintenance is currently underway with a provisional completion date of Thursday 29th January."
-      },
-      {
-        "date": "2026-01-30T10:30",
-        "details": "The maintenance is now scheduled to be complete by the end of today, Friday 30th January."
+        "date": "2026-01-30T14:00",
+        "details": "Tape maintenance is now complete, please let us know on the helpdesk if there are any issues."
       }
     ]
   },
