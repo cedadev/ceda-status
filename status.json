@@ -1,4 +1,17 @@
-[{
+[
+  {
+    "status": "degraded",
+    "affectedServices": "NoMachine NX (graphical desktop)",
+    "summary": "Intermittent crashing of sessions",
+    "date": "2026-01-30T15:00",
+    "updates": [
+      {
+        "date": "2026-01-30T15:00",
+        "details": "Reports of desktop sessions crashing when making an onward connection to a sci server. Team investigating. Please try another combination of NX server & sci server if this happens."
+      }
+    ]
+  },
+  {
     "status": "at risk",
     "affectedServices": "Some storage and group workspaces",
     "summary": "Metadata issue may lead to loss of access to some storage areas ",
