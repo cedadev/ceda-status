@@ -12,11 +12,15 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Some storage and group workspaces",
     "summary": "Metadata issue may lead to loss of access to some storage areas ",
     "date": "2026-01-28T09:00",
     "updates": [
+      {
+        "date": "2026-01-29T07:45",
+        "details": "Vendor reports that the issue is resolved."
+      },
       {
         "date": "2026-01-28T09:00",
         "details": "We are seeing warnings on some storage and group workspaces which may lead to loss of access. Vendor support have been contacted. Group workspaces already migrated to the new storage not at risk."
