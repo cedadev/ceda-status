@@ -28,18 +28,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Advance notice of next regular scheduled maintenance day",
-    "date": "2026-01-27T00:01",
-    "updates": [
-      {
-        "date": "2026-01-28T18:00",
-        "details": "Maintenance from 27/28 Jan now complete, services operating normally unless mentioned in other incidents."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "login",
     "summary": "Closure of separate login servers, use single login service instead.",
