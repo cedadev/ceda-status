@@ -14,7 +14,7 @@
   {
     "status": "resolved",
     "affectedServices": "Some storage and group workspaces",
-    "summary": "Metadata issue may lead to loss of access to some storage areas ",
+    "summary": "Metadata issue may lead to loss of access to some storage areas",
     "date": "2026-01-28T09:00",
     "updates": [
       {
@@ -37,18 +37,6 @@
         "date": "2026-01-12T17:50",
         "details": "Advance notice that on 10 FEB 2026 the separate login servers will close. Please now use the single login service login.jasmin.ac.uk.",
         "url": "https://help.jasmin.ac.uk/docs/interactive-computing/login-servers/"
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Tape services",
-    "summary": "Tape scheduled maintenance",
-    "date": "2026-01-26T12:00",
-    "updates": [
-      {
-        "date": "2026-01-30T14:00",
-        "details": "Tape maintenance is now complete, please let us know on the helpdesk if there are any issues."
       }
     ]
   },
@@ -87,6 +75,18 @@
       {
         "date": "2025-01-28T15:00",
         "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "Group Workspace Scanner",
+    "summary": "GWS Scanner not available",
+    "date": "2026-02-02T16:00",
+    "updates": [
+      {
+        "date": "2026-02-04T09:30",
+        "details": "The Group Workspace Scanner is unavailable, we are currently working on a fix."
       }
     ]
   }
