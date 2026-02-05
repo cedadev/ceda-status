@@ -1,5 +1,17 @@
 [
   {
+    "status": "down",
+    "affectedServices": "cron-01",
+    "summary": "Issue with cron host",
+    "date": "2026-02-05T16:00",
+    "updates": [
+      {
+        "date": "2026-02-05T17:00",
+        "details": "Multiple issues with host, reboot planned some time in next 24 hrs, likely early Friday."
+      }
+    ]
+  },
+  {
     "status": "degraded",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Intermittent crashing of sessions",
