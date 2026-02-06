@@ -1,6 +1,6 @@
 [
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "cron-01",
     "summary": "Issue with cron host",
     "date": "2026-02-05T16:00",
@@ -8,6 +8,10 @@
       {
         "date": "2026-02-05T17:00",
         "details": "Multiple issues with host, reboot planned some time in next 24 hrs, likely early Friday."
+      },
+      {
+        "date": "2026-02-06T08:15",
+        "details": "Host now rebooted, resuming normal service."
       }
     ]
   },
