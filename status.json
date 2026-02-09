@@ -1,21 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "cron-01",
-    "summary": "Issue with cron host",
-    "date": "2026-02-05T16:00",
-    "updates": [
-      {
-        "date": "2026-02-05T17:00",
-        "details": "Multiple issues with host, reboot planned some time in next 24 hrs, likely early Friday."
-      },
-      {
-        "date": "2026-02-06T08:15",
-        "details": "Host now rebooted, resuming normal service."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Intermittent crashing of sessions",
@@ -69,28 +53,24 @@
   {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Notice of additional scheduled maintenance day",
+    "date": "2026-02-10T00:01",
+    "updates": [
+      {
+        "date": "2026-02-09T11:00",
+        "details": "Notice of additional scheduled maintenance day on Tues 10th February 2026 to apply important security updates. Please plan your work to minimise disruption. Work will begin at 09:00 but all CEDA and JASMIN services may experience some disruption during the day."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-04-14T00:01",
     "updates": [
       {
         "date": "2025-01-28T15:00",
         "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Group Workspace Scanner",
-    "summary": "GWS Scanner not available",
-    "date": "2026-02-02T16:00",
-    "updates": [
-      {
-        "date": "2026-02-04T09:30",
-        "details": "The Group Workspace Scanner is unavailable, we are currently working on a fix."
-      },
-      {
-        "date": "2026-02-05T11:30",
-        "details": "The Group Workspace Scanner is now working again."
       }
     ]
   }
