@@ -1,5 +1,17 @@
 [
   {
+    "status": "at risk",
+    "affectedServices": "LOTUS and SCI Machines",
+    "summary": "Possibility of temporary access loss",
+    "date": "2026-02-11T09:30",
+    "updates": [
+      {
+        "date": "2026-02-11T09:30",
+        "details": "For operational reasons access to SCI and LOTUS nodes may be lost today at short or no notice. We will advise when the risk is over."
+      }
+    ]
+  },
+  {
     "status": "degraded",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Intermittent crashing of sessions",
