@@ -1,21 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "LOTUS and sci machines",
-    "summary": "Possibility of temporary access loss",
-    "date": "2026-02-11T09:30",
-    "updates": [
-      {
-        "date": "2026-02-11T09:30",
-        "details": "For operational reasons access to sci machines and LOTUS nodes may be lost today at short or no notice. We will advise when the risk is over."
-      },
-      {
-        "date": "2026-02-11T11:45",
-        "details": "The LOTUS and sci machines are no longer at risk."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Intermittent crashing of sessions",
@@ -67,22 +51,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Notice of additional scheduled maintenance day",
-    "date": "2026-02-10T00:01",
-    "updates": [
-      {
-        "date": "2026-02-09T11:00",
-        "details": "Notice of additional scheduled maintenance day on Tues 10th February 2026 to apply important security updates. Please plan your work to minimise disruption. Work will begin at 09:00 but all CEDA and JASMIN services may experience some disruption during the day."
-      },
-      {
-        "date": "2026-02-10T13:30",
-        "details": "Maintenance is now complete and all services are running normally again."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
@@ -91,6 +59,18 @@
       {
         "date": "2025-01-28T15:00",
         "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "Tape services",
+    "summary": "Notice of tape maintenance",
+    "date": "2026-02-18T08:00",
+    "updates": [
+      {
+        "date": "2026-02-13T18:00",
+        "details": "Tape services are scheduled to undergo maintenance on Wed 18th February 08:00-14:00. Ingest and recall will be paused in advance on the afternoon of the 17th. All tape services (ET, JDMA, NLA, NLDS) will be affected during this period."
       }
     ]
   }
