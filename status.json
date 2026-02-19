@@ -63,7 +63,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "Tape services",
     "summary": "Notice of tape maintenance",
     "date": "2026-02-18T08:00",
@@ -71,6 +71,10 @@
       {
         "date": "2026-02-13T18:00",
         "details": "Tape services are scheduled to undergo maintenance on Wed 18th February 08:00-14:00. Ingest and recall will be paused in advance on the afternoon of the 17th. All tape services (ET, JDMA, NLA, NLDS) will be affected during this period."
+      },
+      {
+        "date": "2026-02-19T09:00",
+        "details": "The tape maintenance is complete."
       }
     ]
   }
