@@ -1,18 +1,6 @@
 [
   {
     "status": "degraded",
-    "affectedServices": "NoMachine NX (graphical desktop)",
-    "summary": "Intermittent crashing of sessions",
-    "date": "2026-01-30T15:00",
-    "updates": [
-      {
-        "date": "2026-01-30T15:00",
-        "details": "Reports of desktop sessions crashing when making an onward connection to a sci server. Team investigating. Please try another combination of NX server & sci server if this happens."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "CEDA Archive",
     "summary": "Technical problem affecting access to disk storage systems.",
     "date": "2025-11-18T12:30",
@@ -46,6 +34,18 @@
       {
         "date": "2025-01-28T15:00",
         "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Tape services",
+    "summary": "Advance notice of scheduled maintenance",
+    "date": "2026-03-25T09:00",
+    "updates": [
+      {
+        "date": "2026-03-19T15:00",
+        "details": "Scheduled upgrade to tape library, for ~2 hours from 09:00 on Tuesday 24 March, during which no access to tape although ingest can continue (to cache). Requests for retrieval will be accepted but there will be a delay in mounting/reading tapes."
       }
     ]
   }
