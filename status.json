@@ -48,5 +48,17 @@
         "details": "Scheduled upgrade to tape library, for ~2 hours from 09:00 on Tuesday 24 March, during which no access to tape although ingest can continue (to cache). Requests for retrieval will be accepted but there will be a delay in mounting/reading tapes."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "LOTUS",
+    "summary": "Some LOTUS nodes unavailable",
+    "date": "2026-03-24T09:00",
+    "updates": [
+      {
+        "date": "2026-03-24T09:00",
+        "details": "Many nodes drained this morning; jobs may have failed or be queued up. Cause under investigation."
+      }
+    ]
   }
 ]
