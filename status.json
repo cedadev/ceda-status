@@ -76,7 +76,7 @@
   {
     "status": "down",
     "affectedServices": "JASMIN Cloud",
-    "summary": "JASMIN Cloud is being decommissioned on 14/04/26",
+    "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 14/04/26",
     "date": "2026-04-14T09:00",
     "updates": [
       {
