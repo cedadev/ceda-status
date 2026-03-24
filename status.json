@@ -72,5 +72,17 @@
         "details": "Please clean up any old/unused data ASAP."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "JASMIN Cloud",
+    "summary": "JASMIN Cloud is being decommissioned on 14/04/26",
+    "date": "2026-04-14T09:00",
+    "updates": [
+      {
+        "date": "2026-03-24T14:00",
+        "details": "All tenants should have access to the new cloud. All machines on the old cloud will be switched off 14/04/26"
+      }
+    ]
   }
 ]
