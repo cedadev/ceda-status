@@ -88,5 +88,17 @@
         "details": "All tenants should have access to the new cloud. All machines on the old cloud will be switched off 14/04/26"
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "Scratch",
+    "summary": "Scratch volumes at risk",
+    "date": "2026-03-25T10:00",
+    "updates": [
+      {
+        "date": "2026-03-25T10:00",
+        "details": "Both scratch volumes (/work/scratch-pw4,5) are at risk while we investigate an issue with them."
+      }
+    ]
   }
 ]
