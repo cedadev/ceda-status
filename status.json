@@ -84,5 +84,17 @@
         "details": "Both scratch volumes (/work/scratch-pw4,5) are at risk while we investigate an issue with them."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Networking issue",
+    "date": "2026-03-26T14:00",
+    "updates": [
+      {
+        "date": "2026-03-26T14:00",
+        "details": "Multiple interruptions to some services due to a general networking issue. Team investigating."
+      }
+    ]
   }
 ]
