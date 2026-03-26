@@ -89,11 +89,11 @@
     "status": "degraded",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Networking issue",
-    "date": "2026-03-26T14:00",
+    "date": "2026-03-26T16:00",
     "updates": [
       {
-        "date": "2026-03-26T14:00",
-        "details": "Multiple interruptions to some services due to a general networking issue. Team investigating."
+        "date": "2026-03-26T16:00",
+        "details": "Intermittent interruptions to all services due to a general networking issue. Team investigating."
       }
     ]
   }
