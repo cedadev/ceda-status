@@ -62,22 +62,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "XFC vol7",
-    "summary": "Volume full, no further writes possible",
-    "date": "2026-03-24T12:25",
-    "updates": [
-      {
-        "date": "2026-03-24T12:25",
-        "details": "Please clean up any old/unused data ASAP."
-      },
-      {
-        "date": "2026-03-24T16:00",
-        "details": "Volume now writeable again but please continue to clear any old/unused data."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "JASMIN Cloud",
     "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 14/04/26",
