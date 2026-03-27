@@ -38,18 +38,6 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "Tape services",
-    "summary": "Advance notice of scheduled maintenance",
-    "date": "2026-03-25T09:00",
-    "updates": [
-      {
-        "date": "2026-03-19T15:00",
-        "details": "Scheduled upgrade to tape library, for ~2 hours from 09:00 on Tuesday 24 March, during which no access to tape although ingest can continue (to cache). Requests for retrieval will be accepted but there will be a delay in mounting/reading tapes."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "JASMIN Cloud",
     "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 14/04/26",
