@@ -50,7 +50,7 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Scratch",
     "summary": "Scratch volumes at risk",
     "date": "2026-03-25T10:00",
@@ -58,11 +58,15 @@
       {
         "date": "2026-03-25T10:00",
         "details": "Both scratch volumes (/work/scratch-pw4,5) are at risk while we investigate an issue with them."
+      },
+      {
+        "date": "2026-03-31T09:30",
+        "details": "Both scratch volumes are now accessible again."
       }
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Networking issue",
     "date": "2026-03-26T16:00",
@@ -74,6 +78,10 @@
       {
         "date": "2026-03-27T09:00",
         "details": "The issue is now stable, LOTUS is back online, but a few nodes still drained."
+      },
+      {
+        "date": "2026-03-31T09:30",
+        "details": "A few LOTUS nodes became unavailable over the weekend but the networking issue has now been resolved."
       }
     ]
   },
@@ -89,5 +97,17 @@
         "url": "https://www.ceda.ac.uk/news/updates/2026/2026-03-26-jasmin-updates-easter-2026/"
       }
     ]
-   }
+  },
+  {
+    "status": "down",
+    "affectedServices": "gpuhost001",
+    "summary": "Interactive GPU node reboot",
+    "date": "2026-03-31T12:00",
+    "updates": [
+      {
+        "date": "2026-03-31T12:00",
+        "details": "Interactive node gpuhost001 will be rebooted at 12pm to resolve stuck processes. Please save your work beforehand."
+      }
+    ]
+  }
 ]
