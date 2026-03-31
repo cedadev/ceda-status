@@ -99,14 +99,14 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "gpuhost001",
     "summary": "Interactive GPU node reboot",
     "date": "2026-03-31T12:00",
     "updates": [
       {
-        "date": "2026-03-31T09:30",
-        "details": "Interactive node gpuhost001 will be rebooted at 12pm to resolve stuck processes. Please save your work beforehand."
+        "date": "2026-03-31T15:00",
+        "details": "Interactive node gpuhost001 is now back online."
       }
     ]
   }
