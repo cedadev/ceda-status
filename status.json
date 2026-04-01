@@ -63,14 +63,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "gpuhost001",
-    "summary": "Interactive GPU node reboot",
-    "date": "2026-03-31T12:00",
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Networking maintenance",
+    "date": "2026-04-07T00:00",
     "updates": [
       {
-        "date": "2026-03-31T15:00",
-        "details": "Interactive node gpuhost001 is now back online."
+        "date": "2026-04-01T16:00",
+        "details": "Planned networking maintenance next week may disrupt services. Exact date TBC."
       }
     ]
   }
