@@ -50,42 +50,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Scratch",
-    "summary": "Scratch volumes at risk",
-    "date": "2026-03-25T10:00",
-    "updates": [
-      {
-        "date": "2026-03-25T10:00",
-        "details": "Both scratch volumes (/work/scratch-pw4,5) are at risk while we investigate an issue with them."
-      },
-      {
-        "date": "2026-03-31T09:30",
-        "details": "Both scratch volumes are now accessible again."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Networking issue",
-    "date": "2026-03-26T16:00",
-    "updates": [
-      {
-        "date": "2026-03-26T16:00",
-        "details": "Intermittent interruptions to all services due to a general networking issue. Team investigating."
-      },
-      {
-        "date": "2026-03-27T09:00",
-        "details": "The issue is now stable, LOTUS is back online, but a few nodes still drained."
-      },
-      {
-        "date": "2026-03-31T09:30",
-        "details": "A few LOTUS nodes became unavailable over the weekend but the networking issue has now been resolved."
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Services at risk over Easter",
@@ -109,5 +73,17 @@
         "details": "Interactive node gpuhost001 is now back online."
       }
     ]
-  }
+  },
+  {
+    "status": "down",
+    "affectedServices": "JASMIN website www.jasmin.ac.uk",
+    "summary": "Site down for maintenance",
+    "date": "2026-04-01T11:00",
+    "updates": [
+      {
+        "date": "2026-04-01T11:00",
+        "details": "Site temporarily down for maintenance."
+      }
+    ]
+   }
 ]
