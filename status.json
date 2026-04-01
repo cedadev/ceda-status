@@ -73,17 +73,5 @@
         "details": "Interactive node gpuhost001 is now back online."
       }
     ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "JASMIN website www.jasmin.ac.uk",
-    "summary": "Site down for maintenance",
-    "date": "2026-04-01T11:00",
-    "updates": [
-      {
-        "date": "2026-04-01T11:00",
-        "details": "Site temporarily down for maintenance."
-      }
-    ]
-   }
+  }
 ]
