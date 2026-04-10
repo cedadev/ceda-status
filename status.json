@@ -52,25 +52,16 @@
   {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Services at risk over Easter",
-    "date": "2026-04-02T17:30",
-    "updates": [
-      {
-        "date": "2026-04-07T09:00",
-        "details": "CEDA and JASMIN services running at risk over the Easter holiday period.",
-        "url": "https://www.ceda.ac.uk/news/updates/2026/2026-03-26-jasmin-updates-easter-2026/"
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN services",
     "summary": "Networking maintenance",
     "date": "2026-04-07T00:00",
     "updates": [
       {
         "date": "2026-04-01T16:00",
         "details": "Planned networking maintenance next week may disrupt services. Exact date TBC."
+      },
+      {
+        "date": "2026-04-10T15:00",
+        "details": "Maintenance to continue into week beginning 13 Apr."
       }
     ]
   }
