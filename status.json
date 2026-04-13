@@ -41,11 +41,15 @@
     "status": "down",
     "affectedServices": "JASMIN Cloud",
     "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 14/04/26",
-    "date": "2026-04-14T09:00",
+    "date": "2026-04-21T09:00",
     "updates": [
       {
         "date": "2026-03-24T14:00",
         "details": "All tenants should have access to the new cloud. All machines on the old cloud will be switched off 14/04/26"
+      },
+      {
+        "date": "2026-04-13T14:00",
+        "details": "The deadline for all machines to be migrated has been extended to 21/04/26"
       }
     ]
   },
