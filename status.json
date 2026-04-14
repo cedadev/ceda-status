@@ -26,14 +26,18 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-04-14T00:01",
     "updates": [
       {
-        "date": "2025-01-28T15:00",
-        "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
+        "date": "2026-01-28T15:00",
+        "details": "."
+      },
+      {
+        "date": "2026-04-28T16:45",
+        "details": "Most work now completed and systems available again: reservation on LOTUS has been lifted. The gpumig node is still unavailable and two other gpu nodes still undergoing maintenance. Further update tomorrow."
       }
     ]
   },
