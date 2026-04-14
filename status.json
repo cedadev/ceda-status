@@ -32,10 +32,6 @@
     "date": "2026-04-14T00:01",
     "updates": [
       {
-        "date": "2026-01-28T15:00",
-        "details": "."
-      },
-      {
         "date": "2026-04-28T16:45",
         "details": "Most work now completed and systems available again: reservation on LOTUS has been lifted. The gpumig node is still unavailable and two other gpu nodes still undergoing maintenance. Further update tomorrow."
       }
