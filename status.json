@@ -45,7 +45,7 @@
     "updates": [
       {
         "date": "2026-04-15T10:35",
-        "details": "An issue was identified following scheduled maintenance on 14/4/2026: work is now underway to resolve this but the node remains unavailable ."
+        "details": "An issue was identified following scheduled maintenance on 14/4/2026: work is now underway to resolve this but the node remains unavailable."
       }
     ]
   },
@@ -78,18 +78,14 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Networking maintenance",
     "date": "2026-04-07T00:00",
     "updates": [
       {
-        "date": "2026-04-01T16:00",
-        "details": "Planned networking maintenance next week may disrupt services. Exact date TBC."
-      },
-      {
-        "date": "2026-04-10T15:00",
-        "details": "Maintenance to continue into week beginning 13 Apr."
+        "date": "2026-04-15T15:00",
+        "details": "Maintenance has now completed."
       }
     ]
   }
