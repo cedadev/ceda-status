@@ -26,14 +26,38 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-04-14T00:01",
     "updates": [
       {
         "date": "2026-04-28T16:45",
-        "details": "Most work now completed and systems available again: reservation on LOTUS has been lifted. The gpumig node is still unavailable and two other gpu nodes still undergoing maintenance. Further update tomorrow."
+        "details": "Most services now operating normally. An issue with the the gpumig node is now listed as a separate issue."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "orchid gpu cluster",
+    "summary": "Node in gpumig partition still down for maintenance",
+    "date": "2026-04-14T00:01",
+    "updates": [
+      {
+        "date": "2026-04-15T10:35",
+        "details": "An issue was identified following scheduled maintenance on 14/4/2026: work is now underway to resolve this but the node remains unavailable ."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "network: jasmin - met office traffic",
+    "summary": "Network traffic issue between JASMIN and Met Office",
+    "date": "2026-04-15T10:35",
+    "updates": [
+      {
+        "date": "2026-04-15T10:35",
+        "details": "Issue reported and under investigation."
       }
     ]
   },
