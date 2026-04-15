@@ -32,13 +32,13 @@
     "date": "2026-04-14T00:01",
     "updates": [
       {
-        "date": "2026-04-28T16:45",
-        "details": "Most services now operating normally. An issue with the the gpumig node is now listed as a separate issue."
+        "date": "2026-04-15T17:00",
+        "details": "All services now operating normally."
       }
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "orchid gpu cluster",
     "summary": "Node in gpumig partition still down for maintenance",
     "date": "2026-04-14T00:01",
@@ -46,6 +46,10 @@
       {
         "date": "2026-04-15T10:35",
         "details": "An issue was identified following scheduled maintenance on 14/4/2026: work is now underway to resolve this but the node remains unavailable."
+      },
+      {
+        "date": "2026-04-15T17:00",
+        "details": "The gpumig partition is now available."
       }
     ]
   },
