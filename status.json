@@ -26,14 +26,14 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
-    "date": "2026-04-14T00:01",
+    "date": "2026-07-14T00:01",
     "updates": [
       {
-        "date": "2026-04-15T17:00",
-        "details": "All services now operating normally."
+        "date": "2026-04-16T09:00",
+        "details": "Scheduled maintenance day Tuesday 14 July 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
   },
