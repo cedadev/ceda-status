@@ -38,22 +38,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "orchid gpu cluster",
-    "summary": "Node in gpumig partition still down for maintenance",
-    "date": "2026-04-14T00:01",
-    "updates": [
-      {
-        "date": "2026-04-15T10:35",
-        "details": "An issue was identified following scheduled maintenance on 14/4/2026: work is now underway to resolve this but the node remains unavailable."
-      },
-      {
-        "date": "2026-04-15T17:00",
-        "details": "The gpumig partition is now available."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "network: jasmin - met office traffic",
     "summary": "Network traffic issue between JASMIN and Met Office",
@@ -78,18 +62,6 @@
       {
         "date": "2026-04-13T14:00",
         "details": "The deadline for all machines to be migrated has been extended to 21/04/26"
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Networking maintenance",
-    "date": "2026-04-07T00:00",
-    "updates": [
-      {
-        "date": "2026-04-15T15:00",
-        "details": "Maintenance has now completed."
       }
     ]
   }
