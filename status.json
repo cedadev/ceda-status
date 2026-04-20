@@ -57,10 +57,10 @@
     "status": "degraded",
     "affectedServices": "Near-line data store (NLDS)",
     "summary": "Issues over weekend, some processes delayed.",
-    "date": "2026-04-20T08:45:00",
+    "date": "2026-04-20T08:45",
     "updates": [
       {
-        "date": "2026-04-20T08:45:00",
+        "date": "2026-04-20T08:45",
         "details": "Issue under investigation."
       }
     ]
