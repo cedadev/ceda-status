@@ -38,18 +38,6 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "network: jasmin - met office traffic",
-    "summary": "Network traffic issue between JASMIN and Met Office",
-    "date": "2026-04-15T10:35",
-    "updates": [
-      {
-        "date": "2026-04-15T10:35",
-        "details": "Issue reported and under investigation."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "JASMIN Cloud",
     "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 21/04/26",
@@ -62,6 +50,18 @@
       {
         "date": "2026-04-13T14:00",
         "details": "The deadline for all machines to be migrated has been extended to 21/04/26"
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Near-line data store (NLDS)",
+    "summary": "Issues over weekend, some processes delayed.",
+    "date": "2026-04-20T08:45:00",
+    "updates": [
+      {
+        "date": "2026-04-20T08:45:00",
+        "details": "Issue under investigation."
       }
     ]
   }
