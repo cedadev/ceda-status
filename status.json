@@ -62,6 +62,10 @@
       {
         "date": "2026-04-20T08:45",
         "details": "Issue under investigation."
+      },
+      {
+        "date": "2026-04-21T09:45",
+        "details": "Service still degraded & under continuing investigation. Expect further interruptions until further notice."
       }
     ]
   }
