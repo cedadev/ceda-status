@@ -50,6 +50,10 @@
       {
         "date": "2026-04-13T14:00",
         "details": "The deadline for all machines to be migrated has been extended to 21/04/26"
+      },
+      {
+        "date": "2026-04-21T15:00",
+        "details": "The old JASMIN Cloud has now been switched off."
       }
     ]
   },
