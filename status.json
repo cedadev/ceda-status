@@ -72,5 +72,17 @@
         "details": "Service still degraded & under continuing investigation. Expect further interruptions until further notice."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "ORCHID",
+    "summary": "ORCHID running at reduced capacity",
+    "date": "2026-04-22T14:30",
+    "updates": [
+      {
+        "date": "2026-04-22T14:30",
+        "details": "ORCHID GPU cluster running at at ~50% capacity, issue under investigation."
+      }
+    ]
   }
 ]
