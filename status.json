@@ -38,26 +38,6 @@
     ]
   },
   {
-    "status": "down",
-    "affectedServices": "JASMIN Cloud",
-    "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 21/04/26",
-    "date": "2026-04-21T09:00",
-    "updates": [
-      {
-        "date": "2026-03-24T14:00",
-        "details": "All tenants should have access to the new cloud. All machines on the old cloud will be switched off 14/04/26"
-      },
-      {
-        "date": "2026-04-13T14:00",
-        "details": "The deadline for all machines to be migrated has been extended to 21/04/26"
-      },
-      {
-        "date": "2026-04-21T15:00",
-        "details": "The old JASMIN Cloud has now been switched off."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "Near-line data store (NLDS)",
     "summary": "Issues over weekend, some processes delayed.",
@@ -70,6 +50,10 @@
       {
         "date": "2026-04-21T09:45",
         "details": "Service still degraded & under continuing investigation. Expect further interruptions until further notice."
+      },
+      {
+        "date": "2026-04-23T09:45",
+        "details": "Issue not yet resolved, new tasks can be added to the queue but the queue is now very long and will take some time to process."
       }
     ]
   },
@@ -84,5 +68,17 @@
         "details": "ORCHID GPU cluster running at at ~50% capacity, issue under investigation."
       }
     ]
-  }
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Many web-based services",
+    "summary": "Intermittent issues for many web based services",
+    "date": "2026-04-23T09:45",
+    "updates": [
+      {
+        "date": "2026-04-23T09:45",
+        "details": "Many CEDA and JASMIN web-based services (portals, catalogue service, etc) are experiencing issues due. Issue under investigation."
+      }
+    ]
+  },
 ]
