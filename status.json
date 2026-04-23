@@ -58,7 +58,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "ORCHID",
     "summary": "ORCHID running at reduced capacity",
     "date": "2026-04-22T14:30",
@@ -66,6 +66,10 @@
       {
         "date": "2026-04-22T14:30",
         "details": "ORCHID GPU cluster running at at ~50% capacity, issue under investigation."
+      },
+      {
+        "date": "2026-04-23T11:00",
+        "details": "ORCHID GPU cluster now running at full capacity."
       }
     ]
   },
