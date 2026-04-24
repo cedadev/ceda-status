@@ -84,5 +84,16 @@
         "details": "All tenants should have access to the new cloud. All machines on the old cloud will be switched off 14/04/26"
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "JASMIN Accounts Portal and other services",
+    "summary": "JASMIN Accounts portal currently experience issues with knock-on effect for other services.",
+    "date": "2026-04-24T07:30",
+    "updates": [{
+        "date": "2026-04-24T08:00",
+        "details": "An issue with the JASMIN Accounts portal is having a knock-on effect for other services (500 error)."
+      }
+    ]
   }
 ]
