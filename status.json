@@ -29,59 +29,59 @@
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
-    "date": "2026-04-14T00:01",
+    "date": "2026-07-14T00:01",
     "updates": [
       {
-        "date": "2025-01-28T15:00",
-        "details": "Advance notice of scheduled maintenance day on Tues 14th April 2026. Please plan your work to minimise disruption."
+        "date": "2026-04-16T09:00",
+        "details": "Scheduled maintenance day Tuesday 14 July 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
   },
   {
     "status": "degraded",
-    "affectedServices": "Tape services",
-    "summary": "Advance notice of scheduled maintenance",
-    "date": "2026-03-25T09:00",
+    "affectedServices": "Near-line data store (NLDS)",
+    "summary": "Issues over weekend, some processes delayed.",
+    "date": "2026-04-20T08:45",
     "updates": [
       {
-        "date": "2026-03-19T15:00",
-        "details": "Scheduled upgrade to tape library, for ~2 hours from 09:00 on Tuesday 24 March, during which no access to tape although ingest can continue (to cache). Requests for retrieval will be accepted but there will be a delay in mounting/reading tapes."
+        "date": "2026-04-20T08:45",
+        "details": "Issue under investigation."
+      },
+      {
+        "date": "2026-04-21T09:45",
+        "details": "Service still degraded & under continuing investigation. Expect further interruptions until further notice."
+      },
+      {
+        "date": "2026-04-23T09:45",
+        "details": "Issue not yet resolved, new tasks can be added to the queue but the queue is now very long and will take some time to process."
+      }
+    ]
+  },
+  {
+    "status": "resolved",
+    "affectedServices": "ORCHID",
+    "summary": "ORCHID running at reduced capacity",
+    "date": "2026-04-22T14:30",
+    "updates": [
+      {
+        "date": "2026-04-22T14:30",
+        "details": "ORCHID GPU cluster running at at ~50% capacity, issue under investigation."
+      },
+      {
+        "date": "2026-04-23T11:00",
+        "details": "ORCHID GPU cluster now running at full capacity."
       }
     ]
   },
   {
     "status": "degraded",
-    "affectedServices": "LOTUS",
-    "summary": "Some LOTUS nodes unavailable",
-    "date": "2026-03-24T09:00",
+    "affectedServices": "Many web-based services",
+    "summary": "Intermittent issues for many web based services",
+    "date": "2026-04-23T09:45",
     "updates": [
       {
-        "date": "2026-03-24T09:00",
-        "details": "Many nodes drained this morning; jobs may have failed or be queued up. Cause under investigation."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "XFC vol7",
-    "summary": "Volume full, no further writes possible",
-    "date": "2026-03-24T12:25",
-    "updates": [
-      {
-        "date": "2026-03-24T12:25",
-        "details": "Please clean up any old/unused data ASAP."
-      }
-    ]
-  },
-  {
-    "status": "down",
-    "affectedServices": "JASMIN Cloud",
-    "summary": "Old (VIO7) JASMIN Cloud is being decommissioned on 14/04/26",
-    "date": "2026-04-14T09:00",
-    "updates": [
-      {
-        "date": "2026-03-24T14:00",
-        "details": "All tenants should have access to the new cloud. All machines on the old cloud will be switched off 14/04/26"
+        "date": "2026-04-23T09:45",
+        "details": "Many CEDA and JASMIN web-based services (portals, catalogue service, etc) are experiencing issues: currently under investigation."
       }
     ]
   },
