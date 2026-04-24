@@ -96,8 +96,8 @@
         "details": "An issue with the JASMIN Accounts portal is having a knock-on effect for other services (500 error)."
       },
       {
-        "date": "2026-04-24T12:00",
-        "details": "The issue has been resolved and other services should no longer be affected."
+        "date": "2026-04-24T15:00",
+        "details": "Issue resolved, other services no longer affected. Expect to receive emails from portal that were undelivered over last 24 hours."
       }
     ]
   }
