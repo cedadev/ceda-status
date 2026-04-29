@@ -56,49 +56,5 @@
         "details": "Issue not yet resolved, new tasks can be added to the queue but the queue is now very long and will take some time to process."
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "ORCHID",
-    "summary": "ORCHID running at reduced capacity",
-    "date": "2026-04-22T14:30",
-    "updates": [
-      {
-        "date": "2026-04-23T11:00",
-        "details": "ORCHID GPU cluster now running at full capacity."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "Many web-based services",
-    "summary": "Intermittent issues for many web based services",
-    "date": "2026-04-23T09:45",
-    "updates": [
-      {
-        "date": "2026-04-23T09:45",
-        "details": "Many CEDA and JASMIN web-based services (portals, catalogue service, etc) are experiencing issues: currently under investigation."
-      },
-      {
-        "date": "2026-04-24T12:00",
-        "details": "The intermittent issues have now been resolved."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "JASMIN Accounts Portal and other services",
-    "summary": "JASMIN Accounts portal currently experiencing issues with knock-on effect for other services.",
-    "date": "2026-04-24T07:30",
-    "updates": [
-      {
-        "date": "2026-04-24T08:00",
-        "details": "An issue with the JASMIN Accounts portal is having a knock-on effect for other services (500 error)."
-      },
-      {
-        "date": "2026-04-24T15:00",
-        "details": "Issue resolved, other services no longer affected. Expect to receive emails from portal that were undelivered over last 24 hours."
-      }
-    ]
   }
 ]
