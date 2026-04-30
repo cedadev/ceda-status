@@ -80,5 +80,17 @@
         "details": "Selected hosts have already been rebooted overnight which may have interrupted some user sessions/workflows. Further reboots may be necessary at short notice: please look out for console announcements."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "JDMA & ET",
+    "summary": "JDMA & ET not currently available for retrieval",
+    "date": "2026-04-30T14:50",
+    "updates": [
+      {
+        "date": "2026-04-30T14:50",
+        "details": "JDMA & ET are not currently available for retrieval, but are for ingest."
+      }
+    ]
   }
 ]
