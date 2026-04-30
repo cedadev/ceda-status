@@ -68,5 +68,17 @@
         "details": "Public Holidays on Mondays 4th & 25th May mean that staff will be on leave and services will be running at risk with no helpdesk cover. Normal cover should resume the following days in each case."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Emergency reboots for essential software update.",
+    "date": "2026-04-29T23:20",
+    "updates": [
+      {
+        "date": "2026-04-30T08:50",
+        "details": "Selected hosts have already been rebooted overnight which may have interrupted some user sessions/workflows. Further reboots may be necessary at short notice: please look out for console announcements."
+      }
+    ]
   }
 ]
