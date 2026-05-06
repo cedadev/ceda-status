@@ -60,18 +60,6 @@
   {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Public Holidays 4th & 25 May 2026 - services running at risk.",
-    "date": "2026-05-04T08:30",
-    "updates": [
-      {
-        "date": "2026-04-29T15:00",
-        "details": "Public Holidays on Mondays 4th & 25th May mean that staff will be on leave and services will be running at risk with no helpdesk cover. Normal cover should resume the following days in each case."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN services",
     "summary": "Emergency reboots for essential software update.",
     "date": "2026-04-29T23:20",
     "updates": [
