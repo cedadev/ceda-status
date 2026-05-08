@@ -88,5 +88,17 @@
         "details": "Please clean up any old/unused data ASAP."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "jasmin-login applications",
+    "summary": "Longer wait times due to staff shortage",
+    "date": "2026-05-08T10:00",
+    "updates": [
+      {
+        "date": "2026-05-08T10:00",
+        "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
+      }
+    ]
   }
 ]
