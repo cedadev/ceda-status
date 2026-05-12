@@ -38,22 +38,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Near-line data store (NLDS)",
-    "summary": "Issues over weekend, some processes delayed.",
-    "date": "2026-04-20T08:45",
-    "updates": [
-      {
-        "date": "2026-04-23T09:45",
-        "details": "Issue not yet resolved, new tasks can be added to the queue but the queue is now very long and will take some time to process."
-      },
-      {
-        "date": "2026-05-06T12:00",
-        "details": "NLDS now fully available"
-      }
-    ]
-  },
-  {
     "status": "at risk",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Emergency reboots for essential software update.",
