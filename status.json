@@ -86,14 +86,14 @@
     ]
   },
 {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Notice of additional scheduled maintenance day",
     "date": "2026-05-14T00:01",
     "updates": [
       {
-        "date": "2026-05-08T16:00",
-        "details": "Notice of additional scheduled maintenance day on Thurs 14th May 2026 to apply important security updates. Please plan your work to minimise disruption. All CEDA and JASMIN services may experience some disruption during the day."
+        "date": "2026-05-14T17:15",
+        "details": "Maintenance now completed."
       }
     ]
   }
