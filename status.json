@@ -86,7 +86,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "/work/scratch-pw[4,5], /gws/pw/j25/*, some CEDA Archive volumes, some LOTUS jobs",
     "summary": "Storage system issues affecting PFS volumes listed",
     "date": "2026-05-20T11:30",
@@ -94,6 +94,10 @@
       {
         "date": "2026-05-20T11:30",
         "details": "Issues with PFS volumes affecting user jobs, under investigation"
+      },
+      {
+        "date": "2026-05-20T16:00",
+        "details": "Issues with PFS volumes have been resolved."
       }
     ]
   }
