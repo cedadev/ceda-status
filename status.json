@@ -50,26 +50,26 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "JDMA & ET",
     "summary": "JDMA & ET not currently available for retrieval",
     "date": "2026-04-30T14:50",
     "updates": [
       {
-        "date": "2026-04-30T14:50",
-        "details": "JDMA & ET are not currently available for retrieval, but are for ingest."
+        "date": "2026-05-15T09:00",
+        "details": "Data now being ingested and recovered."
       }
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "XFC vol7",
     "summary": "Volume full, no further writes possible",
     "date": "2026-05-06T16:00",
     "updates": [
       {
-        "date": "2026-05-06T16:00",
-        "details": "Please clean up any old/unused data ASAP."
+        "date": "2026-05-20T10:00",
+        "details": "Volume no longer full"
       }
     ]
   },
@@ -85,15 +85,15 @@
       }
     ]
   },
-{
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Notice of additional scheduled maintenance day",
-    "date": "2026-05-14T00:01",
+  {
+    "status": "degraded",
+    "affectedServices": "/work/scratch-pw[4,5] /gws/pw/j25/* and some CEDA Archive volumes",
+    "summary": "Storage system issues affecting PFS volumes listed. Under investigation",
+    "date": "2026-05-20T11:30",
     "updates": [
       {
-        "date": "2026-05-14T17:15",
-        "details": "Maintenance now completed."
+        "date": "2026-05-20T11:30",
+        "details": "Issues with PFS volumes affecting user jobs, under investigation"
       }
     ]
   }
