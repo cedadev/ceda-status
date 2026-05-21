@@ -100,5 +100,17 @@
         "details": "Issues with PFS volumes have been resolved."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "dap.ceda.ac.uk ",
+    "summary": "https://dap.ceda.ac.uk/ is currently down. ",
+    "date": "2026-05-21T13:00",
+    "updates": [
+      {
+        "date": "2026-05-22T08:00",
+        "details": "dap.ceda.ac.uk is unavailable, we are currently investigating the issue. Apologies for any inconvenience.",
+      }
+    ]
   }
 ]
