@@ -102,7 +102,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "at risk",
     "affectedServices": "dap.ceda.ac.uk ",
     "summary": "https://dap.ceda.ac.uk/ is currently down. ",
     "date": "2026-05-20T13:00",
