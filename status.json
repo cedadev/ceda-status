@@ -110,6 +110,10 @@
       {
         "date": "2026-05-21T08:00",
         "details": "dap.ceda.ac.uk is unavailable, we are currently investigating the issue. Apologies for any inconvenience."
+      },
+      {
+        "date": "2026-05-21T14:00",
+        "details": "The issue has been resolved, we are investigating potential causes."
       }
     ]
   }
