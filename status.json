@@ -81,10 +81,10 @@
     "status": "degraded",
     "affectedServices": "LOTUS",
     "summary": "Slurm jobs failing or stuck in CG state",
-    "date": "2026-05-08T10:00",
+    "date": "2026-05-22T10:00",
     "updates": [
       {
-        "date": "2026-05-08T10:00",
+        "date": "2026-05-26T11:00",
         "details": "Some Slurm jobs on LOTUS are failing or becoming stuck, we are currently investigating this issue. Apologies for any inconvenience."
       }
     ]
