@@ -50,30 +50,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "JDMA & ET",
-    "summary": "JDMA & ET not currently available for retrieval",
-    "date": "2026-04-30T14:50",
-    "updates": [
-      {
-        "date": "2026-05-15T09:00",
-        "details": "Data now being ingested and recovered."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "XFC vol7",
-    "summary": "Volume full, no further writes possible",
-    "date": "2026-05-06T16:00",
-    "updates": [
-      {
-        "date": "2026-05-20T10:00",
-        "details": "Volume no longer full"
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "jasmin-login applications",
     "summary": "Longer wait times due to staff shortage",
@@ -82,22 +58,6 @@
       {
         "date": "2026-05-08T10:00",
         "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "/work/scratch-pw[4,5], /gws/pw/j25/*, some CEDA Archive volumes, some LOTUS jobs",
-    "summary": "Storage system issues affecting PFS volumes listed",
-    "date": "2026-05-20T11:30",
-    "updates": [
-      {
-        "date": "2026-05-20T11:30",
-        "details": "Issues with PFS volumes affecting user jobs, under investigation"
-      },
-      {
-        "date": "2026-05-20T16:00",
-        "details": "Issues with PFS volumes have been resolved."
       }
     ]
   },
@@ -114,6 +74,18 @@
       {
         "date": "2026-05-21T14:00",
         "details": "The issue has been resolved, we are investigating potential causes."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "LOTUS",
+    "summary": "Slurm jobs failing or stuck in CG state",
+    "date": "2026-05-08T10:00",
+    "updates": [
+      {
+        "date": "2026-05-08T10:00",
+        "details": "Some Slurm jobs on LOTUS are failing or becoming stuck, we are currently investigating this issue. Apologies for any inconvenience."
       }
     ]
   }
