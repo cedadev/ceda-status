@@ -88,5 +88,17 @@
         "details": "Some Slurm jobs on LOTUS are failing or becoming stuck, we are currently investigating this issue. Apologies for any inconvenience."
       }
     ]
-  }
+  },
+  {
+    "status": "down",
+    "affectedServices": "gpuhost001",
+    "summary": "Interactive GPU node reboot",
+    "date": "2026-05-26T17:00",
+    "updates": [
+      {
+        "date": "2026-05-26T17:00",
+        "details": "Interactive node gpuhost001 has been rebooted for an emergency security update. Apologies for any inconvenience."
+      }
+    ]
+  }  
 ]
