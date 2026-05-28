@@ -100,5 +100,17 @@
         "details": "Interactive node gpuhost001 is now back online"
       }
     ]
-  }  
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "TAPE",
+    "summary": "Tape library having issues, recalls with be delayed",
+    "date": "2026-05-27T17:00",
+    "updates": [
+      {
+        "date": "2026-05-27T17:00",
+        "details": "Tape service is having issues mounting tapes, so recalls will be delayed."
+      }
+    ]
+  }
 ]
