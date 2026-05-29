@@ -94,14 +94,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "gpuhost001",
-    "summary": "Interactive GPU node reboot",
-    "date": "2026-05-26T17:00",
+    "status": "degraded",
+    "affectedServices": "ORCHID",
+    "summary": "GPU cluster drained temporarily",
+    "date": "2026-05-29T10:45",
     "updates": [
       {
-        "date": "2026-05-27T10:00",
-        "details": "Interactive node gpuhost001 is now back online"
+        "date": "2026-05-29T10:45",
+        "details": "Various hosts having issues with GPUs, including GPUs not initialising. Cluster has been drained and investigation is ongoing."
       }
     ]
   },
