@@ -1,6 +1,6 @@
 [
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "CEDA Archive",
     "summary": "Technical problem affecting access to disk storage systems.",
     "date": "2025-11-18T12:30",
@@ -9,6 +9,10 @@
         "date": "2025-12-15T12:00",
         "details": "Updates on the data incident of 18 November, and the recovery activity to restore affected data to the CEDA Archive, can be found by following this link to recent updates:",
         "url": "https://www.ceda.ac.uk/tags/data-incident-nov25/"
+      },
+      {
+        "date": "2026-06-01T09:30",
+        "details": "This incident has been resolved."
       }
     ]
   },
@@ -114,6 +118,10 @@
       {
         "date": "2026-05-27T17:00",
         "details": "Tape service is having issues mounting tapes, so recalls will be delayed."
+      },
+      {
+        "date": "2026-06-01T09:45",
+        "details": "Tape recalls will be down tomorrow, Tue 2nd June."
       }
     ]
   }
