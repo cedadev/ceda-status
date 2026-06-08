@@ -1,22 +1,5 @@
 [
   {
-    "status": "resolved",
-    "affectedServices": "CEDA Archive",
-    "summary": "Technical problem affecting access to disk storage systems.",
-    "date": "2025-11-18T12:30",
-    "updates": [
-      {
-        "date": "2025-12-15T12:00",
-        "details": "Updates on the data incident of 18 November, and the recovery activity to restore affected data to the CEDA Archive, can be found by following this link to recent updates:",
-        "url": "https://www.ceda.ac.uk/tags/data-incident-nov25/"
-      },
-      {
-        "date": "2026-06-01T09:30",
-        "details": "This incident has been resolved."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "Specific group workspaces - check schedule",
     "summary": "Workspaces scheduled for migration are unavailable during cutover window.",
@@ -66,22 +49,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "dap.ceda.ac.uk, data.ceda.ac.uk, and data.cci.ceda.ac.uk",
-    "summary": "https://dap.ceda.ac.uk as well as data.ceda and data.cci are experiencing severe intermittent issues",
-    "date": "2026-05-20T13:00",
-    "updates": [
-      {
-        "date": "2026-05-28T10:00",
-        "details": "We are aware of an intermittent failure affecting these services, we are currently looking into the issue."
-      },
-      {
-        "date": "2026-06-01T10:00",
-        "details": "These services are now stable."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "LOTUS",
     "summary": "Slurm jobs failing or stuck in CG state",
@@ -118,6 +85,18 @@
       {
         "date": "2026-06-01T09:45",
         "details": "Tape recalls will be down tomorrow, Tue 2nd June."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "JASMIN Cloud",
+    "summary": "Cloud services unavailable",
+    "date": "2026-06-08T08:30",
+    "updates": [
+      {
+        "date": "2026-06-08T08:30",
+        "details": "Cloud currently experiencing issues, most services will be unavailable."
       }
     ]
   }
