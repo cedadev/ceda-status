@@ -89,14 +89,14 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "JASMIN Cloud",
     "summary": "Cloud services unavailable",
     "date": "2026-06-08T08:30",
     "updates": [
       {
-        "date": "2026-06-08T08:30",
-        "details": "Cloud currently experiencing issues, most services will be unavailable."
+        "date": "2026-06-08T17:00",
+        "details": "Cloud services are available again."
       }
     ]
   }
