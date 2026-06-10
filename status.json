@@ -45,6 +45,10 @@
       {
         "date": "2026-05-08T10:00",
         "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
+      },
+      {
+        "date": "2026-06-10T12:00",
+        "details": "Capacity to process requests will be further reduced during 15-19th June."
       }
     ]
   },
