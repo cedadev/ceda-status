@@ -103,5 +103,17 @@
         "details": "Cloud services are available again."
       }
     ]
+  },
+    {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "STFC network interruption",
+    "date": "2026-06-15T07:00",
+    "updates": [
+      {
+        "date": "2026-06-10T16:30",
+        "details": "Network upgrade to STFC firewall likely to cause loss of connectivity between 07:00-09:00BST on Monday 15 June."
+      }
+    ]
   }
 ]
