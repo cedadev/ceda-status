@@ -104,7 +104,7 @@
       }
     ]
   },
-    {
+  {
     "status": "down",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "STFC network interruption",
@@ -113,6 +113,18 @@
       {
         "date": "2026-06-10T16:30",
         "details": "Network upgrade to STFC firewall likely to cause loss of connectivity between 07:00-09:00BST on Monday 15 June."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "XFC /work/xfc/vol7",
+    "summary": "Volume full, no further writes possible",
+    "date": "2026-06-12T13:00",
+    "updates": [
+      {
+        "date": "2026-06-12T13:00",
+        "details": "Please can ALL users of vol7 clean up. Much of the data in this volume is much older than 30 days. The XFC service is provided for very short-term storage to facilitate data transfers only."
       }
     ]
   }
