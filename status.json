@@ -25,18 +25,6 @@
     ]
   },
   {
-    "status": "at risk",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Emergency reboots for essential software update.",
-    "date": "2026-04-29T23:20",
-    "updates": [
-      {
-        "date": "2026-04-30T08:50",
-        "details": "Selected hosts have already been rebooted overnight which may have interrupted some user sessions/workflows. Further reboots may be necessary at short notice: please look out for console announcements."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "jasmin-login applications",
     "summary": "Longer wait times due to staff shortage",
@@ -89,18 +77,6 @@
       {
         "date": "2026-06-01T09:45",
         "details": "Tape recalls will be down tomorrow, Tue 2nd June."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "JASMIN Cloud",
-    "summary": "Cloud services unavailable",
-    "date": "2026-06-08T08:30",
-    "updates": [
-      {
-        "date": "2026-06-08T17:00",
-        "details": "Cloud services are available again."
       }
     ]
   },
