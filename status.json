@@ -81,7 +81,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "STFC network interruption",
     "date": "2026-06-15T07:00",
@@ -89,6 +89,10 @@
       {
         "date": "2026-06-10T16:30",
         "details": "Network upgrade to STFC firewall likely to cause loss of connectivity between 07:00-09:00BST on Monday 15 June."
+      },
+      {
+        "date": "2026-06-15T09:30",
+        "details": "We are aware of some ongoing disruption from this work at present, affecting JASMIN and CEDA services but also staff ability to connect to internal systems."
       }
     ]
   },
