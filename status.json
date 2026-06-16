@@ -81,7 +81,7 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "STFC network interruption",
     "date": "2026-06-15T07:00",
@@ -93,34 +93,6 @@
       {
         "date": "2026-06-15T15:30",
         "details": "We are aware of some ongoing disruption from this work at present, possibly affecting JASMIN and CEDA services but mainly staff access to internal systems. A further intervention is planned for 17:00 today which may result in a brief loss of connectivity."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "XFC /work/xfc/vol7",
-    "summary": "Volume full, no further writes possible",
-    "date": "2026-06-12T13:00",
-    "updates": [
-      {
-        "date": "2026-06-12T13:00",
-        "details": "Please can ALL users of vol7 clean up. Much of the data in this volume is much older than 30 days. The XFC service is provided for very short-term storage to facilitate data transfers only."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "XFC /work/xfc/vol5",
-    "summary": "Volume full, no further writes possible",
-    "date": "2026-06-15T08:30",
-    "updates": [
-      {
-        "date": "2026-06-15T08:30",
-        "details": "Please can ALL users of vol5 clean up. Much of the data in this volume is much older than 30 days. The XFC service is provided for very short-term storage to facilitate data transfers only."
-      },
-      {
-        "date": "2026-06-15T10:30",
-        "details": "Usage now reduced, disk now writable."
       }
     ]
   }
