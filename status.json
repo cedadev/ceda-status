@@ -81,7 +81,7 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "degraded",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "STFC network interruption",
     "date": "2026-06-15T07:00",
@@ -93,6 +93,10 @@
       {
         "date": "2026-06-15T15:30",
         "details": "We are aware of some ongoing disruption from this work at present, possibly affecting JASMIN and CEDA services but mainly staff access to internal systems. A further intervention is planned for 17:00 today which may result in a brief loss of connectivity."
+      },
+      {
+        "date": "2026-06-16T09:30",
+        "details": "Some issues still ongoing. This will be affecting some JASMIN and CEDA services but also staff access tools and admin services. Further reports submitted and awaiting update from STFC Digital Infrastructures."
       }
     ]
   }
