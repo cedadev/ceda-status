@@ -93,6 +93,10 @@
       {
         "date": "2026-06-18T10:00",
         "details": "Team currently awaiting confirmation of power stability before further systems can be restarted safely. An earlier attempt was disrupted by a further brief power outage."
+      },
+      {
+        "date": "2026-06-18T10:45",
+        "details": "Power fault now rectified, systems now being gradually brought back online but may encounter hardware faults. Please await further updates before reconnecting."
       }
     ]
   }
