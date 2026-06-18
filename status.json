@@ -99,5 +99,17 @@
         "details": "Some issues still ongoing. This will be affecting some JASMIN and CEDA services but also staff access tools and admin services. Further reports submitted and awaiting update from STFC Digital Infrastructures."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Power issue",
+    "date": "2026-06-18T09:00",
+    "updates": [
+      {
+        "date": "2026-06-18T09:00",
+        "details": "A power issue affecting the JASMIN machine room has affected many services overnight. Team investigating."
+      }
+    ]
   }
 ]
