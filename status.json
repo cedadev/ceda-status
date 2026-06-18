@@ -89,6 +89,10 @@
       {
         "date": "2026-06-18T09:00",
         "details": "A power issue affecting the JASMIN machine room has affected many services overnight. Team investigating."
+      },
+      {
+        "date": "2026-06-18T10:00",
+        "details": "Team currently awaiting confirmation of power stability before further systems can be restarted safely. An earlier attempt was disrupted by a further brief power outage."
       }
     ]
   }
