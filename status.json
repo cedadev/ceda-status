@@ -100,7 +100,7 @@
       },
       {
         "date": "2026-06-18T12:00",
-        "details": "LOTUS jobs can be submitted but will not run until all storage is fully online. SOF (/gws/nopw) storage up, PFS (/gws/pw, scracth & XFC still rebuilding, may be some hours), a few web-based services now working dependent on reliance on storage, k8s based services incl notebooks to follow. Home directories and SSD/SSDE storage OK, Object store still unavailable. Data transfer OK depending on storage used."
+        "details": "LOTUS jobs can be submitted but will not run until all storage is fully online. SOF (/gws/nopw) storage up, PFS (/gws/pw, scratch & XFC still rebuilding, may be some hours), a few web-based services now working dependent on reliance on storage, k8s based services incl notebooks to follow. Home directories and SSD/SSDE storage OK, Object store still unavailable. Data transfer OK depending on storage used."
       }
     ]
   }
