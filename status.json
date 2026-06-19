@@ -105,6 +105,10 @@
       {
         "date": "2026-06-18T16:45",
         "details": "Object storage still unavailable until earliest tomorrow (19/06). PFS storage still reconstructing: available but slow, except scratch-pw4 still unavailable. K8s (web services and notebooks) offline until object storage and PFS fully available. LOTUS still accepting jobs but not running them. Other services resumed, but could be affected by storage dependencies."
+      },
+      {
+        "date": "2026-06-19T09:30",
+        "details": "Status as per last update, team continues to work on restoring services, further update due around lunchtime."
       }
     ]
   }
