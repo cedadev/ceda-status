@@ -109,6 +109,10 @@
       {
         "date": "2026-06-19T09:30",
         "details": "Status as per last update, team continues to work on restoring services, further update due around lunchtime."
+      },
+      {
+        "date": "2026-06-19T12:10",
+        "details": "Object storage is working but slow, PFS storage (esp. scratch-pw4) still reconstructing. Notebook service still down and LOTUS jobs not yet running: both due to dependency on scratch-pw4, but most other services now back up."
       }
     ]
   }
