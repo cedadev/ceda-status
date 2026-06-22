@@ -228,7 +228,7 @@
       },
       {
         "date": "2026-06-22T09:30",
-        "details": "LOTUS & Jupyter Notebooks service still unavailable due to scratch disk /work/scratch-pw4 reconstructing. A plan is currently being prepared to replace this volume with a new empty volume, in order to renable this services more quickly. Details to follow."
+        "details": "LOTUS & Jupyter Notebooks service still unavailable due to scratch disk /work/scratch-pw4 reconstructing. A plan is currently being prepared to replace this volume with a new empty volume, in order to re-enable these services more quickly. Details to follow."
       }
     ]
   }
