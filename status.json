@@ -89,6 +89,10 @@
       {
         "date": "2026-06-22T09:30",
         "details": "Following last week's power issues, LOTUS & Jupyter Notebooks service still unavailable due to scratch disk /work/scratch-pw4 reconstructing. A plan is currently being prepared to replace this volume with a new empty volume, in order to re-enable these services more quickly. Details to follow."
+      },
+      {
+        "date": "2026-06-22T15:45",
+        "details": "Awaiting progress with PFS storage issue before plan to restore LOTUS and Notebook access can proceed."
       }
     ]
   },
@@ -101,6 +105,10 @@
       {
         "date": "2026-06-22T10:45",
         "details": "An issue is currently affecting ALL pfs volumes, team is investigating with vendor support."
+      },
+      {
+        "date": "2026-06-22T15:45",
+        "details": "Issue is still under investigation with the vendor, PFS storage volumes still unavailable as well as preventing progress with the plan to restore LOTUS and the Notebook service."
       }
     ]
   }
