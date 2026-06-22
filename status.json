@@ -93,11 +93,15 @@
       {
         "date": "2026-06-22T15:45",
         "details": "Awaiting progress with PFS storage issue before plan to restore LOTUS and Notebook access can proceed."
+      },
+      {
+        "date": "2026-06-22T15:45",
+        "details": "Team now able to proceed (tomorrow, Tuesday) with plan to create replacement for /work/scratch-pw4. Further updates about re-enabling of LOTUS and Notebook service to follow."
       }
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "PFS storage",
     "summary": "PFS storage (/work/scratch-pw*, /gws/pw/*, /work/xfc/vol*) currently unavailable",
     "date": "2026-06-22T10:45",
@@ -109,6 +113,10 @@
       {
         "date": "2026-06-22T15:45",
         "details": "Issue is still under investigation with the vendor, PFS storage volumes still unavailable as well as preventing progress with the plan to restore LOTUS and the Notebook service."
+      },
+      {
+        "date": "2026-06-22T17:30",
+        "details": "Issue with PFS resolved EXCEPT for /work/scratch-pw4 which is still reconstructing."
       }
     ]
   }
