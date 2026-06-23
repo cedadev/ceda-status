@@ -99,8 +99,8 @@
         "details": "Team now able to proceed (tomorrow, Tuesday) with plan to create replacement for /work/scratch-pw4. Further updates about re-enabling of LOTUS and Notebook service to follow."
       },
       {
-        "date": "2026-06-23T11:45",
-        "details": "LOTUS jobs now running. /work/scratch-pw4 still unavailable. Further details to follow soon including update on Notebooks service."
+        "date": "2026-06-23T12:35",
+        "details": "LOTUS jobs now running (although some failing with 'partition down' message - team investigating). /work/scratch-pw4 still unavailable. Further details to follow soon including update on Notebooks service."
       }
     ]
   },
