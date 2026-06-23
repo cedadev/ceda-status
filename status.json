@@ -101,6 +101,10 @@
       {
         "date": "2026-06-23T12:35",
         "details": "LOTUS jobs now running (although some failing with 'partition down' message - team investigating). /work/scratch-pw4 still unavailable. Further details to follow soon including update on Notebooks service."
+      },
+      {
+        "date": "2026-06-23T13:30",
+        "details": "Notebooks service now working. LOTUS jobs now running (although some failing with 'partition down' message - team investigating). /work/scratch-pw4 still unavailable."
       }
     ]
   },
