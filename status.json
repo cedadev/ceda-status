@@ -127,5 +127,17 @@
         "details": "Issue with PFS resolved EXCEPT for /work/scratch-pw4 which is still reconstructing."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Red weather warning for extreme heat",
+    "date": "2026-06-24T10:00",
+    "updates": [
+      {
+        "date": "2026-06-24T10:00",
+        "details": "Risk to data centre chilling system may require reduced CPU capacity, which may cause loss of jobs running on affected nodes. We apologise for any inconvenience."
+      }
+    ]  
   }
 ]
