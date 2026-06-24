@@ -41,42 +41,14 @@
     ]
   },
   {
-    "status": "degraded",
-    "affectedServices": "LOTUS",
-    "summary": "Slurm jobs failing or stuck in CG state",
-    "date": "2026-05-22T10:00",
+    "status": "resolved",
+    "affectedServices": "Tape services",
+    "summary": "NLDS back online",
+    "date": "2026-06-24T11:30",
     "updates": [
       {
-        "date": "2026-05-26T11:00",
-        "details": "Some Slurm jobs on LOTUS are failing or becoming stuck, we are currently investigating this issue. Apologies for any inconvenience."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "ORCHID",
-    "summary": "GPU cluster drained temporarily",
-    "date": "2026-05-29T10:45",
-    "updates": [
-      {
-        "date": "2026-05-29T10:45",
-        "details": "Various hosts having issues with GPUs, including GPUs not initialising. Cluster has been drained and investigation is ongoing."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "TAPE",
-    "summary": "Tape library having issues, recalls with be delayed",
-    "date": "2026-05-27T17:00",
-    "updates": [
-      {
-        "date": "2026-05-27T17:00",
-        "details": "Tape service is having issues mounting tapes, so recalls will be delayed."
-      },
-      {
-        "date": "2026-06-01T09:45",
-        "details": "Tape recalls will be down tomorrow, Tue 2nd June."
+        "date": "2026-06-24T11:30",
+        "details": "NLDS back online following last week's power outage. Previous recall issues also resolved."
       }
     ]
   },
