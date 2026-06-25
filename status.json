@@ -77,6 +77,10 @@
       {
         "date": "2026-06-23T13:30",
         "details": "Notebooks service now working. LOTUS jobs now running (although some failing with 'partition down' message - team investigating). /work/scratch-pw4 still unavailable."
+      },
+      {
+        "date": "2026-06-25T10:00",
+        "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days"
       }
     ]
   },
