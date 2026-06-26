@@ -115,5 +115,17 @@
         "details": "Risk to data centre chilling system may require reduced CPU capacity, which may cause loss of jobs running on affected nodes. We apologise for any inconvenience."
       }
     ]  
+  },
+  {
+    "status": "resolved",
+    "affectedServices": "Globus transfers",
+    "summary": "Problems with a storage system caused Globus transfer timeouts.",
+    "date": "2026-06-26T16:00",
+    "updates": [
+      {
+        "date": "2026-06-26T16:00",
+        "details": "Globus transfer nodes have now been rebooted and transfer tasks should catch up over the weekend."
+      }
+    ]  
   }
 ]
