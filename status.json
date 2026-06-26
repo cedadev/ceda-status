@@ -80,7 +80,7 @@
       },
       {
         "date": "2026-06-25T10:00",
-        "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days"
+        "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days. If you attempt to use this in your LOTUS job, it will timeout and fail. Please use /work/scratch-pw5 instead."
       }
     ]
   },
