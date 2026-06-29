@@ -131,5 +131,17 @@
         "details": "Timeout errors still happening, team investigating posisble ongoing storage issues."
       }
     ]  
+  },
+  {
+    "status": "down",
+    "affectedServices": "CYLC server",
+    "summary": "Cylc workflow server temporarily unavailable.",
+    "date": "2026-06-29T10:30",
+    "updates": [
+      {
+        "date": "2026-06-29T10:30",
+        "details": "Problems excluding troubled PFS storage /work/scratch-pw4 from cylc config means that the cylc server has had to be disabled until further notice."
+      }
+    ]  
   }
 ]
