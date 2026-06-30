@@ -69,22 +69,14 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Globus transfers",
     "summary": "Problems with a storage system caused Globus transfer timeouts.",
     "date": "2026-06-26T16:00",
     "updates": [
       {
-        "date": "2026-06-26T16:00",
-        "details": "Globus transfer nodes have now been rebooted and transfer tasks should catch up over the weekend."
-      },
-      {
-        "date": "2026-06-29T08:45",
-        "details": "Timeout errors still happening, team investigating posisble ongoing storage issues."
-      },
-      {
-        "date": "2026-06-29T13:30",
-        "details": "Transfers currently running OK but possibility of recurrence of timeouts due to ongoing storage issue."
+        "date": "2026-06-30T09:30",
+        "details": "Transfers currently running OK."
       }
     ]  
   },
