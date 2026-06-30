@@ -69,18 +69,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Globus transfers",
-    "summary": "Problems with a storage system caused Globus transfer timeouts.",
-    "date": "2026-06-26T16:00",
-    "updates": [
-      {
-        "date": "2026-06-30T09:30",
-        "details": "Transfers currently running OK."
-      }
-    ]  
-  },
-  {
     "status": "down",
     "affectedServices": "CYLC server",
     "summary": "Cylc workflow server temporarily unavailable.",
