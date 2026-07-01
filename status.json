@@ -69,19 +69,7 @@
     ]
   },
   {
-    "status": "down",
-    "affectedServices": "CYLC server",
-    "summary": "Cylc workflow server temporarily unavailable.",
-    "date": "2026-06-29T10:30",
-    "updates": [
-      {
-        "date": "2026-06-29T10:30",
-        "details": "Problems excluding troubled PFS storage /work/scratch-pw4 from cylc config means that the cylc server has had to be disabled until further notice."
-      }
-    ]  
-  },
-  {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "All sci servers",
     "summary": "All sci servers to be rebooted at 06:00 Wed 1 July",
     "date": "2026-07-01T00:01",
@@ -89,6 +77,10 @@
       {
         "date": "2026-06-30T16:30",
         "details": "All sci servers are scheduled to reboot at 06:00 on Wed 1 July to clear issues related to recent storage problems."
+      },
+      {
+        "date": "2026-07-01T08:00",
+        "details": "Sci servers now available again."
       }
     ]  
   }
