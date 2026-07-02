@@ -67,21 +67,5 @@
         "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days. If you attempt to use this in your LOTUS job, it will timeout and fail. Please use /work/scratch-pw5 instead."
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "All sci servers",
-    "summary": "All sci servers to be rebooted at 06:00 Wed 1 July",
-    "date": "2026-07-01T00:01",
-    "updates": [
-      {
-        "date": "2026-06-30T16:30",
-        "details": "All sci servers are scheduled to reboot at 06:00 on Wed 1 July to clear issues related to recent storage problems."
-      },
-      {
-        "date": "2026-07-01T08:00",
-        "details": "Sci servers now available again."
-      }
-    ]  
   }
 ]
