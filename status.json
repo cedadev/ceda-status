@@ -67,5 +67,17 @@
         "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days. If you attempt to use this in your LOTUS job, it will timeout and fail. Please use /work/scratch-pw5 instead."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "JASMIN Cloud",
+    "summary": "JASMIN Cloud portal down in preparation for STFC Cloud downtime 6-10th July.",
+    "date": "2026-07-03T17:00",
+    "updates": [
+      {
+        "date": "2026-07-03T17:00",
+        "details": "JASMIN Azimuth Cloud Portal is now shutdown in preparation for STFC Cloud downtime 6-10th July."
+      }
+    ]
   }
 ]
