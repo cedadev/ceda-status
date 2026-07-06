@@ -38,18 +38,6 @@
   },
   {
     "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Power outage",
-    "date": "2026-06-18T09:00",
-    "updates": [
-      {
-        "date": "2026-06-29T09:30",
-        "details": "Issues following power outage on Thu 18th July resolved EXCEPT those listed on this status page."
-      }
-    ]
-  },
-  {
-    "status": "down",
     "affectedServices": "PFS storage",
     "summary": "/work/scratch-pw4 currently unavailable following power outage",
     "date": "2026-06-22T10:45",
@@ -65,6 +53,10 @@
       {
         "date": "2026-06-25T10:00",
         "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days. If you attempt to use this in your LOTUS job, it will timeout and fail. Please use /work/scratch-pw5 instead."
+      },
+      {
+        "date": "2026-07-06T09:00",
+        "details": "/work/scratch-pw4 has finished reconstruction and should be available again."
       }
     ]
   },
