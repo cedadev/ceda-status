@@ -71,12 +71,16 @@
   {
     "status": "down",
     "affectedServices": "JASMIN Cloud",
-    "summary": "JASMIN Cloud portal down in preparation for STFC Cloud downtime 6-10th July.",
+    "summary": "JASMIN Cloud down for STFC Cloud downtime 6-10th July.",
     "date": "2026-07-03T17:00",
     "updates": [
       {
         "date": "2026-07-03T17:00",
         "details": "JASMIN Azimuth Cloud Portal is now shutdown in preparation for STFC Cloud downtime 6-10th July."
+      },
+      {
+        "date": "2026-07-06T09:00",
+        "details": "JASMIN Cloud is now down. This applies to everything on portal.cloud.jasmin.ac.uk, and nothing else."
       }
     ]
   }
