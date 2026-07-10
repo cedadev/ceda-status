@@ -61,7 +61,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "JASMIN Cloud",
     "summary": "JASMIN Cloud down for STFC Cloud downtime 6-10th July.",
     "date": "2026-07-03T17:00",
@@ -73,6 +73,10 @@
       {
         "date": "2026-07-06T09:00",
         "details": "JASMIN Cloud is now down. This applies to everything on portal.cloud.jasmin.ac.uk, and nothing else."
+      },
+      {
+        "date": "2026-07-10T15:00",
+        "details": "JASMIN Cloud is available again, as is Azimuth. Users are responsible for restarting their virtual machines."
       }
     ]
   },
@@ -84,7 +88,11 @@
     "updates": [
       {
         "date": "2026-07-10T10:00",
-        "details": "Object storage currently down. We are investigating. Apologies for an inconvenience."
+        "details": "Object storage currently down, producing 503 errors. We are investigating. Apologies for an inconvenience."
+      },
+      {
+        "date": "2026-07-10T15:00",
+        "details": "We are working with the vendor to resolve the issue."
       }
     ]
   }
