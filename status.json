@@ -21,6 +21,10 @@
       {
         "date": "2026-04-16T09:00",
         "details": "Scheduled maintenance day Tuesday 14 July 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
+      },
+      {
+        "date": "2026-07-13T14:00",
+        "details": "The CEDA data catalogue service will be updated during the CEDA services at-risk period. This is to resolve a number of minor bugs and improve performance for content management. Users should not see minimal impact in service whilst these updates are rolled out."
       }
     ]
   },
