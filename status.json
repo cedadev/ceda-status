@@ -33,6 +33,10 @@
       {
         "date": "2026-07-14T12:00",
         "details": "Most services now back to normal, jobs running on LOTUS (CPU) but not ORCHID (GPU) or gpumig until further work is completed."
+      },
+      {
+        "date": "2026-07-14T14:10",
+        "details": "Gpumig partition still unavailable, but all other services now working normally."
       }
     ]
   },
