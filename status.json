@@ -24,7 +24,11 @@
       },
       {
         "date": "2026-07-13T14:00",
-        "details": "The CEDA data catalogue service will be updated during the CEDA services at-risk period. This is to resolve a number of minor bugs and improve performance for content management. Users should not see minimal impact in service whilst these updates are rolled out."
+        "details": "The CEDA data catalogue service will be updated during the CEDA services at-risk period. This is to resolve a number of minor bugs and improve performance for content management. Users should see minimal impact in service whilst these updates are rolled out."
+      },
+      {
+        "date": "2026-07-14T10:20",
+        "details": "Scheduled work currently underway, anticipate completion by lunchtime if all goes well - please look out for further updates here."
       }
     ]
   },
@@ -37,50 +41,6 @@
       {
         "date": "2026-05-08T10:00",
         "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "PFS storage",
-    "summary": "/work/scratch-pw4 currently unavailable following power outage",
-    "date": "2026-06-22T10:45",
-    "updates": [
-      {
-        "date": "2026-06-22T10:45",
-        "details": "Issue currently affecting /work/scratch-pw4 following power outage on Thu 18 June."
-      },
-      {
-        "date": "2026-06-22T17:30",
-        "details": "Issues with other PFS resolved EXCEPT for /work/scratch-pw4 which is still reconstructing."
-      },
-      {
-        "date": "2026-06-25T10:00",
-        "details": "Reconstruction of /work/scratch-pw4 in progress, expected to take a few more days. If you attempt to use this in your LOTUS job, it will timeout and fail. Please use /work/scratch-pw5 instead."
-      },
-      {
-        "date": "2026-07-06T09:00",
-        "details": "/work/scratch-pw4 has finished reconstruction and should be available again."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "JASMIN Cloud",
-    "summary": "JASMIN Cloud down for STFC Cloud downtime 6-10th July.",
-    "date": "2026-07-03T17:00",
-    "updates": [
-      {
-        "date": "2026-07-03T17:00",
-        "details": "JASMIN Azimuth Cloud Portal is now shutdown in preparation for STFC Cloud downtime 6-10th July."
-      },
-      {
-        "date": "2026-07-06T09:00",
-        "details": "JASMIN Cloud is now down. This applies to everything on portal.cloud.jasmin.ac.uk, and nothing else."
-      },
-      {
-        "date": "2026-07-10T15:00",
-        "details": "JASMIN Cloud is available again, as is Azimuth. Users are responsible for restarting their virtual machines."
       }
     ]
   },
