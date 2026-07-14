@@ -13,7 +13,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-07-14T00:01",
@@ -29,6 +29,10 @@
       {
         "date": "2026-07-14T10:20",
         "details": "Scheduled work currently underway, anticipate completion by lunchtime if all goes well - please look out for further updates here."
+      },
+      {
+        "date": "2026-07-14T12:00",
+        "details": "Most services now back to normal, jobs running on LOTUS (CPU) but not ORCHID (GPU) or gpumig until further work is completed."
       }
     ]
   },
