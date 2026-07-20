@@ -13,18 +13,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Advance notice of next regular scheduled maintenance day",
-    "date": "2026-07-14T00:01",
-    "updates": [
-      {
-        "date": "2026-07-14T16:00",
-        "details": "Gpumig partition and all other services now working normally. Maintenance all completed."
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "jasmin-login applications",
     "summary": "Longer wait times due to staff shortage",
