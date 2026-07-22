@@ -25,7 +25,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "solved",
     "affectedServices": "JASMIN Object Store",
     "summary": "JASMIN Object Store is currently down. ",
     "date": "2026-07-10T10:00",
@@ -37,6 +37,10 @@
       {
         "date": "2026-07-10T15:30",
         "details": "The object store is mostly back, but we are still working on the issue."
+      },
+      {
+        "date": "2026-07-22T15:00",
+        "details": "Object storage is back, b ut we are still working on making sure it doesn't go down in the same way again."
       }
     ]
   }
