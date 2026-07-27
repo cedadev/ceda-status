@@ -43,5 +43,17 @@
         "details": "Object storage is back, but we are still working on making sure it doesn't go down in the same way again."
       }
     ]
-  }
+  },
+  {
+    "status": "down",
+    "affectedServices": "All",
+    "summary": "Host reboots for essential software updates Thursday 30 July 07:00-08:30.",
+    "date": "2026-07-30T00:01",
+    "updates": [
+      {
+        "date": "2026-07-27T15:45",
+        "details": "Host reboots will take place early Thursday morning and cause brief interruption to many services and terminate user sessions. Work should be complete by 08:30."
+      }
+    ]
+  },
 ]
