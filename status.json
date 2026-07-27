@@ -25,26 +25,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "JASMIN Object Store",
-    "summary": "JASMIN Object Store is currently down. ",
-    "date": "2026-07-10T10:00",
-    "updates": [
-      {
-        "date": "2026-07-10T10:00",
-        "details": "Object storage currently down, producing 503 errors. We are investigating. Apologies for an inconvenience."
-      },
-      {
-        "date": "2026-07-10T15:30",
-        "details": "The object store is mostly back, but we are still working on the issue."
-      },
-      {
-        "date": "2026-07-22T15:00",
-        "details": "Object storage is back, but we are still working on making sure it doesn't go down in the same way again."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "All",
     "summary": "Host reboots for essential software updates Thursday 30 July 07:00-08:30.",
