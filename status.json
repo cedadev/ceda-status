@@ -35,5 +35,17 @@
         "details": "Host reboots will take place early Thursday morning and cause brief interruption to many services and terminate user sessions. Work should be complete by 08:30."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "/work/xfc/vol7",
+    "summary": "Please clean up: volume is full, no further writes permitted. ",
+    "date": "2026-07-29T09:00",
+    "updates": [
+      {
+        "date": "2026-07-29T09:00",
+        "details": "Users of /work/xfc/vol7 please clean data ASAP to bring usage down below limit. No writes are currently possible."
+      }
+    ]
   }
 ]
