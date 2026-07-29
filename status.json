@@ -47,5 +47,17 @@
         "details": "Users of /work/xfc/vol7 please clean data ASAP to bring usage down below limit. No writes are currently possible."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "tape services",
+    "summary": "Issue affecting ET & JDMA tape services, also maintenance work today.",
+    "date": "2026-07-29T12:30",
+    "updates": [
+      {
+        "date": "2026-07-29T12:30",
+        "details": "There is an issue affecting tape services (ET & JDMA). Some maintenance work is also now scheduled for this afternoon, plus with host reboots early tomorrow (Thursday until 08:30) services may not return until that work has completed."
+      }
+    ]
   }
 ]
