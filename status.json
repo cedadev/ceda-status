@@ -77,6 +77,10 @@
       {
         "date": "2026-07-29T12:30",
         "details": "There is an issue affecting tape services (ET & JDMA). Some maintenance work is also now scheduled for this afternoon, plus with host reboots early tomorrow (Thursday until 08:30) services may not return until that work has completed."
+      },
+      {
+        "date": "2026-07-30T12:20",
+        "details": "Tape services are in the process of being retored, please await further update, but note that when they return, there will be a large backlog of tasks to be processed."
       }
     ]
   },
