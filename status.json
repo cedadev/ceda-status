@@ -41,7 +41,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "at risk",
     "affectedServices": "/work/xfc/vol7",
     "summary": "Please clean up: volume is full, no further writes permitted. ",
     "date": "2026-07-29T09:00",
@@ -49,6 +49,10 @@
       {
         "date": "2026-07-29T09:00",
         "details": "Users of /work/xfc/vol7 please clean data ASAP to bring usage down below limit. No writes are currently possible."
+      },
+      {
+        "date": "2026-07-30T09:00",
+        "details": "Volume currently at 95% - please continue to clean up to avoid disruption if/when limit is hit again."
       }
     ]
   },
@@ -60,7 +64,7 @@
     "updates": [
       {
         "date": "2026-07-30T09:00",
-        "details": "Users of /work/xfc/vol10 please clean any old or non-essential data ASAP to bring usage down, to avoid disruption if/when limit is reached."
+        "details": "Users of /work/xfc/vol10 please clean up any old or non-essential data ASAP to bring usage down, to avoid disruption if/when limit is reached."
       }
     ]
   },
