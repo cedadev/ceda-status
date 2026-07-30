@@ -43,7 +43,7 @@
   {
     "status": "at risk",
     "affectedServices": "/work/xfc/vol7",
-    "summary": "Please clean up: volume is full, no further writes permitted. ",
+    "summary": "Please clean up: volume is nearing its limit.",
     "date": "2026-07-29T09:00",
     "updates": [
       {
