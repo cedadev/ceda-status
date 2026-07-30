@@ -59,5 +59,17 @@
         "details": "There is an issue affecting tape services (ET & JDMA). Some maintenance work is also now scheduled for this afternoon, plus with host reboots early tomorrow (Thursday until 08:30) services may not return until that work has completed."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "JASMIN helpdesk",
+    "summary": "Limited helpdesk cover w/c 10/8/2026: replies may take longer.",
+    "date": "2026-07-30T09:00",
+    "updates": [
+      {
+        "date": "2026-08-10T00:01",
+        "details": "Helpdesk cover limited due to staff leave. For re-approvals of jasmin-login or other roles, please consider doing these in advance to avoid disruption."
+      }
+    ]
   }
 ]
