@@ -69,11 +69,14 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "tape services",
-    "summary": "Issue affecting ET & JDMA tape services, also maintenance work today.",
+    "summary": "Issue affecting ET & JDMA tape services.",
     "date": "2026-07-29T12:30",
-    "updates": [
+    "updates": [{
+        "date": "2026-08-03T15:00",
+        "details": "Tape services are are healthy again, however there is a backlog of requests causing slow progress."
+      },
       {
         "date": "2026-07-30T16:00",
         "details": "Tape services are mostly back. JDMA puts/gets might need to be rerun, and users are asked not to delete data until we can confirm that puts are completing successfully."
