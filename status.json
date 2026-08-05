@@ -25,46 +25,14 @@
     ]
   },
   {
-    "status": "resolved",
+    "status": "at risk",
     "affectedServices": "All",
-    "summary": "Host reboots for essential software updates Thursday 30 July 07:00-08:30.",
-    "date": "2026-07-30T00:01",
+    "summary": "Host reboots & network maintenance - interruption(s)",
+    "date": "2026-08-13T00:01",
     "updates": [
       {
-        "date": "2026-07-27T15:45",
-        "details": "Host reboots will take place early Thursday morning and cause brief interruption to many services and terminate user sessions. Work should be complete by 08:30."
-      },
-      {
-        "date": "2026-07-30T09:00",
-        "details": "Host reboots now complete."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "/work/xfc/vol7",
-    "summary": "Please clean up: volume is nearing its limit.",
-    "date": "2026-07-29T09:00",
-    "updates": [
-      {
-        "date": "2026-07-29T09:00",
-        "details": "Users of /work/xfc/vol7 please clean data ASAP to bring usage down below limit. No writes are currently possible."
-      },
-      {
-        "date": "2026-07-30T09:00",
-        "details": "Volume currently at 95% - please continue to clean up to avoid disruption if/when limit is hit again."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "/work/xfc/vol10",
-    "summary": "Please clean up: volume is nearing its limit.",
-    "date": "2026-07-30T09:00",
-    "updates": [
-      {
-        "date": "2026-07-30T09:00",
-        "details": "Users of /work/xfc/vol10 please clean up any old or non-essential data ASAP to bring usage down, to avoid disruption if/when limit is reached."
+        "date": "2026-08-05T14:45",
+        "details": "Host reboots and some essential JASMIN network maintenance will take place early Thursday morning 13th August and cause brief interruption to many services and terminate user sessions. Work should be complete by 08:30 but should be considered at risk until 12:30."
       }
     ]
   },
@@ -76,18 +44,6 @@
     "updates": [{
         "date": "2026-08-03T15:00",
         "details": "Tape services are are healthy again, however there is a backlog of requests causing slow progress."
-      },
-      {
-        "date": "2026-07-30T16:00",
-        "details": "Tape services are mostly back. JDMA puts/gets might need to be rerun, and users are asked not to delete data until we can confirm that puts are completing successfully."
-      },
-      {
-        "date": "2026-07-29T12:30",
-        "details": "There is an issue affecting tape services (ET & JDMA). Some maintenance work is also now scheduled for this afternoon, plus with host reboots early tomorrow (Thursday until 08:30) services may not return until that work has completed."
-      },
-      {
-        "date": "2026-07-30T12:20",
-        "details": "Tape services are in the process of being restored, please await further update, but note that when they return, there will be a large backlog of tasks to be processed."
       }
     ]
   },
