@@ -58,5 +58,17 @@
         "details": "Helpdesk cover limited due to staff leave. For renewals of jasmin-login or other access roles, please consider doing these in advance to avoid disruption."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "/work/scratch-pw5",
+    "summary": "All users please clean up data ASAP.",
+    "date": "2026-08-05T00:01",
+    "updates": [
+      {
+        "date": "2026-08-05T14:45",
+        "details": "ACTION REQUIRED ALL USERS OF /work/scratch-pw5: As per announcement, this volume needs to reduce usage to below 500TB so that it can be re-sized."
+      }
+    ]
   }
 ]
