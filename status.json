@@ -14,53 +14,6 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "jasmin-login applications",
-    "summary": "Longer wait times due to staff shortage",
-    "date": "2026-05-08T10:00",
-    "updates": [
-      {
-        "date": "2026-05-08T10:00",
-        "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "All",
-    "summary": "Host reboots & network maintenance - interruption(s)",
-    "date": "2026-08-13T00:01",
-    "updates": [
-      {
-        "date": "2026-08-05T14:45",
-        "details": "Host reboots and some essential JASMIN network maintenance will take place early Thursday morning 13th August and cause brief interruption to many services and terminate user sessions. Work should be complete by 08:30 but should be considered at risk until 12:30."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "tape services",
-    "summary": "Issue affecting ET & JDMA tape services.",
-    "date": "2026-07-29T12:30",
-    "updates": [{
-        "date": "2026-08-03T15:00",
-        "details": "Tape services are are healthy again, however there is a backlog of requests causing slow progress."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "JASMIN helpdesk",
-    "summary": "Limited helpdesk cover w/c 10/8/2026: applications, renewals & replies may take longer.",
-    "date": "2026-08-10T00:01",
-    "updates": [
-      {
-        "date": "2026-07-30T09:00",
-        "details": "Helpdesk cover limited due to staff leave. For renewals of jasmin-login or other access roles, please consider doing these in advance to avoid disruption."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "/work/scratch-pw5",
     "summary": "All users please clean up data ASAP.",
     "date": "2026-08-05T00:01",
@@ -80,6 +33,18 @@
       {
         "date": "2026-08-18T14:21",
         "details": "Tape services are currently suspended.  This affects Elastic Tape, JDMA and NLA.  Ingests will continue to write to the buffer, and will be processed when the tape is back online.  Recalls are suspended."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA and JASMIN services",
+    "summary": "Advance notice of next regular scheduled maintenance day",
+    "date": "2026-10-06T00:01",
+    "updates": [
+      {
+        "date": "2026-08-18T14:30",
+        "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
   }
