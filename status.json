@@ -25,14 +25,18 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Tape services (ET, JDMA, NLA)",
     "summary": "Tape services are currently suspended.",
-    "date": "2026-08-18T14:00",
+    "date": "2026-08-26T08:48",
     "updates": [
       {
         "date": "2026-08-18T14:21",
         "details": "Tape services are currently suspended.  This affects Elastic Tape, JDMA and NLA.  Ingests will continue to write to the buffer, and will be processed when the tape is back online.  Recalls are suspended."
+      },
+      {
+        "date": "2026-08-26T08:48",
+        "details": "All tape services are available again."
       }
     ]
   },
