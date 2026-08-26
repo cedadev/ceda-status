@@ -63,5 +63,17 @@
         "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "LOTUS & ORCHID",
+    "summary": "Notice of scheduled maintenance",
+    "date": "2026-09-01T00:01",
+    "updates": [
+      {
+        "date": "2026-08-26T14:00",
+        "details": "There will be scheduled maintenance on Tuesday 1st September, requiring draining of the Slurm cluster. A reservation is in place all day. Please plan your work accordingly."
+      }
+    ]
   }
 ]
