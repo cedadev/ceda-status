@@ -25,7 +25,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "LOTUS & ORCHID",
     "summary": "Notice of scheduled maintenance",
     "date": "2026-09-01T00:01",
@@ -33,6 +33,10 @@
       {
         "date": "2026-08-26T14:00",
         "details": "There will be scheduled maintenance on Tuesday 1st September, requiring draining of the Slurm cluster. A reservation is in place all day. Please plan your work accordingly."
+      },
+      {
+        "date": "2026-09-04T17:00",
+        "details": "The maintenance on the Slurm cluster has been completed."
       }
     ]
   },
@@ -45,6 +49,10 @@
       {
         "date": "2026-09-02T10:12",
         "details": "nx servers will be rebooted one at a time to apply updates, and therefore temporarily unavailable on Thursday 3rd September. We apologise for any disruption you may experience during this time."
+      },
+      {
+        "date": "2026-09-04T17:00",
+        "details": "The NX server maintenance has been postponed, update to follow."
       }
     ]
   }
