@@ -41,22 +41,14 @@
     ]
   },
     {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Notice of scheduled maintenance",
     "date": "2026-09-07T00:01",
     "updates": [
       {
-        "date": "2026-09-02T10:12",
-        "details": "nx servers will be rebooted one at a time to apply updates, and therefore temporarily unavailable on Thursday 3rd September. We apologise for any disruption you may experience during this time."
-      },
-      {
-        "date": "2026-09-04T17:00",
-        "details": "The NX server maintenance has been postponed, update to follow."
-      },
-      {
-        "date": "2026-09-07T09:00",
-        "details": "The NX servers are currently being rebooted to apply updates."
+        "date": "2026-09-07T16:00",
+        "details": "The NX server maintenance has been completed."
       }
     ]
   }
