@@ -44,7 +44,7 @@
     "status": "degraded",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Notice of scheduled maintenance",
-    "date": "2026-09-03T00:01",
+    "date": "2026-09-07T00:01",
     "updates": [
       {
         "date": "2026-09-02T10:12",
@@ -53,6 +53,10 @@
       {
         "date": "2026-09-04T17:00",
         "details": "The NX server maintenance has been postponed, update to follow."
+      },
+      {
+        "date": "2026-09-07T09:00",
+        "details": "The NX servers are currently being rebooted to apply updates."
       }
     ]
   }
