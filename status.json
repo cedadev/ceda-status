@@ -23,17 +23,5 @@
         "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
-  },
-    {
-    "status": "resolved",
-    "affectedServices": "NoMachine NX (graphical desktop)",
-    "summary": "Notice of scheduled maintenance",
-    "date": "2026-09-07T00:01",
-    "updates": [
-      {
-        "date": "2026-09-07T16:00",
-        "details": "The NX server maintenance has been completed."
-      }
-    ]
   }
 ]
