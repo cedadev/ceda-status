@@ -23,5 +23,17 @@
         "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "CEDA Services Portal, CEDA Archive Browser",
+    "summary": "Issues with some CEDA services",
+    "date": "2026-09-15T09:30",
+    "updates": [
+      {
+        "date": "2026-09-15T09:30",
+        "details": "An issue with the CEDA Services Portal may be causing 500 errors when using data.ceda.ac.uk. We are currently investigating."
+      }
+    ]
   }
 ]
