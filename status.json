@@ -23,5 +23,17 @@
         "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "NoMachine NX (graphical desktop)",
+    "summary": "Firefox browser currently unavailable when using NX service.",
+    "date": "2026-09-23T10:30",
+    "updates": [
+      {
+        "date": "2026-09-23T10:30",
+        "details": "The Firefox browser within the NX graphical desktop is currently unavailable. We apologise for any disruption to your work."
+      }
+    ]
   }
 ]
