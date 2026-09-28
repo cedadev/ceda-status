@@ -25,7 +25,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "NoMachine NX (graphical desktop)",
     "summary": "Firefox browser currently unavailable when using NX service.",
     "date": "2026-09-23T10:30",
@@ -33,6 +33,10 @@
       {
         "date": "2026-09-23T10:30",
         "details": "The Firefox browser within the NX graphical desktop is currently unavailable. We apologise for any disruption to your work."
+      },
+      {
+        "date": "2026-09-28T09:30",
+        "details": "This issue has now been fixed on all the NX machines."
       }
     ]
   },
