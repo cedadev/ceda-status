@@ -41,7 +41,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "JASMIN Notebook Service",
     "summary": "Notebook Service 500 errors",
     "date": "2026-09-28T08:30",
@@ -49,6 +49,10 @@
       {
         "date": "2026-09-28T09:30",
         "details": "The JASMIN Notebook Service is currently down. We are investigating the issue, apologies for the inconvenience."
+      },
+      {
+        "date": "2026-09-28T14:00",
+        "details": "This issue has now been resolved."
       }
     ]
   }
