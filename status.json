@@ -35,5 +35,17 @@
         "details": "The Firefox browser within the NX graphical desktop is currently unavailable. We apologise for any disruption to your work."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "JASMIN Notebook Service",
+    "summary": "Notebook Service 500 errors",
+    "date": "2026-09-28T08:30",
+    "updates": [
+      {
+        "date": "2026-09-28T09:30",
+        "details": "The JASMIN Notebook Service is currently down. We are investigating the issue, apologies for the inconvenience."
+      }
+    ]
   }
 ]
