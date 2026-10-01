@@ -23,37 +23,5 @@
         "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "NoMachine NX (graphical desktop)",
-    "summary": "Firefox browser currently unavailable when using NX service.",
-    "date": "2026-09-23T10:30",
-    "updates": [
-      {
-        "date": "2026-09-23T10:30",
-        "details": "The Firefox browser within the NX graphical desktop is currently unavailable. We apologise for any disruption to your work."
-      },
-      {
-        "date": "2026-09-28T09:30",
-        "details": "This issue has now been fixed on all the NX machines."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "JASMIN Notebook Service",
-    "summary": "Notebook Service 500 errors",
-    "date": "2026-09-28T08:30",
-    "updates": [
-      {
-        "date": "2026-09-28T09:30",
-        "details": "The JASMIN Notebook Service is currently down. We are investigating the issue, apologies for the inconvenience."
-      },
-      {
-        "date": "2026-09-28T14:00",
-        "details": "This issue has now been resolved."
-      }
-    ]
   }
 ]
