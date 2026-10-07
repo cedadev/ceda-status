@@ -13,7 +13,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day",
     "date": "2026-10-06T00:01",
@@ -22,6 +22,10 @@
         "date": "2026-08-18T14:30",
         "details": "Scheduled maintenance day Tuesday 6 October 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly.",
         "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
+      },
+      {
+        "date": "2026-10-07T09:30",
+        "details": "All services have been restored, apart from ORCHID which has reduced capacity (2 hosts unavailable)."
       }
     ]
   }
