@@ -26,6 +26,10 @@
       {
         "date": "2026-10-07T09:30",
         "details": "All services have been restored, apart from ORCHID which has reduced capacity (2 hosts unavailable)."
+      },
+      {
+        "date": "2026-10-07T14:30",
+        "details": "All services restored, including all ORCHID hosts."
       }
     ]
   }
