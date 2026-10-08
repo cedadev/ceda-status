@@ -1,5 +1,29 @@
 [
   {
+    "status": "at risk",
+    "affectedServices": "all",
+    "summary": "Network work by STFC Digital Infrastructures may cause brief interruptions Fri 9 Oct 12:00-14:00.",
+    "date": "2026-10-09T12:00",
+    "updates": [
+      {
+        "date": "2026-10-08T09:50",
+        "details": "Possibility of network interruptions."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "all",
+    "summary": "Advance notice of next regular scheduled maintenance day.",
+    "date": "2026-11-25T00:01",
+    "updates": [
+      {
+        "date": "2026-10-07T09:50",
+        "details": "Scheduled maintenance day Wednesday 25 November 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
+      }
+    ]
+  },
+  {
     "status": "degraded",
     "affectedServices": "Specific group workspaces - check schedule",
     "summary": "Workspaces scheduled for migration are unavailable during cutover window.",
