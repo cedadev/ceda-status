@@ -39,7 +39,7 @@
   {
     "status": "resolved",
     "affectedServices": "All CEDA and JASMIN services",
-    "summary": "Advance notice of next regular scheduled maintenance day",
+    "summary": "October scheduled maintenance day",
     "date": "2026-10-06T00:01",
     "updates": [
       {
