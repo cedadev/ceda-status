@@ -1,5 +1,5 @@
 [
-    {
+  {
     "status": "degraded",
     "affectedServices": "LOTUS cluster",
     "summary": "Slurm controller having issues due to temporary overloading.",
