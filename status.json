@@ -1,7 +1,7 @@
 [
   {
     "status": "degraded",
-    "affectedServices": "all",
+    "affectedServices": "LOTUS cluster",
     "summary": "Slurm controller issues due to temporary overloading.",
     "date": "2026-10-08T16:20",
     "updates": [
