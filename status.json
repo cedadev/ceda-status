@@ -1,4 +1,16 @@
 [
+    {
+    "status": "degraded",
+    "affectedServices": "LOTUS cluster",
+    "summary": "Slurm controller having issues due to temporary overloading.",
+    "date": "2026-10-09T16:20",
+    "updates": [
+      {
+        "date": "2026-10-09T16:20",
+        "details": "Team investigating."
+      }
+    ]
+  },
   {
     "status": "at risk",
     "affectedServices": "all",
