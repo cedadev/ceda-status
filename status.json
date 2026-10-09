@@ -1,13 +1,17 @@
 [
   {
     "status": "degraded",
-    "affectedServices": "LOTUS cluster",
+    "affectedServices": "LOTUS/ORCHID cluster",
     "summary": "Slurm controller issues due to temporary overloading.",
     "date": "2026-10-08T16:20",
     "updates": [
       {
         "date": "2026-10-08T16:20",
-        "details": "Team investigating"
+        "details": "Team investigating."
+      },
+      {
+        "date": "2026-10-09T09:30",
+        "details": "Submission of new Slurm jobs is unavailable until Monday while we work to restore service."
       }
     ]
   },
