@@ -1,6 +1,6 @@
 [
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "LOTUS/ORCHID cluster",
     "summary": "Slurm controller issues due to temporary overloading.",
     "date": "2026-10-08T16:20",
@@ -12,18 +12,10 @@
       {
         "date": "2026-10-09T09:30",
         "details": "Submission of new Slurm jobs is unavailable until Monday while we work to restore service."
-      }
-    ]
-  },
-  {
-    "status": "at risk",
-    "affectedServices": "all",
-    "summary": "Network work by STFC Digital Infrastructures may cause brief interruptions Fri 9 Oct 12:00-14:00.",
-    "date": "2026-10-09T12:00",
-    "updates": [
+      },
       {
-        "date": "2026-10-08T09:50",
-        "details": "Possibility of network interruptions."
+        "date": "2026-10-12T09:00",
+        "details": "Queue reopened, LOTUS and ORCHID now accepting job submissions."
       }
     ]
   },
