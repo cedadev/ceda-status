@@ -55,5 +55,17 @@
         "details": "Writes to /work/xfc/vol7 not possible until space is freed up. Users requested to clean up data stored at this location."
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Multiple CEDA services",
+    "summary": "Intermittent 503 errors",
+    "date": "2026-10-13T10:00",
+    "updates": [
+      {
+        "date": "2026-10-13T10:00",
+        "details": "CEDA services including archive catalogue producing intermittent 503 errors. We are currently working on a fix."
+      }
+    ]
   }
 ]
