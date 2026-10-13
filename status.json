@@ -45,14 +45,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA and JASMIN services",
-    "summary": "October scheduled maintenance day",
-    "date": "2026-10-06T00:01",
+    "status": "degraded",
+    "affectedServices": "XFC",
+    "summary": "/work/xfc/vol7 disk full, further writes not possible",
+    "date": "2026-10-13T08:50",
     "updates": [
       {
-        "date": "2026-10-07T14:30",
-        "details": "All services restored, including all ORCHID hosts."
+        "date": "2026-10-13T08:50",
+        "details": "Writes to /work/xfc/vol7 not possible until space is freed up. Users requested to clean up data stored at this location."
       }
     ]
   }
