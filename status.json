@@ -62,7 +62,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Sci machines",
     "summary": "sci-vm-02 offline",
     "date": "2026-10-13T13:00",
@@ -70,6 +70,10 @@
       {
         "date": "2026-10-13T13:00",
         "details": "Host is offline while we investigate an issue. Please use one of the other sci machines."
+      },
+      {
+        "date": "2026-10-13T16:00",
+        "details": "All sci machines now working as normal."
       }
     ]
   }
