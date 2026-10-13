@@ -6,14 +6,6 @@
     "date": "2026-10-08T16:20",
     "updates": [
       {
-        "date": "2026-10-08T16:20",
-        "details": "Team investigating."
-      },
-      {
-        "date": "2026-10-09T09:30",
-        "details": "Submission of new Slurm jobs is unavailable until Monday while we work to restore service."
-      },
-      {
         "date": "2026-10-12T09:00",
         "details": "Queue reopened, LOTUS and ORCHID now accepting job submissions."
       }
@@ -27,7 +19,8 @@
     "updates": [
       {
         "date": "2026-10-07T09:50",
-        "details": "Scheduled maintenance day Wednesday 25 November 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly."
+        "details": "Scheduled maintenance day Wednesday 25 November 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly.",
+        "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
       }
     ]
   },
@@ -65,6 +58,18 @@
       {
         "date": "2026-10-13T10:00",
         "details": "CEDA services including archive catalogue producing intermittent 503 errors. We are currently working on a fix."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "Sci machines",
+    "summary": "sci-vm-02 offline",
+    "date": "2026-10-13T13:00",
+    "updates": [
+      {
+        "date": "2026-10-13T13:00",
+        "details": "Host is offline while we investigate an issue. Please use one of the other sci machines."
       }
     ]
   }
