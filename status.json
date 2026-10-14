@@ -50,7 +50,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "at risk",
     "affectedServices": "Many CEDA and JASMIN services",
     "summary": "STFC Digital Infrastructures maintenance work affecting many CEDA & JASMIN services.",
     "date": "2026-10-14T07:30",
@@ -62,6 +62,10 @@
       {
         "date": "2026-10-14T09:45",
         "details": "Network maintenance is still ongoing, expected to be fixed later today. Sorry for the inconvenience, please watch this space."
+      },
+      {
+        "date": "2026-10-14T10:45",
+        "details": "Services now coming back online, however there may be knock on disruption due to the outage."
       }
     ]
   }
