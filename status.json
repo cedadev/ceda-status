@@ -66,14 +66,14 @@
     ]
   },
   {
-    "status": "at risk",
-    "affectedServices": "CEDA and JASMIN web services",
-    "summary": "STFC Digital Infrastructures maintenance work affecting CEDA & JASMIN web services.",
+    "status": "down",
+    "affectedServices": "Many CEDA and JASMIN services",
+    "summary": "STFC Digital Infrastructures maintenance work affecting many CEDA & JASMIN services.",
     "date": "2026-10-14T07:30",
     "updates": [
       {
         "date": "2026-10-14T08:30",
-        "details": "Maintenance work by STFC Digital Infrastructure is currently affecting access to CEDA & JASMIN web services. Maintenance window expected to finish 09:30 today."
+        "details": "Network maintenance work by STFC Digital Infrastructure is currently affecting access to many CEDA & JASMIN services. Maintenance window expected to finish 09:30 today."
       }
     ]
   }
