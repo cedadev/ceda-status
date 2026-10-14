@@ -66,6 +66,10 @@
       {
         "date": "2026-10-14T10:45",
         "details": "Services now coming back online, however there may be knock on disruption due to the outage."
+      },
+      {
+        "date": "2026-10-14T12:34",
+        "details": "JASMIN's Globus service still down due to related network issue, team investigating. Please report any other services with issues."
       }
     ]
   }
