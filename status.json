@@ -50,7 +50,7 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Many CEDA and JASMIN services",
     "summary": "STFC Digital Infrastructures maintenance work affecting many CEDA & JASMIN services.",
     "date": "2026-10-14T07:30",
@@ -73,7 +73,7 @@
       },
       {
         "date": "2026-10-14T14:10",
-        "details": "Globus transfers now resuming - please do not resubmit, this should happen automatically. Please report any other services with issues."
+        "details": "Globus transfers now resuming - please do not resubmit, this should happen automatically. Please report issues with any other services now."
       }
     ]
   }
