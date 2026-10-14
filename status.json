@@ -70,6 +70,10 @@
       {
         "date": "2026-10-14T12:34",
         "details": "JASMIN's Globus service still down due to related network issue, team investigating. Please report any other services with issues."
+      },
+      {
+        "date": "2026-10-14T14:10",
+        "details": "Globus transfers now resuming - please do not resubmit, this should happen automatically. Please report any other services with issues."
       }
     ]
   }
