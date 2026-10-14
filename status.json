@@ -58,6 +58,10 @@
       {
         "date": "2026-10-14T08:30",
         "details": "Network maintenance work by STFC Digital Infrastructure is currently affecting access to many CEDA & JASMIN services. Maintenance window expected to finish 09:30 today."
+      },
+      {
+        "date": "2026-10-14T09:45",
+        "details": "Network maintenance is still ongoing, expected to be fixed later today. Sorry for the inconvenience, please watch this space."
       }
     ]
   }
