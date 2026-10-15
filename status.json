@@ -26,14 +26,18 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "at risk",
     "affectedServices": "XFC",
-    "summary": "/work/xfc/vol7 disk full, further writes not possible",
+    "summary": "/work/xfc/vol7 disk requires cleanup",
     "date": "2026-10-13T08:50",
     "updates": [
       {
         "date": "2026-10-13T08:50",
         "details": "Writes to /work/xfc/vol7 not possible until space is freed up. Users requested to clean up data stored at this location."
+      },
+      {
+        "date": "2026-10-15T09:10",
+        "details": "Usage has reduced to 93% so writes possible again, but requires further cleanup by users to avoid risk of further problems."
       }
     ]
   },
