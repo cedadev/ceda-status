@@ -85,7 +85,7 @@
     "updates": [
       {
         "date": "2026-10-15T09:04",
-        "details": "Globus has announced scheduled maintenance on Satuday 24 October at 15:30 UK time (09:30 US Central time) for up to 1 hour. During this time, transfers will pause but should resume automatically once work is completed. Globus services will be unavailable for the duration of the work however",
+        "details": "Globus has announced scheduled maintenance on Satuday 24 October at 15:30 UK time (09:30 US Central time) for up to 1 hour. During this time, transfers will pause but should resume automatically once work is completed. All globus services will be unavailable for the duration of the work however",
         "url": "https://www.globus.org/blog/2026-10-24-maintenance"
       }
     ]
