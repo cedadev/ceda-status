@@ -49,5 +49,17 @@
         "url": "https://www.globus.org/blog/2026-10-24-maintenance"
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "jasmin-login applications",
+    "summary": "Longer wait times due to increased application volume",
+    "date": "2026-10-16T11:00",
+    "updates": [
+      {
+        "date": "2026-10-16T11:00",
+        "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
+      }
+    ]
   }
 ]
