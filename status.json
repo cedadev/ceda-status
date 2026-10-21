@@ -65,5 +65,17 @@
         "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "all CEDA and JASMIN services",
+    "summary": "Possibility of disruption due to electrical work elsewhere on RAL site.",
+    "date": "2027-01-15T13:00",
+    "updates": [
+      {
+        "date": "2026-10-21T07:30",
+        "details": "High-voltage power work at RAL in January 2027 requires shutdown of parts of site. While plans do not include buildings affecting JASMIN, services should be considered at risk from 13:00 on Friday 15 Jan until Monday 18 Jan (time tbc)."
+      }
+    ]
   }
 ]
