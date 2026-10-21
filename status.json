@@ -26,22 +26,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "Multiple CEDA services",
-    "summary": "Intermittent 503 errors",
-    "date": "2026-10-13T10:00",
-    "updates": [
-      {
-        "date": "2026-10-13T10:00",
-        "details": "CEDA services including archive catalogue producing intermittent 503 errors. We are currently working on a fix."
-      },
-      {
-        "date": "2026-10-19T09:00",
-        "details": "This issue has been resolved."
-      }
-    ]
-  },
-  {
     "status": "down",
     "affectedServices": "Globus data transfers",
     "summary": "Advance notice of scheduled maintenance by Globus",
