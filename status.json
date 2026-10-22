@@ -76,7 +76,7 @@
     ]
   },
   {
-    "status": "down",
+    "status": "degraded",
     "affectedServices": "login-0[6,7], sci-vm-01, sci-vm-03, sci-ph-03, nx3, cron-01",
     "summary": "Some hosts taken down for maintenance, please use alternatives.",
     "date": "2026-10-22T10:15",
@@ -84,6 +84,10 @@
       {
         "date": "2026-10-22T10:15",
         "details": "Hosts taken down for urgent maintenance, please use alternatives. Cron jobs will be duplicated to a replacement host available later today."
+      },
+      {
+        "date": "2026-10-22T10:45",
+        "details": "Replacement cron-01 server now in place. Users with scheduled jobs should check their own jobs."
       }
     ]
   }
