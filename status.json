@@ -50,7 +50,7 @@
       }
     ]
   },
-  ,
+  
   {
     "status": "degraded",
     "affectedServices": "JASMIN Cloud",
