@@ -77,7 +77,7 @@
   },
   {
     "status": "down",
-    "affectedServices": "login-0[6,7], sci-vm-03, sci-ph-03, nx3, cron-01",
+    "affectedServices": "login-0[6,7], sci-vm-01, sci-vm-03, sci-ph-03, nx3, cron-01",
     "summary": "Some hosts taken down for maintenance, please use alternatives.",
     "date": "2026-10-22T10:15",
     "updates": [
