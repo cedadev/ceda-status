@@ -60,6 +60,10 @@
       {
         "date": "2026-10-22T09:00",
         "details": "JASMIN Cloud portal (Azimuth) is currently down: investigating."
+      },
+      {
+        "date": "2026-10-22T18:00",
+        "details": "The Cloud Team have been working through machines which were powered down for security reasons. This includes the machines which host the JASMIN Azimuth portal."
       }
     ]
   },
