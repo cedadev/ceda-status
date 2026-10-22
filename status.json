@@ -90,5 +90,17 @@
         "details": "Replacement cron-01 server now in place. Users with scheduled jobs should check their own jobs."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "ET/JDMA Tape ingest and alerts pages",
+    "summary": "Services down pending essential software updates.",
+    "date": "2026-10-22T10:15",
+    "updates": [
+      {
+        "date": "2026-10-22T12:40",
+        "details": "ET alerts web pages are currently our of service pending essential software updates, also affecting JDMA. Ingest to tape is currently suspended. NLDS service is unaffected and functioning normally."
+      }
+    ]
   }
 ]
