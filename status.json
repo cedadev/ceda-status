@@ -74,5 +74,17 @@
         "details": "High-voltage power work at RAL in January 2027 requires shutdown of parts of site. While plans do not include buildings affecting JASMIN, services should be considered at risk from 13:00 on Friday 15 Jan until Monday 18 Jan (time tbc)."
       }
     ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "login-0[6,7], sci-vm-03, sci-ph-03, nx3, cron-01",
+    "summary": "Some hosts taken down for maintenance, please use alternatives.",
+    "date": "2026-10-22T10:15",
+    "updates": [
+      {
+        "date": "2026-10-22T10:15",
+        "details": "Hosts taken down for urgent maintenance, please use alternatives. Cron jobs will be duplicated to a replacement host available later today."
+      }
+    ]
   }
 ]
