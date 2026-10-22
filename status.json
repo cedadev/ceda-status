@@ -50,6 +50,19 @@
       }
     ]
   },
+  ,
+  {
+    "status": "degraded",
+    "affectedServices": "JASMIN Cloud",
+    "summary": "JASMIN Azimuth portal down",
+    "date": "2026-10-22T9:00",
+    "updates": [
+      {
+        "date": "2026-10-22T9:00",
+        "details": "JASMIN Cloud portal (Azimuth) is currently down: investigating."
+      }
+    ]
+  },
   {
     "status": "at risk",
     "affectedServices": "all CEDA and JASMIN services",
