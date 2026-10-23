@@ -1,13 +1,26 @@
 [
   {
     "status": "down",
-    "affectedServices": "all",
+    "affectedServices": "All CEDA & JASMIN services",
     "summary": "Advance notice of next regular scheduled maintenance day.",
     "date": "2026-11-25T00:01",
     "updates": [
       {
         "date": "2026-10-07T09:50",
         "details": "Scheduled maintenance day Wednesday 25 November 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly.",
+        "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA & JASMIN services",
+    "summary": "Notice of additional scheduled maintenance day",
+    "date": "2026-10-28T00:01",
+    "updates": [
+      {
+        "date": "2026-10-23T15:30",
+        "details": "Notice of additional scheduled maintenance day on Wed 28 October 2026. Please plan your work to minimise disruption. Expect disruption to all CEDA & JASMIN services.",
         "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
       }
     ]
@@ -73,7 +86,7 @@
   },
   {
     "status": "at risk",
-    "affectedServices": "all CEDA and JASMIN services",
+    "affectedServices": "All CEDA & JASMIN services",
     "summary": "Possibility of disruption due to electrical work elsewhere on RAL site.",
     "date": "2027-01-15T13:00",
     "updates": [
@@ -107,7 +120,7 @@
     "updates": [
       {
         "date": "2026-10-22T12:40",
-        "details": "ET alerts web pages are currently our of service pending essential software updates, also affecting JDMA. Ingest to tape is currently suspended. NLDS service is unaffected and functioning normally."
+        "details": "ET alerts web pages are currently out of service pending essential software updates, also affecting JDMA. Ingest to tape is currently suspended. NLDS service is unaffected and functioning normally."
       }
     ]
   }
