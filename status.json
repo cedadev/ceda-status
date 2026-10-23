@@ -58,6 +58,10 @@
     "date": "2026-10-22T09:00",
     "updates": [
       {
+        "date": "2026-10-23T14:00",
+        "details": "JASMIN Cloud portal is back, but we are working on installing compliance software on it and user's platforms."
+      },
+      {
         "date": "2026-10-22T09:00",
         "details": "JASMIN Cloud portal (Azimuth) is currently down: investigating."
       },
