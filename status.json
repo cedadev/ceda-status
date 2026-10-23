@@ -46,7 +46,7 @@
     "updates": [
       {
         "date": "2026-10-15T09:04",
-        "details": "Globus has announced scheduled maintenance on Satuday 24 October at 15:30 UK time (09:30 US Central time) for up to 1 hour. During this time, transfers will pause but should resume automatically once work is completed. All globus services will be unavailable for the duration of the work however",
+        "details": "All Globus services unavailable during scheduled maintenance on Sat 24 October 15:30 BST (09:30 CST) for up to 1 hour. Transfers will pause and resume automatically once work is completed.",
         "url": "https://www.globus.org/blog/2026-10-24-maintenance"
       }
     ]
@@ -87,12 +87,12 @@
   {
     "status": "at risk",
     "affectedServices": "All CEDA & JASMIN services",
-    "summary": "Possibility of disruption due to electrical work elsewhere on RAL site.",
+    "summary": "Possible disruption due to electrical work on RAL site.",
     "date": "2027-01-15T13:00",
     "updates": [
       {
         "date": "2026-10-21T07:30",
-        "details": "High-voltage power work at RAL in January 2027 requires shutdown of parts of site. While plans do not include buildings affecting JASMIN, services should be considered at risk from 13:00 on Friday 15 Jan until Monday 18 Jan (time tbc)."
+        "details": "Parts of RAL site to shutdown for power work in Jan 2027. Plans do not include buildings affecting JASMIN, but services at risk from Fri 15 Jan 13:00 GMT until Mon 18 Jan (time TBC)"
       }
     ]
   },
@@ -120,7 +120,7 @@
     "updates": [
       {
         "date": "2026-10-22T12:40",
-        "details": "ET alerts web pages are currently out of service pending essential software updates, also affecting JDMA. Ingest to tape is currently suspended. NLDS service is unaffected and functioning normally."
+        "details": "ET alerts web pages currently out of service pending essential software updates, also affecting JDMA. Ingest to tape currently suspended. NLDS service unaffected, functioning normally."
       }
     ]
   }
