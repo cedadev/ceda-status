@@ -39,19 +39,6 @@
     ]
   },
   {
-    "status": "down",
-    "affectedServices": "Globus data transfers",
-    "summary": "Advance notice of scheduled maintenance by Globus",
-    "date": "2026-10-24T15:30",
-    "updates": [
-      {
-        "date": "2026-10-15T09:04",
-        "details": "All Globus services unavailable during scheduled maintenance on Sat 24 October 15:30 BST (09:30 CST) for up to 1 hour. Transfers will pause and resume automatically once work is completed.",
-        "url": "https://www.globus.org/blog/2026-10-24-maintenance"
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "jasmin-login applications",
     "summary": "Longer wait times due to increased application volume",
@@ -72,7 +59,7 @@
     "updates": [
       {
         "date": "2026-10-23T14:00",
-        "details": "JASMIN Cloud portal is back, but we are working on installing compliance software on it and user's platforms."
+        "details": "JASMIN Cloud portal is back, but we are working on installing compliance software on it and users' platforms."
       },
       {
         "date": "2026-10-22T09:00",
