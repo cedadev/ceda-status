@@ -13,14 +13,14 @@
     ]
   },
   {
-    "status": "down",
+    "status": "resolved",
     "affectedServices": "All CEDA & JASMIN services",
     "summary": "Notice of additional scheduled maintenance day",
     "date": "2026-10-28T00:01",
     "updates": [
       {
-        "date": "2026-10-23T15:30",
-        "details": "Additional scheduled maintenance day on Wed 28 October 2026. Please plan your work to minimise disruption. Expect disruption to all CEDA & JASMIN services.",
+        "date": "2026-10-28T16:30",
+        "details": "Maintenance now completed.",
         "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
       }
     ]
@@ -76,38 +76,6 @@
       {
         "date": "2026-10-21T07:30",
         "details": "Parts of RAL site to shutdown for power work in Jan 2027. Plans do not include buildings affecting JASMIN, but services at risk from Fri 15 Jan 13:00 GMT until Mon 18 Jan (time TBC)"
-      }
-    ]
-  },
-  {
-    "status": "degraded",
-    "affectedServices": "login-0[6,7], sci-vm-01, sci-vm-03, sci-ph-03, nx3, cron-01",
-    "summary": "Hosts down for maintenance",
-    "date": "2026-10-22T10:15",
-    "updates": [
-      {
-        "date": "2026-10-22T10:15",
-        "details": "Listed hosts down for urgent maintenance, please use alternatives. Cron jobs to be duplicated to replacement host."
-      },
-      {
-        "date": "2026-10-22T10:45",
-        "details": "Replacement cron-01 server in place. Users with scheduled jobs should check their own jobs."
-      }
-    ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "ET/JDMA Tape ingest and alerts pages",
-    "summary": "Services down pending essential software updates.",
-    "date": "2026-10-22T10:15",
-    "updates": [
-      {
-        "date": "2026-10-22T12:40",
-        "details": "ET alerts web pages out of service pending updates, also affecting JDMA. Ingest to tape suspended."
-      },
-      {
-        "date": "2026-10-26T17:00",
-        "details": "ET and JDMA now available."
       }
     ]
   }
