@@ -13,19 +13,6 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "All CEDA & JASMIN services",
-    "summary": "Notice of additional scheduled maintenance day",
-    "date": "2026-10-28T00:01",
-    "updates": [
-      {
-        "date": "2026-10-28T16:30",
-        "details": "Maintenance now completed.",
-        "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
-      }
-    ]
-  },
-  {
     "status": "degraded",
     "affectedServices": "Specific group workspaces - check schedule",
     "summary": "Workspaces scheduled for migration are unavailable during cutover window.",
@@ -87,7 +74,7 @@
     "updates": [
       {
         "date": "2026-10-22T13:00",
-        "details": "Following the maintenance day on Wed 28th October, some hosts are still unavailable. Please use alternatives."
+        "details": "Following maintenance on Wed 28th October, listed hosts still unavailable. Please use alternatives."
       }
     ]
   }
