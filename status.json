@@ -78,5 +78,17 @@
         "details": "Parts of RAL site to shutdown for power work in Jan 2027. Plans do not include buildings affecting JASMIN, but services at risk from Fri 15 Jan 13:00 GMT until Mon 18 Jan (time TBC)"
       }
     ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "sci-ph-03, nx1, nx3, sci-vm-01, sci-vm-03, login-0[6,7]",
+    "summary": "Hosts down for maintenance",
+    "date": "2026-10-29T09:00",
+    "updates": [
+      {
+        "date": "2026-10-22T13:00",
+        "details": "Following the maintenance day on Wed 28th October, some hosts are still unavailable. Please use alternatives."
+      }
+    ]
   }
 ]
