@@ -70,10 +70,10 @@
     "status": "degraded",
     "affectedServices": "sci-ph-03, nx1, nx3, sci-vm-01, sci-vm-03, login-0[6,7]",
     "summary": "Hosts down for maintenance",
-    "date": "2026-10-29T09:00",
+    "date": "2026-10-29T13:00",
     "updates": [
       {
-        "date": "2026-10-22T13:00",
+        "date": "2026-10-29T13:00",
         "details": "Following maintenance on Wed 28th October, listed hosts still unavailable. Please use alternatives."
       }
     ]
