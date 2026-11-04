@@ -13,7 +13,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "Specific group workspaces - check schedule",
     "summary": "Workspaces scheduled for migration are unavailable during cutover window.",
     "date": "2025-12-15T12:00",
@@ -22,6 +22,10 @@
         "date": "2025-12-15T12:00",
         "details": "Check the schedule to see dates for specific workspaces.",
         "url": "https://docs.google.com/spreadsheets/d/1qiZ6OQb4AXbj3QBm6M3H43obPInCnBw4lN9mdy3TmQg/edit?gid=0#gid=0"
+      },
+      {
+        "date": "2026-11-04T15:30",
+        "details": "The migration activity has now been completed."
       }
     ]
   },
@@ -37,7 +41,6 @@
       }
     ]
   },
-  
   {
     "status": "degraded",
     "affectedServices": "JASMIN Cloud",
@@ -75,6 +78,18 @@
       {
         "date": "2026-10-29T13:00",
         "details": "Following maintenance on Wed 28th October, listed hosts still unavailable. Please use alternatives."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "many",
+    "summary": "General host reboots, also swapping sci-ph-01 for sci-ph-03",
+    "date": "2026-11-05T18:00",
+    "updates": [
+      {
+        "date": "2026-11-04T15:30",
+        "details": "Most hosts will be rebooted overnight on Thurs 5 Nov, remainder between 07:00-09:00 Friday 6 Nov to apply security updates. At the same time, host sci-ph-01 will be taken out of service but replaced with sci-ph-03."
       }
     ]
   }
