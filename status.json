@@ -23,7 +23,7 @@
         "details": "Wait times for SSH access are currently longer than usual. We apologise for any inconvenience."
       }
     ]
-  }
+  },
   {
     "status": "at risk",
     "affectedServices": "All CEDA & JASMIN services",
@@ -57,6 +57,18 @@
       {
         "date": "2026-11-09T09:00",
         "details": "Users of /work/xfc/vol7 please clean up: disk currently full with no further writes possible. Check age of data in your folder with pan_du -sa and delete older data."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "JASMIN Cloud",
+    "summary": "JASMIN Cloud portal down",
+    "date": "2026-11-09T10:00",
+    "updates": [
+      {
+        "date": "2026-11-09T10:00",
+        "details": "JASMIN Cloud portal is down due to wider STFC Cloud issues, further updates to follow."
       }
     ]
   }
