@@ -38,12 +38,12 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "sci-ph-03, nx1, nx3, sci-vm-01, sci-vm-03, login-0[6,7]",
+    "affectedServices": "sci-vm-01, sci-vm-03, sci-ph-01, nx1, nx3",
     "summary": "Hosts down for maintenance",
-    "date": "2026-10-29T13:00",
+    "date": "2026-10-28T13:00",
     "updates": [
       {
-        "date": "2026-10-29T13:00",
+        "date": "2026-11-11T15:00",
         "details": "Following maintenance on Wed 28th October, listed hosts still unavailable. Please use alternatives."
       }
     ]
@@ -90,6 +90,18 @@
       {
         "date": "2026-11-11T14:00",
         "details": "Maintenance on Notebooks Service today 11am-12pm UK time completed."
+      }
+    ]
+  },
+  {
+    "status": "down",
+    "affectedServices": "All CEDA & JASMIN services",
+    "summary": "STFC network disruption",
+    "date": "2026-12-02T07:00",
+    "updates": [
+      {
+        "date": "2026-11-11T15:00",
+        "details": "STFC network upgrade to likely to cause loss of connectivity 07:00-10:30 GMT on Wed 2nd December."
       }
     ]
   }
