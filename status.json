@@ -49,11 +49,15 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "/work/xfc/vol7",
     "summary": "Disk full - please clean up",
     "date": "2026-11-09T09:00",
     "updates": [
+      {
+        "date": "2026-11-11T09:00",
+        "details": "Write access now restored - please continue to clean up XFC volumes after use."
+      },
       {
         "date": "2026-11-09T09:00",
         "details": "Users of /work/xfc/vol7 please clean up: disk currently full with no further writes possible. Check age of data in your folder with pan_du -sa and delete older data."
