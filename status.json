@@ -75,5 +75,17 @@
         "details": "JASMIN Cloud portal is down due to wider STFC Cloud issues, further updates to follow."
       }
     ]
+  },
+  {
+    "status": "at risk",
+    "affectedServices": "Notebooks Service",
+    "summary": "Minor disruption possible to Notebooks Service",
+    "date": "2026-11-11T10:00",
+    "updates": [
+      {
+        "date": "2026-11-11T11:00",
+        "details": "Maintenance to backend of Notebooks Service may cause some disruption today between 11-12am UK time."
+      }
+    ]
   }
 ]
