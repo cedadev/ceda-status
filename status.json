@@ -73,6 +73,11 @@
       {
         "date": "2026-11-09T10:00",
         "details": "JASMIN Cloud portal is down due to wider STFC Cloud issues, further updates to follow."
+      },
+      
+      {
+        "date": "2026-11-11T10:00",
+        "details": "JASMIN Cloud portal partly back, though Azimuth platforms still aren't working."
       }
     ]
   },
