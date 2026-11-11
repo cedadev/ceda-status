@@ -77,14 +77,14 @@
     ]
   },
   {
-    "status": "at risk",
+    "status": "resolved",
     "affectedServices": "Notebooks Service",
     "summary": "Minor disruption possible to Notebooks Service",
     "date": "2026-11-11T10:00",
     "updates": [
       {
-        "date": "2026-11-11T11:00",
-        "details": "Maintenance to backend of Notebooks Service may cause some disruption today between 11am-12pm UK time."
+        "date": "2026-11-11T14:00",
+        "details": "Maintenance on Notebooks Service today 11am-12pm UK time completed."
       }
     ]
   }
