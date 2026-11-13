@@ -38,13 +38,13 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "nx1",
+    "affectedServices": "sci-vm-01, sci-vm-03, nx1",
     "summary": "Hosts down for maintenance",
     "date": "2026-10-28T13:00",
     "updates": [
       {
-        "date": "2026-11-12T17:00",
-        "details": "Following maintenance on Wed 28th October, nx1 still unavailable. Please use alternatives."
+        "date": "2026-11-13T11:00",
+        "details": "Following maintenance on Wed 28th October, listed hosts still unavailable. Please use alternatives."
       }
     ]
   },
