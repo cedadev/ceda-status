@@ -57,10 +57,6 @@
       {
         "date": "2026-11-11T09:00",
         "details": "Write access now restored - please continue to clean up XFC volumes after use."
-      },
-      {
-        "date": "2026-11-09T09:00",
-        "details": "Users of /work/xfc/vol7 please clean up: disk currently full with no further writes possible. Check age of data in your folder with pan_du -sa and delete older data."
       }
     ]
   },
@@ -73,15 +69,6 @@
       {
         "date": "2026-11-11T17:00",
         "details": "JASMIN Cloud portal and Azimuth platforms should be now back. Please let us know if there are any remaining issues."
-      },
-      {
-        "date": "2026-11-09T10:00",
-        "details": "JASMIN Cloud portal is down due to wider STFC Cloud issues, further updates to follow."
-      },
-      
-      {
-        "date": "2026-11-11T10:00",
-        "details": "JASMIN Cloud portal partly back, though Azimuth platforms still aren't working."
       }
     ]
   },
@@ -94,6 +81,18 @@
       {
         "date": "2026-11-11T15:00",
         "details": "STFC network upgrade likely to cause loss of connectivity 07:00-10:30 GMT on Wed 2nd December."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "CEDA & JASMIN helpdesks",
+    "summary": "Microsoft 365 outage",
+    "date": "2026-11-13T09:00",
+    "updates": [
+      {
+        "date": "2026-11-13T09:00",
+        "details": "Due to ongoing Microsoft issues, helpdesks can't receive email. Please use the beacon instead (bottom right of our web pages). We will attempt to send email, but you may not receive it in Microsoft-run inboxes."
       }
     ]
   }
