@@ -49,14 +49,14 @@
     ]
   },
   {
-    "status": "resolved",
-    "affectedServices": "/work/xfc/vol7",
-    "summary": "Disk full - please clean up",
-    "date": "2026-11-09T09:00",
+    "status": "degraded",
+    "affectedServices": "/work/xfc/vol7 & vol9",
+    "summary": "Disks nearly full - please clean up",
+    "date": "2026-11-16T09:00",
     "updates": [
       {
-        "date": "2026-11-11T09:00",
-        "details": "Write access now restored - please continue to clean up XFC volumes after use."
+        "date": "2026-11-16T09:00",
+        "details": "Vol7 and Vol9 are both approaching full, meaning no further writes would be possible. Please clean up. Check age of date with 'pan_du -sa <userdir>'."
       }
     ]
   },
