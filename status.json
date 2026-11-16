@@ -56,7 +56,7 @@
     "updates": [
       {
         "date": "2026-11-16T09:00",
-        "details": "Vol7 and Vol9 are both approaching full, meaning no further writes would be possible. Please clean up. Check age of date with 'pan_du -sa [userdir]'."
+        "details": "Vol7 and Vol9 are both approaching full, meaning no further writes would be possible. Please clean up. Check age of data with 'pan_du -sa [userdir]'."
       }
     ]
   },
