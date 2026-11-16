@@ -85,7 +85,7 @@
     ]
   },
   {
-    "status": "degraded",
+    "status": "resolved",
     "affectedServices": "CEDA & JASMIN helpdesks",
     "summary": "Microsoft 365 outage",
     "date": "2026-11-13T09:00",
@@ -93,6 +93,10 @@
       {
         "date": "2026-11-13T09:00",
         "details": "Due to ongoing Microsoft issues, helpdesks can't receive email. Please use the beacon instead (bottom right of our web pages). We will attempt to send email, but you may not receive it in Microsoft-run inboxes."
+      },
+      {
+        "date": "2026-11-16T09:00",
+        "details": "The Microsoft issues have been resolved, please use the beacon if you are unable to contact us."
       }
     ]
   }
