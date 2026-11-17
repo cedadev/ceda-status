@@ -38,13 +38,13 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "sci-vm-01, sci-vm-03, nx1",
+    "affectedServices": "nx1",
     "summary": "Hosts down for maintenance",
     "date": "2026-10-28T13:00",
     "updates": [
       {
-        "date": "2026-11-13T11:00",
-        "details": "Following maintenance on Wed 28th October, listed hosts still unavailable. Please use alternatives."
+        "date": "2026-11-17T10:00",
+        "details": "Following maintenance on Wed 28th October, nx1 still unavailable. Please use alternatives."
       }
     ]
   },
@@ -78,10 +78,6 @@
     "summary": "Microsoft 365 outage",
     "date": "2026-11-13T09:00",
     "updates": [
-      {
-        "date": "2026-11-13T09:00",
-        "details": "Due to ongoing Microsoft issues, helpdesks can't receive email. Please use the beacon instead (bottom right of our web pages). We will attempt to send email, but you may not receive it in Microsoft-run inboxes."
-      },
       {
         "date": "2026-11-16T09:00",
         "details": "The Microsoft issues have been resolved, please use the beacon if you are unable to contact us."
