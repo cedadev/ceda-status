@@ -71,17 +71,5 @@
         "details": "STFC network upgrade likely to cause loss of connectivity 07:00-10:30 GMT on Wed 2nd December."
       }
     ]
-  },
-  {
-    "status": "resolved",
-    "affectedServices": "CEDA & JASMIN helpdesks",
-    "summary": "Microsoft 365 outage",
-    "date": "2026-11-13T09:00",
-    "updates": [
-      {
-        "date": "2026-11-16T09:00",
-        "details": "The Microsoft issues have been resolved, please use the beacon if you are unable to contact us."
-      }
-    ]
   }
 ]
