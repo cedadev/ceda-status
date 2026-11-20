@@ -38,18 +38,6 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "nx1",
-    "summary": "Hosts down for maintenance",
-    "date": "2026-10-28T13:00",
-    "updates": [
-      {
-        "date": "2026-11-17T10:00",
-        "details": "Following maintenance on Wed 28th October, nx1 still unavailable. Please use alternatives."
-      }
-    ]
-  },
-  {
-    "status": "degraded",
     "affectedServices": "/work/xfc/vol7 & vol9",
     "summary": "Disks nearly full - please clean up",
     "date": "2026-11-16T09:00",
@@ -69,6 +57,18 @@
       {
         "date": "2026-11-11T15:00",
         "details": "STFC network upgrade likely to cause loss of connectivity 07:00-10:30 GMT on Wed 2nd December."
+      }
+    ]
+  },
+  {
+    "status": "degraded",
+    "affectedServices": "CEDA & JASMIN web services",
+    "summary": "Web services slow or unavailable",
+    "date": "2026-11-20T10:00",
+    "updates": [
+      {
+        "date": "2026-11-20T10:00",
+        "details": "Network issues are currently affecting access to CEDA & JASMIN web services. We are currently investigating."
       }
     ]
   }
