@@ -39,7 +39,7 @@
   {
     "status": "degraded",
     "affectedServices": "/work/xfc/vol10",
-    "summary": "Disk nearly full - please clean up",
+    "summary": "Disk full - please clean up",
     "date": "2026-11-23T09:00",
     "updates": [
       {
