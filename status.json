@@ -38,13 +38,13 @@
   },
   {
     "status": "degraded",
-    "affectedServices": "/work/xfc/vol7 & vol9",
-    "summary": "Disks nearly full - please clean up",
-    "date": "2026-11-16T09:00",
+    "affectedServices": "/work/xfc/vol10",
+    "summary": "Disk nearly full - please clean up",
+    "date": "2026-11-23T09:00",
     "updates": [
       {
-        "date": "2026-11-16T09:00",
-        "details": "Vol7 and Vol9 are both approaching full, meaning no further writes would be possible. Please clean up. Check age of data with 'pan_du -sa [userdir]'."
+        "date": "2026-11-23T09:00",
+        "details": "Vol10 is full, meaning no further writes would be possible. Please clean up. Check age of data with 'pan_du -sa [userdir]'."
       }
     ]
   },
