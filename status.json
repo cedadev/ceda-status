@@ -44,7 +44,7 @@
     "updates": [
       {
         "date": "2026-11-23T09:00",
-        "details": "Vol10 is full, meaning no further writes would be possible. Please clean up. Check age of data with 'pan_du -sa [userdir]'."
+        "details": "Vol10 is full, meaning no further writes would be possible. Please clean up. Check age of data with 'pan_du -sa [userdir]'"
       }
     ]
   },
