@@ -9,6 +9,10 @@
         "date": "2026-10-07T09:50",
         "details": "Scheduled maintenance day Wednesday 25 November 2026: expect disruption to all CEDA & JASMIN services. Please plan your work accordingly.",
         "url": "https://help.jasmin.ac.uk/docs/uncategorized/scheduled-maintenance/"
+      },
+      {
+        "date": "2026-11-25T17:30",
+        "details": "Work now completed. Normal service resumed."
       }
     ]
   },
