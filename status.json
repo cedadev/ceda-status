@@ -71,16 +71,16 @@
     "date": "2026-11-20T10:00",
     "updates": [
       {
-        "date": "2026-11-20T10:00",
-        "details": "Network issues are currently affecting access to CEDA & JASMIN web services. We are currently investigating."
-      },
-      {
         "date": "2026-11-23T10:30",
         "details": "Network issues have continued over the weekend, still affecting access to CEDA & JASMIN web services. We are working to restore access."
       },
       {
         "date": "2026-11-24T11:00",
         "details": "Fixes applied seem to have improved access to CEDA & JASMIN web services. We're continuing to work to bring services back to normal."
+      },
+      {
+        "date": "2026-11-26T10:00",
+        "details": "We have seen improved performance with CEDA & JASMIN web services, but we are still monitoring the situation."
       }
     ]
   }
